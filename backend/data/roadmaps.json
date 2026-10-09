@@ -1,0 +1,703 @@
+[
+  {
+    "_id": { "$oid": "650000000000000000000501" },
+    "career": { "$oid": "650000000000000000000401" },
+    "title": "Software Developer Learning Roadmap",
+    "description": "A comprehensive step-by-step path from programming fundamentals to writing production software.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Learn Core Programming Fundamentals",
+        "description": "Master programming logic, control structures, data types, and functions using JavaScript or Python.",
+        "estimatedTime": "2 - 3 months",
+        "resources": [
+          { "title": "MDN JavaScript Basics", "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps", "type": "Documentation" },
+          { "title": "freeCodeCamp Basic Programming", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Data Structures & Algorithms",
+        "description": "Understand arrays, linked lists, stacks, queues, trees, searching, and sorting algorithms.",
+        "estimatedTime": "2 - 4 months",
+        "resources": [
+          { "title": "LeetCode Algorithmic Practice", "url": "https://leetcode.com/explore/", "type": "Other" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Version Control & Git Workflow",
+        "description": "Learn Git commands, branching, merging, GitHub workflows, and team collaboration.",
+        "estimatedTime": "2 - 3 weeks",
+        "resources": [
+          { "title": "Git Documentation", "url": "https://git-scm.com/doc", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 4,
+        "title": "Object-Oriented & Functional Design",
+        "description": "Apply clean code principles, SOLID design patterns, and unit testing.",
+        "estimatedTime": "1 - 2 months",
+        "resources": [
+          { "title": "Clean Code Handbook", "url": "https://refactoring.guru/design-patterns", "type": "Article" }
+        ]
+      },
+      {
+        "stepNumber": 5,
+        "title": "Build Real-World Portfolio Projects",
+        "description": "Develop and deploy full applications, write unit tests, and showcase projects on GitHub.",
+        "estimatedTime": "2 - 3 months",
+        "resources": [
+          { "title": "GitHub Guides", "url": "https://guides.github.com/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000502" },
+    "career": { "$oid": "650000000000000000000402" },
+    "title": "Full-Stack Developer Learning Roadmap",
+    "description": "Master end-to-end web engineering, from responsive UI design to REST API backends and database management.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Front-End Foundation (HTML, CSS, Modern JS)",
+        "description": "Master semantic HTML5, CSS Flexbox/Grid, and ES6+ JavaScript syntax.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "MDN Web Docs", "url": "https://developer.mozilla.org", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Front-End Framework (React.js)",
+        "description": "Learn component state, props, hooks, routing, and state management.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "React Official Documentation", "url": "https://react.dev", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Back-End Server Architecture (Node.js & Express)",
+        "description": "Build RESTful APIs, handle HTTP authentication, and design middleware routing.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Express.js Documentation", "url": "https://expressjs.com", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 4,
+        "title": "Databases & ORM/ODM (MongoDB & Mongoose)",
+        "description": "Design database schemas, write aggregation pipelines, and index collections.",
+        "estimatedTime": "1 - 2 months",
+        "resources": [
+          { "title": "MongoDB University", "url": "https://learn.mongodb.com", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 5,
+        "title": "Deployment & CI/CD",
+        "description": "Deploy full-stack applications to platforms like Vercel, Render, or AWS with SSL.",
+        "estimatedTime": "1 month",
+        "resources": [
+          { "title": "Vercel Docs", "url": "https://vercel.com/docs", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000503" },
+    "career": { "$oid": "650000000000000000000403" },
+    "title": "Data Analyst Learning Roadmap",
+    "description": "Step-by-step path to collecting, processing, analyzing, and visualizing business data.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Master Advanced Excel & Spreadsheet Modeling",
+        "description": "Learn VLOOKUP, INDEX/MATCH, Pivot Tables, and statistical functions.",
+        "estimatedTime": "1 month",
+        "resources": [
+          { "title": "Microsoft Excel Training", "url": "https://support.microsoft.com/en-us/excel", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "SQL Data Extraction & Querying",
+        "description": "Master SELECT, WHERE, GROUP BY, JOINs, subqueries, and window functions.",
+        "estimatedTime": "1.5 months",
+        "resources": [
+          { "title": "SQLZoo Tutorial", "url": "https://sqlzoo.net/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Python for Data Analysis (Pandas & NumPy)",
+        "description": "Clean raw data, manipulate series and dataframes, and automate calculations.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Pandas User Guide", "url": "https://pandas.pydata.org/docs/user_guide/index.html", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 4,
+        "title": "Data Visualization Tools (Tableau / Power BI)",
+        "description": "Build interactive business intelligence dashboards and executive reports.",
+        "estimatedTime": "1 month",
+        "resources": [
+          { "title": "Tableau Public Learning", "url": "https://public.tableau.com/en-us/s/resources", "type": "Video" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000504" },
+    "career": { "$oid": "650000000000000000000404" },
+    "title": "Data Scientist Learning Roadmap",
+    "description": "From statistical modeling to building machine learning algorithms and predictive analytics.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Advanced Mathematics & Statistics",
+        "description": "Master linear algebra, multivariable calculus, probability, and hypothesis testing.",
+        "estimatedTime": "3 months",
+        "resources": [
+          { "title": "Khan Academy Statistics", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Python & Data Science Ecosystem",
+        "description": "Master Pandas, NumPy, SciPy, Matplotlib, and Seaborn for statistical computing.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Python Data Science Handbook", "url": "https://jakevdp.github.io/PythonDataScienceHandbook/", "type": "Book" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Applied Machine Learning (Scikit-Learn)",
+        "description": "Implement regression, classification, clustering, PCA, and cross-validation.",
+        "estimatedTime": "3 months",
+        "resources": [
+          { "title": "Scikit-Learn Tutorials", "url": "https://scikit-learn.org/stable/tutorial/index.html", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 4,
+        "title": "Deep Learning & Neural Networks",
+        "description": "Learn convolutional and recurrent neural networks using PyTorch or TensorFlow.",
+        "estimatedTime": "3 months",
+        "resources": [
+          { "title": "PyTorch Tutorials", "url": "https://pytorch.org/tutorials/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000505" },
+    "career": { "$oid": "650000000000000000000405" },
+    "title": "Machine Learning Engineer Learning Roadmap",
+    "description": "Bridge data science and software engineering to deploy production-scale AI models.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Production Python & Algorithms",
+        "description": "Master object-oriented Python, memory management, and data structures.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Real Python Tutorials", "url": "https://realpython.com/", "type": "Article" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Deep Learning & Model Optimization",
+        "description": "Build custom PyTorch models, optimize hyperparameters, and tune model architectures.",
+        "estimatedTime": "3 months",
+        "resources": [
+          { "title": "DeepLearning.AI Courses", "url": "https://www.deeplearning.ai/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "MLOps & Model Deployment",
+        "description": "Serve models via REST APIs (FastAPI), use MLflow for tracking, and deploy with Docker.",
+        "estimatedTime": "2 - 3 months",
+        "resources": [
+          { "title": "MLflow Documentation", "url": "https://mlflow.org/docs/latest/index.html", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000506" },
+    "career": { "$oid": "650000000000000000000406" },
+    "title": "Cybersecurity Analyst Learning Roadmap",
+    "description": "Protect enterprise infrastructure from threat actors through network defense and incident response.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Computer Networking & Linux Fundamentals",
+        "description": "Understand OSI model, TCP/IP, DNS, routing, and Linux command-line administration.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "CompTIA Network+ Study Guide", "url": "https://www.comptia.org/certifications/network", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Security Fundamentals & Threat Analysis",
+        "description": "Learn cryptography, malware analysis, firewalls, and vulnerability scanners.",
+        "estimatedTime": "2 - 3 months",
+        "resources": [
+          { "title": "Cybrary Security Basics", "url": "https://www.cybrary.it/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Penetration Testing & Ethical Hacking",
+        "description": "Practice with Wireshark, Nmap, Metasploit, and Burp Suite on lab networks.",
+        "estimatedTime": "3 months",
+        "resources": [
+          { "title": "TryHackMe Lab Exercises", "url": "https://tryhackme.com/", "type": "Other" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000507" },
+    "career": { "$oid": "650000000000000000000407" },
+    "title": "Cloud Engineer Learning Roadmap",
+    "description": "Design, deploy, and manage scalable cloud computing environments.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Linux Systems Administration & Networking",
+        "description": "Master Bash scripting, SSH, systemd, and IP subnetting.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Linux Journey", "url": "https://linuxjourney.com/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "AWS / Azure Cloud Core Services",
+        "description": "Learn Compute (EC2), Storage (S3), Networking (VPC), and Security (IAM).",
+        "estimatedTime": "2 - 3 months",
+        "resources": [
+          { "title": "AWS Skill Builder", "url": "https://explore.skillbuilder.aws/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Infrastructure as Code (Terraform)",
+        "description": "Automate cloud provisioning using declarative HCL scripts.",
+        "estimatedTime": "1 - 2 months",
+        "resources": [
+          { "title": "HashiCorp Terraform Tutorials", "url": "https://developer.hashicorp.com/terraform/tutorials", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000508" },
+    "career": { "$oid": "650000000000000000000408" },
+    "title": "DevOps Engineer Learning Roadmap",
+    "description": "Automate software pipelines and build continuous integration and continuous deployment environments.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Containerization (Docker)",
+        "description": "Build Dockerfiles, manage multi-container apps with Docker Compose.",
+        "estimatedTime": "1 month",
+        "resources": [
+          { "title": "Docker Documentation", "url": "https://docs.docker.com/get-started/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Container Orchestration (Kubernetes)",
+        "description": "Deploy pods, services, ingress controllers, and Helm charts.",
+        "estimatedTime": "2 - 3 months",
+        "resources": [
+          { "title": "Kubernetes Official Basics", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "CI/CD Pipelines (GitHub Actions / Jenkins)",
+        "description": "Write automated workflow YAML files for testing and deployment.",
+        "estimatedTime": "1 month",
+        "resources": [
+          { "title": "GitHub Actions Documentation", "url": "https://docs.github.com/en/actions", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000509" },
+    "career": { "$oid": "650000000000000000000409" },
+    "title": "UI/UX Designer Learning Roadmap",
+    "description": "Master user experience research, visual interface design, and interactive prototyping.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "UX Research & Design Principles",
+        "description": "Understand design thinking, typography, color theory, grid systems, and accessibility.",
+        "estimatedTime": "1.5 months",
+        "resources": [
+          { "title": "Nielsen Norman Group Articles", "url": "https://www.nngroup.com/articles/", "type": "Article" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Figma Mastery & Wireframing",
+        "description": "Create low-fidelity wireframes, high-fidelity mockups, auto-layout components, and design systems.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Figma Help Center Tutorials", "url": "https://help.figma.com/", "type": "Video" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Usability Testing & Portfolio Creation",
+        "description": "Conduct prototype testing with real users, document design case studies, and launch a portfolio.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "UX Design Portfolio Guide", "url": "https://uxdesign.cc/", "type": "Article" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000510" },
+    "career": { "$oid": "650000000000000000000410" },
+    "title": "Mechanical Engineer Learning Roadmap",
+    "description": "Path from fundamental physics to advanced CAD design and thermal machinery manufacturing.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Engineering Physics & Calculus",
+        "description": "Master Newtonian mechanics, vector calculus, and differential equations.",
+        "estimatedTime": "6 months",
+        "resources": [
+          { "title": "MIT OpenCourseWare Mechanical Eng", "url": "https://ocw.mit.edu/courses/mechanical-engineering/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Thermodynamics & Material Science",
+        "description": "Study energy laws, fluid dynamics, stress-strain relations, and material selection.",
+        "estimatedTime": "6 months",
+        "resources": [
+          { "title": "NPTEL Mechanical Engineering", "url": "https://nptel.ac.in/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Computer-Aided Design (SolidWorks / AutoCAD)",
+        "description": "Design 3D mechanical parts, assemblies, and run Finite Element Analysis (FEA) simulations.",
+        "estimatedTime": "3 - 4 months",
+        "resources": [
+          { "title": "SolidWorks Tutorials", "url": "https://my.solidworks.com/training", "type": "Video" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000511" },
+    "career": { "$oid": "650000000000000000000411" },
+    "title": "Civil Engineer Learning Roadmap",
+    "description": "Master structural analysis, geotechnical surveying, and infrastructure project execution.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Statics, Dynamics & Fluid Mechanics",
+        "description": "Calculate forces, beam deflections, and fluid behavior in pipes and open channels.",
+        "estimatedTime": "6 months",
+        "resources": [
+          { "title": "ASCE Civil Engineering Resources", "url": "https://www.asce.org/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Structural Concrete & Steel Design",
+        "description": "Learn reinforced concrete design, steel frame connections, and building safety codes.",
+        "estimatedTime": "6 months",
+        "resources": [
+          { "title": "NPTEL Civil Engineering", "url": "https://nptel.ac.in/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "AutoCAD & Civil 3D Surveying",
+        "description": "Master 2D structural drafting, site layout planning, and BIM software.",
+        "estimatedTime": "3 months",
+        "resources": [
+          { "title": "Autodesk Civil 3D Guides", "url": "https://www.autodesk.com/support", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000512" },
+    "career": { "$oid": "650000000000000000000412" },
+    "title": "Electrical Engineer Learning Roadmap",
+    "description": "From electric circuit analysis to embedded systems programming and power grid systems.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Circuit Analysis & Signals",
+        "description": "Master Ohm's law, Kirchhoff's laws, AC/DC analysis, and Fourier transformations.",
+        "estimatedTime": "6 months",
+        "resources": [
+          { "title": "All About Circuits", "url": "https://www.allaboutcircuits.com/", "type": "Article" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Digital Electronics & Microcontrollers",
+        "description": "Study logic gates, FPGA design, ARM microcontrollers, and C programming.",
+        "estimatedTime": "4 months",
+        "resources": [
+          { "title": "IEEE Educational Resources", "url": "https://www.ieee.org/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000513" },
+    "career": { "$oid": "650000000000000000000413" },
+    "title": "Medical Doctor (Physician) Roadmap",
+    "description": "Rigorous medical education path from pre-med biology to clinical residency training.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Pre-Medical Undergraduate Studies",
+        "description": "Complete foundational coursework in General Chemistry, Organic Chemistry, Biology, and Physics.",
+        "estimatedTime": "3 - 4 years",
+        "resources": [
+          { "title": "AAMC Pre-Med Official Guide", "url": "https://www.aamc.org/students/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Medical School (M.D. / M.B.B.S.)",
+        "description": "Master Human Anatomy, Physiology, Pathology, Pharmacology, and clinical rotations.",
+        "estimatedTime": "4 - 5 years",
+        "resources": [
+          { "title": "USMLE Exam Portal", "url": "https://www.usmle.org/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Clinical Residency Training",
+        "description": "Complete supervised hospital residency in your chosen medical specialty.",
+        "estimatedTime": "3 - 7 years",
+        "resources": [
+          { "title": "AMA Residency Directory", "url": "https://www.ama-assn.org/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000514" },
+    "career": { "$oid": "650000000000000000000414" },
+    "title": "Registered Nurse (RN) Learning Roadmap",
+    "description": "Comprehensive nursing education, clinical practice hours, and licensure path.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Nursing School (BSN or ADN Degree)",
+        "description": "Study Anatomy, Microbiology, Pharmacology, Nursing Ethics, and Clinical Skills.",
+        "estimatedTime": "2 - 4 years",
+        "resources": [
+          { "title": "American Nurses Association", "url": "https://www.nursingworld.org/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Pass the NCLEX-RN Licensure Exam",
+        "description": "Prepare for national nursing licensure through comprehensive practice testing.",
+        "estimatedTime": "3 - 6 months",
+        "resources": [
+          { "title": "NCSBN NCLEX Portal", "url": "https://www.ncsbn.org/nclex.page", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000515" },
+    "career": { "$oid": "650000000000000000000415" },
+    "title": "Pharmacist Learning Roadmap",
+    "description": "Academic and clinical journey to becoming a licensed Doctor of Pharmacy.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Pharm.D. Degree Program",
+        "description": "Complete coursework in Medicinal Chemistry, Pharmaceutics, Pharmacokinetics, and Therapeutics.",
+        "estimatedTime": "4 years",
+        "resources": [
+          { "title": "AACP Pharmacy Education", "url": "https://www.aacp.org/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Pharmacy Licensure Exams (NAPLEX & MPJE)",
+        "description": "Pass national pharmacy board examinations and state pharmacy law exams.",
+        "estimatedTime": "3 - 6 months",
+        "resources": [
+          { "title": "NABP Licensure Portal", "url": "https://nabp.pharmacy/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000516" },
+    "career": { "$oid": "650000000000000000000416" },
+    "title": "Chartered Accountant (CA / CPA) Roadmap",
+    "description": "Rigorous accounting coursework, practical articleship, and professional qualification exams.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Foundational Accounting & Business Law",
+        "description": "Pass introductory examinations in financial accounting, mercantile law, and economics.",
+        "estimatedTime": "1 year",
+        "resources": [
+          { "title": "ICAI / AICPA Official Portal", "url": "https://www.icai.org/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Practical Articleship / Auditing Internship",
+        "description": "Complete mandatory practical training under a licensed Chartered Accountant firm.",
+        "estimatedTime": "2 - 3 years",
+        "resources": [
+          { "title": "IFRS Accounting Standards", "url": "https://www.ifrs.org/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "Final Professional Examination & Certification",
+        "description": "Pass advanced financial reporting, strategic financial management, and corporate law finals.",
+        "estimatedTime": "1 year",
+        "resources": [
+          { "title": "CPA Exam Guide", "url": "https://www.aicpa-cima.com/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000517" },
+    "career": { "$oid": "650000000000000000000417" },
+    "title": "Financial Analyst Learning Roadmap",
+    "description": "Master financial modeling, corporate valuation, and investment management.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Corporate Finance Fundamentals",
+        "description": "Study income statements, balance sheets, cash flow statements, and financial ratios.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Investopedia Financial Modeling", "url": "https://www.investopedia.com/", "type": "Article" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Financial Modeling in Excel",
+        "description": "Build 3-statement models, DCF valuations, LBO models, and sensitivity analyses.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Corporate Finance Institute (CFI)", "url": "https://corporatefinanceinstitute.com/", "type": "Course" }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "title": "CPA / CFA Charter Preparation",
+        "description": "Prepare for Level I, II, and III CFA examinations covering portfolio management and ethics.",
+        "estimatedTime": "1 - 2 years",
+        "resources": [
+          { "title": "CFA Institute Portal", "url": "https://www.cfainstitute.org/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000518" },
+    "career": { "$oid": "650000000000000000000418" },
+    "title": "Digital Marketer Learning Roadmap",
+    "description": "Master SEO, paid ad acquisition, content marketing, and conversion funnel optimization.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "SEO & Content Marketing Fundamentals",
+        "description": "Learn keyword research, on-page SEO, technical site audits, and content creation.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Moz Beginner's Guide to SEO", "url": "https://moz.com/beginners-guide-to-seo", "type": "Guide" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Paid Ad Search & Social (Google Ads / Meta Ads)",
+        "description": "Configure pay-per-click ad groups, audience targeting, conversion pixel tracking, and A/B testing.",
+        "estimatedTime": "2 months",
+        "resources": [
+          { "title": "Google Skillshop Ads Certification", "url": "https://skillshop.exceedlms.com/", "type": "Course" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000519" },
+    "career": { "$oid": "650000000000000000000419" },
+    "title": "Educator / Teacher Learning Roadmap",
+    "description": "Path to mastering subject pedagogy, classroom management, and teaching certification.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Subject Domain & Educational Psychology",
+        "description": "Master your academic subject specialization and cognitive learning theories.",
+        "estimatedTime": "2 - 3 years",
+        "resources": [
+          { "title": "Edutopia Teaching Strategies", "url": "https://www.edutopia.org/", "type": "Article" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Student Teaching Internship & Certification",
+        "description": "Complete supervised student teaching hours and pass state teacher certification exams.",
+        "estimatedTime": "1 year",
+        "resources": [
+          { "title": "Teach.org Certification Guide", "url": "https://www.teach.org/", "type": "Documentation" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "650000000000000000000520" },
+    "career": { "$oid": "650000000000000000000420" },
+    "title": "Research Scientist Learning Roadmap",
+    "description": "Formulate hypotheses, design empirical experiments, and publish peer-reviewed papers.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Undergraduate & Master's Research Foundation",
+        "description": "Conduct laboratory experiments, write literature reviews, and master lab equipment.",
+        "estimatedTime": "4 - 6 years",
+        "resources": [
+          { "title": "Nature Scientific Publishing Guides", "url": "https://www.nature.com/", "type": "Documentation" }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "title": "Ph.D. Dissertation & Peer-Reviewed Publishing",
+        "description": "Execute original scientific research, publish articles, and defend your doctoral thesis.",
+        "estimatedTime": "4 - 6 years",
+        "resources": [
+          { "title": "Science Magazine Research", "url": "https://www.science.org/", "type": "Documentation" }
+        ]
+      }
+    ]
+  }
+]

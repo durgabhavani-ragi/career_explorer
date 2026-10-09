@@ -1,0 +1,58 @@
+[
+  {
+    "_id": { "$oid": "650000000000000000000101" },
+    "name": "Technology",
+    "slug": "technology",
+    "description": "Software development, cloud infrastructure, artificial intelligence, cybersecurity, and digital technologies.",
+    "icon": "code"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000102" },
+    "name": "Engineering",
+    "slug": "engineering",
+    "description": "Design, construction, mechanics, electronics, and structural engineering disciplines.",
+    "icon": "cpu"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000103" },
+    "name": "Healthcare",
+    "slug": "healthcare",
+    "description": "Medical practice, nursing, pharmacology, patient care, and life sciences.",
+    "icon": "heart-pulse"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000104" },
+    "name": "Business and Finance",
+    "slug": "business-and-finance",
+    "description": "Corporate finance, accounting, marketing strategy, auditing, and financial management.",
+    "icon": "briefcase"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000105" },
+    "name": "Science and Research",
+    "slug": "science-and-research",
+    "description": "Scientific investigation, experimental research, data science, and laboratory analysis.",
+    "icon": "microscope"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000106" },
+    "name": "Arts and Design",
+    "slug": "arts-and-design",
+    "description": "User interface design, user experience research, visual aesthetics, and creative media.",
+    "icon": "palette"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000107" },
+    "name": "Education",
+    "slug": "education",
+    "description": "Teaching, academic instruction, curriculum development, and educational administration.",
+    "icon": "book-open"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000108" },
+    "name": "Government and Public Services",
+    "slug": "government-and-public-services",
+    "description": "Public administration, policy analysis, civil service, and community welfare.",
+    "icon": "landmark"
+  }
+]

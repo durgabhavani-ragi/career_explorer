@@ -1,0 +1,142 @@
+[
+  {
+    "_id": { "$oid": "650000000000000000000301" },
+    "name": "JavaScript & TypeScript",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Core language features, asynchronous control flow, DOM manipulation, and static typing.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000302" },
+    "name": "Full-Stack Web Engineering (React & Node)",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Building modern single-page apps with React and scalable RESTful backends with Node.js/Express.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000303" },
+    "name": "SQL & Relational Database Querying",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Writing complex SQL joins, database normalization, indexing, and data extraction.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000304" },
+    "name": "Python & Data Wrangling (Pandas/NumPy)",
+    "category": { "$oid": "650000000000000000000105" },
+    "description": "Data cleaning, statistical transformations, feature engineering, and automated scripts.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000305" },
+    "name": "Machine Learning Frameworks (PyTorch/Scikit-Learn)",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Building, training, evaluating, and deploying machine learning models.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000306" },
+    "name": "Ethical Hacking & Penetration Testing",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Identifying system vulnerabilities, security auditing, Wireshark packet analysis, and Metasploit.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000307" },
+    "name": "AWS Cloud Architecture & Terraform",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Designing resilient cloud topologies on AWS (EC2, S3, IAM) and Infrastructure as Code.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000308" },
+    "name": "Docker Containerization & Kubernetes",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Containerizing software applications and orchestrating container workloads.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000309" },
+    "name": "User Research & Figma Prototyping",
+    "category": { "$oid": "650000000000000000000106" },
+    "description": "Creating user personas, interactive prototypes, design systems, and conducting usability testing.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000310" },
+    "name": "3D CAD Modeling & Finite Element Analysis",
+    "category": { "$oid": "650000000000000000000102" },
+    "description": "Designing mechanical components using SolidWorks/AutoCAD and stress testing under load.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000311" },
+    "name": "Structural Analysis & Site Surveying",
+    "category": { "$oid": "650000000000000000000102" },
+    "description": "Evaluating structural integrity, reading engineering blueprints, and civil site management.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000312" },
+    "name": "PCB Design & Embedded C Programming",
+    "category": { "$oid": "650000000000000000000102" },
+    "description": "Designing printed circuit boards and programming microcontrollers for hardware applications.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000313" },
+    "name": "Clinical Diagnosis & Patient Assessment",
+    "category": { "$oid": "650000000000000000000103" },
+    "description": "Evaluating medical histories, interpreting diagnostic tests, and prescribing treatment plans.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000314" },
+    "name": "Vital Signs Monitoring & Patient Care",
+    "category": { "$oid": "650000000000000000000103" },
+    "description": "Administering medication, IV lines, patient comfort, and emergency clinical support.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000315" },
+    "name": "Pharmacotherapy & Dosage Calculation",
+    "category": { "$oid": "650000000000000000000103" },
+    "description": "Understanding drug interactions, dosage formulas, dispensing regulations, and safety guidelines.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000316" },
+    "name": "Corporate Auditing & Tax Compliance",
+    "category": { "$oid": "650000000000000000000104" },
+    "description": "Verifying financial statements, ensuring tax compliance, and identifying financial irregularities.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000317" },
+    "name": "Financial Modeling & Valuation (DCF)",
+    "category": { "$oid": "650000000000000000000104" },
+    "description": "Building discounted cash flow models, forecasting revenue, and evaluating investment opportunities.",
+    "level": "Advanced"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000318" },
+    "name": "SEO & Google Analytics Campaign Management",
+    "category": { "$oid": "650000000000000000000104" },
+    "description": "Optimizing organic search rankings, managing pay-per-click ad campaigns, and measuring ROI.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000319" },
+    "name": "Classroom Management & Student Assessment",
+    "category": { "$oid": "650000000000000000000107" },
+    "description": "Fostering an inclusive learning environment, grading, and adapting lessons for diverse learners.",
+    "level": "Intermediate"
+  },
+  {
+    "_id": { "$oid": "650000000000000000000320" },
+    "name": "Experimental Design & Scientific Publishing",
+    "category": { "$oid": "650000000000000000000105" },
+    "description": "Conducting controlled lab experiments, analyzing empirical data, and writing journal publications.",
+    "level": "Advanced"
+  }
+]

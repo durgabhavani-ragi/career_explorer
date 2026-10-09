@@ -1,0 +1,122 @@
+[
+  {
+    "_id": { "$oid": "650000000000000000000201" },
+    "name": "Computer Science Principles",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Foundational programming concepts, logic, computational thinking, and software paradigms."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000202" },
+    "name": "Data Structures & Algorithms",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Arrays, trees, graphs, sorting, searching, time complexity analysis, and optimization."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000203" },
+    "name": "Web & Systems Architecture",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Client-server architecture, HTTP protocols, RESTful APIs, databases, and microservices."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000204" },
+    "name": "Mathematics & Statistics",
+    "category": { "$oid": "650000000000000000000105" },
+    "description": "Linear algebra, calculus, probability theory, hypothesis testing, and statistical modeling."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000205" },
+    "name": "Artificial Intelligence & Machine Learning",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Supervised & unsupervised learning, neural networks, deep learning frameworks, and AI ethics."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000206" },
+    "name": "Cybersecurity & Network Defense",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Network security protocols, cryptography, threat modeling, incident response, and ethical hacking."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000207" },
+    "name": "Cloud Computing Infrastructure",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Distributed computing, virtualization, cloud providers (AWS/Azure/GCP), and infrastructure code."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000208" },
+    "name": "DevOps & Systems Administration",
+    "category": { "$oid": "650000000000000000000101" },
+    "description": "Continuous integration, deployment pipelines, containerization, and site reliability."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000209" },
+    "name": "Human-Computer Interaction & UI Design",
+    "category": { "$oid": "650000000000000000000106" },
+    "description": "User research methodologies, wireframing, interactive prototyping, usability testing, and ergonomics."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000210" },
+    "name": "Thermodynamics & Mechanics",
+    "category": { "$oid": "650000000000000000000102" },
+    "description": "Fluid mechanics, heat transfer, CAD modeling, materials engineering, and kinetic dynamics."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000211" },
+    "name": "Structural Analysis & Construction",
+    "category": { "$oid": "650000000000000000000102" },
+    "description": "Soil mechanics, concrete structures, surveying, structural integrity, and urban planning."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000212" },
+    "name": "Circuit Theory & Power Electronics",
+    "category": { "$oid": "650000000000000000000102" },
+    "description": "AC/DC circuits, semiconductor devices, embedded systems, microcontrollers, and power grids."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000213" },
+    "name": "Human Anatomy & Clinical Pathology",
+    "category": { "$oid": "650000000000000000000103" },
+    "description": "Physiology, organ systems, disease pathology, diagnostics, internal medicine, and surgical principles."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000214" },
+    "name": "Nursing Practice & Patient Care",
+    "category": { "$oid": "650000000000000000000103" },
+    "description": "Clinical nursing techniques, patient monitoring, emergency care, medical ethics, and pharmacology."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000215" },
+    "name": "Pharmacology & Pharmaceutical Chemistry",
+    "category": { "$oid": "650000000000000000000103" },
+    "description": "Drug interactions, pharmacokinetics, formulation, compounding, and clinical pharmacy practice."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000216" },
+    "name": "Financial Accounting & Auditing",
+    "category": { "$oid": "650000000000000000000104" },
+    "description": "Financial reporting standards (IFRS/GAAP), auditing procedures, corporate tax law, and managerial accounting."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000217" },
+    "name": "Corporate Finance & Investment Analysis",
+    "category": { "$oid": "650000000000000000000104" },
+    "description": "Financial modeling, equity valuation, portfolio management, risk analysis, and capital markets."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000218" },
+    "name": "Digital Marketing & Analytics Strategy",
+    "category": { "$oid": "650000000000000000000104" },
+    "description": "Search engine optimization (SEO), performance marketing, content strategy, and consumer behavior."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000219" },
+    "name": "Educational Pedagogy & Learning Psychology",
+    "category": { "$oid": "650000000000000000000107" },
+    "description": "Teaching methodologies, cognitive development, lesson planning, assessment methods, and classroom management."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000220" },
+    "name": "Experimental Research Methodology",
+    "category": { "$oid": "650000000000000000000105" },
+    "description": "Scientific method, laboratory protocols, literature synthesis, grant writing, and peer-reviewed publishing."
+  }
+]

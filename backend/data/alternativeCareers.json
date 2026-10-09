@@ -1,0 +1,86 @@
+[
+  {
+    "_id": { "$oid": "650000000000000000000601" },
+    "career": { "$oid": "650000000000000000000401" },
+    "alternativeCareer": { "$oid": "650000000000000000000402" },
+    "similarityNotes": "Shares core JavaScript/programming skills while expanding into server management and database architecture."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000602" },
+    "career": { "$oid": "650000000000000000000402" },
+    "alternativeCareer": { "$oid": "650000000000000000000408" },
+    "similarityNotes": "Leverages backend application knowledge to focus on automated deployment pipelines and cloud infrastructure."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000603" },
+    "career": { "$oid": "650000000000000000000403" },
+    "alternativeCareer": { "$oid": "650000000000000000000404" },
+    "similarityNotes": "Extends SQL and data visualization skills into advanced predictive modeling, machine learning, and statistical computing."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000604" },
+    "career": { "$oid": "650000000000000000000404" },
+    "alternativeCareer": { "$oid": "650000000000000000000405" },
+    "similarityNotes": "Transitions from exploratory data analysis to productionizing deep learning models and scalable AI pipelines."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000605" },
+    "career": { "$oid": "650000000000000000000407" },
+    "alternativeCareer": { "$oid": "650000000000000000000408" },
+    "similarityNotes": "Both focus on cloud platforms (AWS/Azure), containerization, and automation for continuous system availability."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000606" },
+    "career": { "$oid": "650000000000000000000406" },
+    "alternativeCareer": { "$oid": "650000000000000000000407" },
+    "similarityNotes": "Applies network defense and security hardening principles directly to cloud environments and virtual networks."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000607" },
+    "career": { "$oid": "650000000000000000000409" },
+    "alternativeCareer": { "$oid": "650000000000000000000402" },
+    "similarityNotes": "Combines visual design and user experience research with front-end code implementation."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000608" },
+    "career": { "$oid": "650000000000000000000410" },
+    "alternativeCareer": { "$oid": "650000000000000000000412" },
+    "similarityNotes": "Both engineering disciplines collaborate closely on mechatronics, robotics, CAD modeling, and hardware systems."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000609" },
+    "career": { "$oid": "650000000000000000000411" },
+    "alternativeCareer": { "$oid": "650000000000000000000410" },
+    "similarityNotes": "Shares core foundation in physics, mechanics, vector calculus, and CAD drafting principles."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000610" },
+    "career": { "$oid": "650000000000000000000413" },
+    "alternativeCareer": { "$oid": "650000000000000000000415" },
+    "similarityNotes": "Both require extensive clinical knowledge of human physiology, pharmacology, and drug therapeutic interactions."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000611" },
+    "career": { "$oid": "650000000000000000000414" },
+    "alternativeCareer": { "$oid": "650000000000000000000413" },
+    "similarityNotes": "Provides hands-on patient clinical care experience serving as a foundation for advanced medical practice."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000612" },
+    "career": { "$oid": "650000000000000000000416" },
+    "alternativeCareer": { "$oid": "650000000000000000000417" },
+    "similarityNotes": "Applies rigorous accounting and audit principles toward investment analysis, corporate valuation, and financial modeling."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000613" },
+    "career": { "$oid": "650000000000000000000418" },
+    "alternativeCareer": { "$oid": "650000000000000000000403" },
+    "similarityNotes": "Utilizes web analytics, conversion metrics, and consumer data analysis to drive marketing performance."
+  },
+  {
+    "_id": { "$oid": "650000000000000000000614" },
+    "career": { "$oid": "650000000000000000000419" },
+    "alternativeCareer": { "$oid": "650000000000000000000420" },
+    "similarityNotes": "Combines deep academic domain knowledge with curriculum presentation and scientific literature synthesis."
+  }
+]
