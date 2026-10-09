@@ -5,9 +5,21 @@ import roadmapService from '../services/roadmapService';
 import { useAuth } from '../context/AuthContext';
 import SaveCareerButton from '../components/career/SaveCareerButton';
 import StatusBadge from '../components/common/StatusBadge';
+import SalaryDisplay from '../components/common/SalaryDisplay';
 import RoadmapTimeline from '../components/roadmap/RoadmapTimeline';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import { DollarSign, GraduationCap, Briefcase, TrendingUp, ArrowLeft, GitFork, BookOpen, Layers } from 'lucide-react';
+import { getBriefDescription } from '../utils/textUtils';
+import {
+  GraduationCap,
+  Briefcase,
+  TrendingUp,
+  ArrowLeft,
+  GitFork,
+  BookOpen,
+  Layers,
+  IndianRupee,
+  Compass,
+} from 'lucide-react';
 
 const CareerDetailPage = () => {
   const { slug } = useParams();
@@ -19,7 +31,7 @@ const CareerDetailPage = () => {
   const [userProgress, setUserProgress] = useState(null);
   const [isSaved, setIsSaved] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('roadmap'); // 'roadmap' | 'overview' | 'alternatives'
+  const [activeTab, setActiveTab] = useState('roadmap'); // 'roadmap' | 'skills' | 'alternatives'
 
   useEffect(() => {
     const fetchCareerDetails = async () => {
@@ -70,7 +82,9 @@ const CareerDetailPage = () => {
             try {
               const savedRes = await roadmapService.getSavedCareers();
               if (savedRes.success && savedRes.data) {
-                const found = savedRes.data.some((item) => (item.career?._id || item.career) === fetchedCareer._id);
+                const found = savedRes.data.some(
+                  (item) => (item.career?._id || item.career) === fetchedCareer._id
+                );
                 setIsSaved(found);
               }
             } catch (e) {
@@ -89,195 +103,389 @@ const CareerDetailPage = () => {
   }, [slug, isAuthenticated]);
 
   if (loading) {
-    return <LoadingSpinner message="Loading career details..." />;
+    return <LoadingSpinner message="Loading career profile..." />;
   }
 
   if (!career) {
     return (
-      <div className="container" style={{ padding: '60px 24px', textAlign: 'center' }}>
-        <h2>Career Not Found</h2>
-        <p style={{ color: '#94a3b8', margin: '16px 0' }}>The requested career path could not be found in MongoDB.</p>
+      <div className="container" style={{ padding: '64px 20px', textAlign: 'center' }}>
+        <h2 style={{ fontSize: '1.5rem', fontWeight: 700 }}>Career Profile Not Found</h2>
+        <p style={{ color: 'var(--text-muted)', margin: '16px 0 24px 0' }}>
+          The requested career path could not be located in the database.
+        </p>
         <Link to="/careers" className="btn btn-primary">
-          Back to All Careers
+          Back to Career Directory
         </Link>
       </div>
     );
   }
 
-  const { _id, title, description, category, subjects, skills, salaryRange, jobOutlook, educationRequirements, workEnvironment } = career;
-
-  const formatCurrency = (val) => (val ? val.toLocaleString() : '0');
+  const {
+    _id,
+    title,
+    description,
+    category,
+    subjects,
+    skills,
+    salaryRange,
+    jobOutlook,
+    educationRequirements,
+    workEnvironment,
+  } = career;
 
   return (
-    <div className="container animate-fade-in" style={{ padding: '40px 24px' }}>
-      {/* Back Link */}
-      <Link to="/careers" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', color: '#94a3b8', marginBottom: '24px', fontSize: '0.9rem' }}>
-        <ArrowLeft size={16} /> Back to Careers
-      </Link>
+    <div className="container animate-fade-in" style={{ padding: '36px 20px 64px 20px' }}>
+      {/* Back Navigation Breadcrumb */}
+      <div style={{ marginBottom: '20px' }}>
+        <Link
+          to="/careers"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            color: 'var(--text-muted, #71717a)',
+            fontSize: '0.88rem',
+            textDecoration: 'none',
+          }}
+        >
+          <ArrowLeft size={14} /> Back to Career Directory
+        </Link>
+      </div>
 
-      {/* Header Banner */}
-      <div className="glass-card" style={{ padding: '32px', marginBottom: '32px' }}>
-        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+      {/* Main Profile Header Card */}
+      <header
+        className="editorial-card"
+        style={{
+          padding: '36px 32px',
+          backgroundColor: '#ffffff',
+          marginBottom: '32px',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'space-between',
+            alignItems: 'flex-start',
+            gap: '16px',
+            marginBottom: '16px',
+          }}
+        >
           <div>
-            <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#818cf8', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+            <span
+              style={{
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                color: 'var(--text-muted, #71717a)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.05em',
+              }}
+            >
               {category?.name || 'Industry Category'}
             </span>
-            <h1 style={{ fontSize: '2.5rem', fontWeight: 800, color: '#f8fafc', marginTop: '4px' }}>{title}</h1>
+            <h1
+              style={{
+                fontSize: '2.5rem',
+                fontWeight: 800,
+                color: 'var(--text-main, #18181b)',
+                marginTop: '4px',
+                letterSpacing: '-0.035em',
+              }}
+            >
+              {title}
+            </h1>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <StatusBadge text={jobOutlook} />
             <SaveCareerButton careerId={_id} isInitiallySaved={isSaved} />
           </div>
         </div>
 
-        <p style={{ color: '#cbd5e1', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: '900px' }}>
-          {description}
+        <p
+          style={{
+            color: 'var(--text-body, #3f3f46)',
+            fontSize: '1.05rem',
+            lineHeight: 1.65,
+            maxWidth: '820px',
+            marginBottom: '28px',
+          }}
+        >
+          {getBriefDescription(description, 3)}
         </p>
 
-        {/* Quick Stats Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginTop: '32px', paddingTop: '24px', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ background: 'rgba(16, 185, 129, 0.15)', padding: '10px', borderRadius: '10px', color: '#34d399' }}>
-              <DollarSign size={20} />
-            </div>
-            <div>
-              <span style={{ fontSize: '0.8rem', color: '#94a3b8', display: 'block' }}>Salary Range</span>
-              <strong style={{ color: '#f8fafc', fontSize: '0.95rem' }}>
-                {salaryRange ? `${salaryRange.currency || 'USD'} ${formatCurrency(salaryRange.min)} - ${formatCurrency(salaryRange.max)}` : 'N/A'}
+        {/* Career Metadata Grid */}
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+            gap: '20px',
+            paddingTop: '20px',
+            borderTop: '1px solid var(--border-color, #e4e4e7)',
+          }}
+        >
+          {/* Salary */}
+          <div>
+            <span
+              style={{
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                color: 'var(--text-muted, #71717a)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.04em',
+                display: 'block',
+                marginBottom: '6px',
+              }}
+            >
+              Estimated Salary
+            </span>
+            <SalaryDisplay salaryRange={salaryRange} />
+          </div>
+
+          {/* Education Requirements */}
+          <div>
+            <span
+              style={{
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                color: 'var(--text-muted, #71717a)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.04em',
+                display: 'block',
+                marginBottom: '6px',
+              }}
+            >
+              Education Background
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <GraduationCap size={16} color="var(--text-muted)" />
+              <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>
+                {educationRequirements || 'Degree or Portfolio'}
               </strong>
             </div>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ background: 'rgba(99, 102, 241, 0.15)', padding: '10px', borderRadius: '10px', color: '#818cf8' }}>
-              <GraduationCap size={20} />
-            </div>
-            <div>
-              <span style={{ fontSize: '0.8rem', color: '#94a3b8', display: 'block' }}>Education</span>
-              <strong style={{ color: '#f8fafc', fontSize: '0.95rem' }}>{educationRequirements || 'Flexible'}</strong>
+          {/* Work Environment */}
+          <div>
+            <span
+              style={{
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                color: 'var(--text-muted, #71717a)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.04em',
+                display: 'block',
+                marginBottom: '6px',
+              }}
+            >
+              Work Environment
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Briefcase size={16} color="var(--text-muted)" />
+              <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>
+                {workEnvironment || 'Office / Remote Flexible'}
+              </strong>
             </div>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ background: 'rgba(139, 92, 246, 0.15)', padding: '10px', borderRadius: '10px', color: '#a78bfa' }}>
-              <Briefcase size={20} />
-            </div>
-            <div>
-              <span style={{ fontSize: '0.8rem', color: '#94a3b8', display: 'block' }}>Environment</span>
-              <strong style={{ color: '#f8fafc', fontSize: '0.95rem' }}>{workEnvironment || 'Standard'}</strong>
-            </div>
-          </div>
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ background: 'rgba(245, 158, 11, 0.15)', padding: '10px', borderRadius: '10px', color: '#fbbf24' }}>
-              <TrendingUp size={20} />
-            </div>
-            <div>
-              <span style={{ fontSize: '0.8rem', color: '#94a3b8', display: 'block' }}>Job Outlook</span>
-              <strong style={{ color: '#f8fafc', fontSize: '0.95rem' }}>{jobOutlook}</strong>
+          {/* Job Outlook */}
+          <div>
+            <span
+              style={{
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                color: 'var(--text-muted, #71717a)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.04em',
+                display: 'block',
+                marginBottom: '6px',
+              }}
+            >
+              Market Demand Outlook
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <TrendingUp size={16} color="var(--text-muted)" />
+              <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>
+                {jobOutlook || 'Stable Demand'}
+              </strong>
             </div>
           </div>
         </div>
-      </div>
+      </header>
 
-      {/* Tabs Header */}
-      <div style={{ display: 'flex', gap: '12px', borderBottom: '1px solid rgba(255, 255, 255, 0.1)', marginBottom: '32px', paddingBottom: '12px' }}>
+      {/* Tabs Navigation */}
+      <div
+        style={{
+          display: 'flex',
+          gap: '8px',
+          borderBottom: '1px solid var(--border-color, #e4e4e7)',
+          marginBottom: '28px',
+          overflowX: 'auto',
+          paddingBottom: '2px',
+        }}
+      >
         <button
           onClick={() => setActiveTab('roadmap')}
           className={`btn ${activeTab === 'roadmap' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+          style={{ borderRadius: '6px 6px 0 0' }}
         >
-          <Layers size={16} /> Learning Roadmap
+          <Layers size={14} /> Learning Roadmap
         </button>
         <button
-          onClick={() => setActiveTab('overview')}
-          className={`btn ${activeTab === 'overview' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+          onClick={() => setActiveTab('skills')}
+          className={`btn ${activeTab === 'skills' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+          style={{ borderRadius: '6px 6px 0 0' }}
         >
-          <BookOpen size={16} /> Skills & Subjects
+          <BookOpen size={14} /> Skills & Academic Subjects
         </button>
         <button
           onClick={() => setActiveTab('alternatives')}
           className={`btn ${activeTab === 'alternatives' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+          style={{ borderRadius: '6px 6px 0 0' }}
         >
-          <GitFork size={16} /> Alternative Careers ({altCareers.length})
+          <GitFork size={14} /> Alternative Careers ({altCareers.length})
         </button>
       </div>
 
-      {/* Tab 1: Interactive Roadmap */}
+      {/* TAB 1: Learning Roadmap */}
       {activeTab === 'roadmap' && (
-        <div>
-          <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#f8fafc' }}>
-            {roadmap?.title || `${title} Learning Path`}
-          </h3>
-          <p style={{ color: '#94a3b8', fontSize: '0.95rem', marginTop: '4px' }}>
-            {roadmap?.description || 'Follow this structured timeline to master the skills needed for this career.'}
-          </p>
+        <section>
+          <div style={{ marginBottom: '16px' }}>
+            <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--text-main)' }}>
+              {roadmap?.title || `${title} Roadmap`}
+            </h3>
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '4px' }}>
+              {roadmap?.description || 'Follow this structured timeline to master skills required for this career.'}
+            </p>
+          </div>
+
           <RoadmapTimeline
             roadmap={roadmap}
             userProgress={userProgress}
             onProgressUpdate={(newProgress) => setUserProgress(newProgress)}
           />
-        </div>
+        </section>
       )}
 
-      {/* Tab 2: Skills & Subjects */}
-      {activeTab === 'overview' && (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px' }}>
+      {/* TAB 2: Skills & Domain Subjects */}
+      {activeTab === 'skills' && (
+        <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px' }}>
           {/* Required Skills Card */}
-          <div className="glass-card" style={{ padding: '24px' }}>
-            <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#f8fafc', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              Required Technical & Soft Skills
+          <div className="editorial-card" style={{ padding: '28px', backgroundColor: '#ffffff' }}>
+            <h4
+              style={{
+                fontSize: '1.15rem',
+                fontWeight: 700,
+                color: 'var(--text-main)',
+                marginBottom: '16px',
+                borderBottom: '1px solid var(--border-color)',
+                paddingBottom: '10px',
+              }}
+            >
+              Required Skills & Competencies
             </h4>
             {skills && skills.length > 0 ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 {skills.map((skill) => (
-                  <div key={skill._id || skill} style={{ padding: '12px', background: 'rgba(30, 41, 59, 0.6)', borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                  <div
+                    key={skill._id || skill}
+                    style={{
+                      padding: '12px 14px',
+                      backgroundColor: 'var(--bg-subtle, #f4f4f5)',
+                      borderRadius: 'var(--radius-sm, 6px)',
+                      border: '1px solid var(--border-light, #f4f4f5)',
+                    }}
+                  >
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
-                      <strong style={{ color: '#f8fafc', fontSize: '0.95rem' }}>{skill.name}</strong>
+                      <strong style={{ color: 'var(--text-main)', fontSize: '0.92rem' }}>
+                        {skill.name || skill}
+                      </strong>
                       <StatusBadge text={skill.level || 'All Levels'} />
                     </div>
-                    {skill.description && <p style={{ color: '#94a3b8', fontSize: '0.85rem' }}>{skill.description}</p>}
+                    {skill.description && (
+                      <p style={{ color: 'var(--text-muted)', fontSize: '0.82rem', lineHeight: 1.45 }}>
+                        {skill.description}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
             ) : (
-              <p style={{ color: '#94a3b8', fontStyle: 'italic' }}>No specific skills linked to this career yet.</p>
+              <p style={{ color: 'var(--text-muted)', fontStyle: 'italic', fontSize: '0.9rem' }}>
+                No explicit skill requirements listed for this career profile.
+              </p>
             )}
           </div>
 
-          {/* Academic Subjects Card */}
-          <div className="glass-card" style={{ padding: '24px' }}>
-            <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#f8fafc', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              Relevant Academic & Domain Subjects
+          {/* Academic Domain Subjects Card */}
+          <div className="editorial-card" style={{ padding: '28px', backgroundColor: '#ffffff' }}>
+            <h4
+              style={{
+                fontSize: '1.15rem',
+                fontWeight: 700,
+                color: 'var(--text-main)',
+                marginBottom: '16px',
+                borderBottom: '1px solid var(--border-color)',
+                paddingBottom: '10px',
+              }}
+            >
+              Relevant Academic Subjects
             </h4>
             {subjects && subjects.length > 0 ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 {subjects.map((sub) => (
-                  <div key={sub._id || sub} style={{ padding: '12px', background: 'rgba(30, 41, 59, 0.6)', borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                    <strong style={{ color: '#f8fafc', fontSize: '0.95rem', display: 'block', marginBottom: '4px' }}>{sub.name}</strong>
-                    {sub.description && <p style={{ color: '#94a3b8', fontSize: '0.85rem' }}>{sub.description}</p>}
+                  <div
+                    key={sub._id || sub}
+                    style={{
+                      padding: '12px 14px',
+                      backgroundColor: 'var(--bg-subtle, #f4f4f5)',
+                      borderRadius: 'var(--radius-sm, 6px)',
+                      border: '1px solid var(--border-light, #f4f4f5)',
+                    }}
+                  >
+                    <strong style={{ color: 'var(--text-main)', fontSize: '0.92rem', display: 'block', marginBottom: '4px' }}>
+                      {sub.name || sub}
+                    </strong>
+                    {sub.description && (
+                      <p style={{ color: 'var(--text-muted)', fontSize: '0.82rem', lineHeight: 1.45 }}>
+                        {sub.description}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
             ) : (
-              <p style={{ color: '#94a3b8', fontStyle: 'italic' }}>No domain subjects linked to this career yet.</p>
+              <p style={{ color: 'var(--text-muted)', fontStyle: 'italic', fontSize: '0.9rem' }}>
+                No prerequisite academic subjects listed for this career profile.
+              </p>
             )}
           </div>
-        </div>
+        </section>
       )}
 
-      {/* Tab 3: Alternative Careers */}
+      {/* TAB 3: Alternative Careers */}
       {activeTab === 'alternatives' && (
-        <div>
-          <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#f8fafc', marginBottom: '8px' }}>
-            Alternative & Related Career Paths
-          </h3>
-          <p style={{ color: '#94a3b8', fontSize: '0.95rem', marginBottom: '24px' }}>
-            Careers sharing similar skillsets, education requirements, or industry domains.
-          </p>
+        <section>
+          <div style={{ marginBottom: '20px' }}>
+            <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--text-main)' }}>
+              Related & Alternative Career Paths
+            </h3>
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '4px' }}>
+              Careers that share foundational skillsets, academic subjects, or industry overlap.
+            </p>
+          </div>
 
           {altCareers.length === 0 ? (
-            <div className="glass-card" style={{ padding: '32px', textAlign: 'center', color: '#94a3b8' }}>
-              No alternative career recommendations listed for this career path yet.
+            <div
+              className="editorial-card"
+              style={{
+                padding: '40px 24px',
+                textAlign: 'center',
+                backgroundColor: '#ffffff',
+                color: 'var(--text-muted)',
+              }}
+            >
+              No direct alternative career mappings recorded for this profile yet.
             </div>
           ) : (
             <div className="grid-2">
@@ -285,27 +493,75 @@ const CareerDetailPage = () => {
                 const alt = item.alternativeCareer;
                 if (!alt) return null;
                 return (
-                  <div key={item._id} className="glass-card" style={{ padding: '24px' }}>
-                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#f8fafc', marginBottom: '8px' }}>
-                      <Link to={`/careers/${alt.slug || alt._id}`} style={{ color: '#f8fafc' }}>
+                  <div
+                    key={item._id}
+                    className="editorial-card"
+                    style={{
+                      padding: '24px',
+                      backgroundColor: '#ffffff',
+                      display: 'flex',
+                      flexDirection: 'column',
+                    }}
+                  >
+                    <h4 style={{ fontSize: '1.15rem', fontWeight: 700, marginBottom: '6px' }}>
+                      <Link
+                        to={`/careers/${alt.slug || alt._id}`}
+                        style={{ color: 'var(--text-main)', textDecoration: 'none' }}
+                      >
                         {alt.title}
                       </Link>
                     </h4>
+
                     {item.similarityNotes && (
-                      <p style={{ color: '#818cf8', fontSize: '0.88rem', fontStyle: 'italic', marginBottom: '12px' }}>
+                      <p
+                        style={{
+                          color: '#2563eb',
+                          fontSize: '0.82rem',
+                          fontStyle: 'italic',
+                          marginBottom: '10px',
+                          backgroundColor: '#eff6ff',
+                          padding: '4px 8px',
+                          borderRadius: '4px',
+                          width: 'fit-content',
+                        }}
+                      >
                         "{item.similarityNotes}"
                       </p>
                     )}
-                    <p style={{ color: '#94a3b8', fontSize: '0.9rem', marginBottom: '16px' }}>{alt.description}</p>
-                    <Link to={`/careers/${alt.slug || alt._id}`} className="btn btn-secondary btn-sm">
-                      Explore {alt.title}
-                    </Link>
+
+                    <p
+                      style={{
+                        color: 'var(--text-muted)',
+                        fontSize: '0.86rem',
+                        lineHeight: 1.5,
+                        marginBottom: '14px',
+                        flex: 1,
+                      }}
+                    >
+                      {getBriefDescription(alt.description, 2)}
+                    </p>
+
+                    {/* Alternative career salary in INR if available */}
+                    {alt.salaryRange && (
+                      <div style={{ marginBottom: '16px' }}>
+                        <SalaryDisplay salaryRange={alt.salaryRange} compact={true} />
+                      </div>
+                    )}
+
+                    <div style={{ marginTop: 'auto', paddingTop: '12px', borderTop: '1px solid var(--border-light)' }}>
+                      <Link
+                        to={`/careers/${alt.slug || alt._id}`}
+                        className="btn btn-secondary btn-sm"
+                      >
+                        Explore {alt.title}
+                      </Link>
+                    </div>
                   </div>
                 );
               })}
             </div>
           )}
-        </div>
+        </section>
       )}
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import roadmapService from '../../services/roadmapService';
@@ -9,6 +9,10 @@ const SaveCareerButton = ({ careerId, isInitiallySaved = false, onSaveToggle }) 
   const navigate = useNavigate();
   const [isSaved, setIsSaved] = useState(isInitiallySaved);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setIsSaved(isInitiallySaved);
+  }, [isInitiallySaved]);
 
   const handleClick = async (e) => {
     e.preventDefault();
@@ -46,13 +50,18 @@ const SaveCareerButton = ({ careerId, isInitiallySaved = false, onSaveToggle }) 
       style={{
         display: 'inline-flex',
         alignItems: 'center',
-        gap: '6px',
-        padding: '6px 12px',
-        borderRadius: '8px',
+        gap: '5px',
+        padding: '5px 10px',
+        fontSize: '0.8rem',
       }}
       title={isSaved ? 'Remove from Saved' : 'Save Career'}
+      aria-label={isSaved ? 'Remove from Saved' : 'Save Career'}
     >
-      <Bookmark size={16} fill={isSaved ? '#fff' : 'none'} />
+      <Bookmark
+        size={14}
+        fill={isSaved ? 'currentColor' : 'none'}
+        stroke="currentColor"
+      />
       <span>{isSaved ? 'Saved' : 'Save'}</span>
     </button>
   );

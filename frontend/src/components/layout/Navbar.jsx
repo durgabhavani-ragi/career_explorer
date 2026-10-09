@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { Compass, Bookmark, CheckSquare, Shield, LogOut, User as UserIcon, Menu, X } from 'lucide-react';
 
@@ -10,8 +10,25 @@ const Navbar = () => {
 
   const handleLogout = () => {
     logout();
+    setMobileMenuOpen(false);
     navigate('/');
   };
+
+  const closeMobile = () => setMobileMenuOpen(false);
+
+  const navLinkStyle = ({ isActive }) => ({
+    color: isActive ? 'var(--text-main, #18181b)' : 'var(--text-muted, #71717a)',
+    fontWeight: isActive ? 600 : 500,
+    fontSize: '0.9rem',
+    textDecoration: 'none',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '6px',
+    padding: '6px 8px',
+    borderRadius: '6px',
+    background: isActive ? 'var(--bg-subtle, #f4f4f5)' : 'transparent',
+    transition: 'all 0.15s ease',
+  });
 
   return (
     <nav
@@ -19,65 +36,123 @@ const Navbar = () => {
         position: 'sticky',
         top: 0,
         zIndex: 100,
-        background: 'rgba(15, 23, 42, 0.85)',
-        backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
-        padding: '16px 0',
+        backgroundColor: '#ffffff',
+        borderBottom: '1px solid var(--border-color, #e4e4e7)',
+        boxShadow: 'var(--shadow-xs, 0 1px 2px 0 rgba(0,0,0,0.04))',
       }}
     >
-      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <div
+        className="container"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          height: '64px',
+        }}
+      >
         {/* Brand Logo */}
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', fontWeight: 800, fontSize: '1.35rem', color: '#fff' }}>
-          <div style={{ background: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)', padding: '8px', borderRadius: '10px', display: 'flex' }}>
-            <Compass size={24} color="#fff" />
+        <Link
+          to="/"
+          onClick={closeMobile}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            color: 'var(--text-main, #18181b)',
+            fontWeight: 700,
+            fontSize: '1.2rem',
+            letterSpacing: '-0.025em',
+          }}
+        >
+          <div
+            style={{
+              width: '32px',
+              height: '32px',
+              borderRadius: '6px',
+              backgroundColor: 'var(--primary, #18181b)',
+              color: '#ffffff',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <Compass size={18} />
           </div>
-          <span>Career<span className="gradient-text">Explorer</span></span>
+          <span>Career Explorer</span>
         </Link>
 
         {/* Desktop Navigation Links */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
-          <Link to="/careers" style={{ color: '#cbd5e1', fontWeight: 500, fontSize: '0.95rem' }}>
+        <div
+          style={{
+            display: 'none',
+            alignItems: 'center',
+            gap: '16px',
+          }}
+          className="desktop-nav"
+        >
+          <NavLink to="/careers" style={navLinkStyle}>
             Explore Careers
-          </Link>
-          <Link to="/categories" style={{ color: '#cbd5e1', fontWeight: 500, fontSize: '0.95rem' }}>
+          </NavLink>
+          <NavLink to="/categories" style={navLinkStyle}>
             Categories
-          </Link>
+          </NavLink>
 
           {isAuthenticated && (
             <>
-              <Link to="/saved" style={{ color: '#cbd5e1', fontWeight: 500, fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                <Bookmark size={16} /> Saved
-              </Link>
-              <Link to="/progress" style={{ color: '#cbd5e1', fontWeight: 500, fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                <CheckSquare size={16} /> My Progress
-              </Link>
+              <NavLink to="/saved" style={navLinkStyle}>
+                <Bookmark size={15} /> Saved
+              </NavLink>
+              <NavLink to="/progress" style={navLinkStyle}>
+                <CheckSquare size={15} /> My Progress
+              </NavLink>
             </>
           )}
 
           {isAdmin && (
-            <Link to="/admin" style={{ color: '#a78bfa', fontWeight: 600, fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Shield size={16} /> Admin Portal
-            </Link>
+            <NavLink
+              to="/admin"
+              style={({ isActive }) => ({
+                ...navLinkStyle({ isActive }),
+                color: isActive ? '#1e3a8a' : '#2563eb',
+                background: isActive ? '#eff6ff' : 'transparent',
+                fontWeight: 600,
+              })}
+            >
+              <Shield size={15} /> Admin Portal
+            </NavLink>
           )}
         </div>
 
-        {/* User / Auth Actions */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        {/* Desktop Auth / User Controls */}
+        <div
+          style={{
+            display: 'none',
+            alignItems: 'center',
+            gap: '10px',
+          }}
+          className="desktop-auth"
+        >
           {isAuthenticated ? (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <Link
                 to="/profile"
                 className="btn btn-secondary btn-sm"
-                style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}
               >
-                <UserIcon size={16} /> {user.name}
+                <UserIcon size={14} />
+                <span>{user?.name || 'My Profile'}</span>
               </Link>
-              <button onClick={handleLogout} className="btn btn-danger btn-sm" title="Log Out">
-                <LogOut size={16} />
+              <button
+                onClick={handleLogout}
+                className="btn btn-secondary btn-sm"
+                title="Log Out"
+                style={{ color: 'var(--text-muted)' }}
+              >
+                <LogOut size={14} />
               </button>
             </div>
           ) : (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <Link to="/login" className="btn btn-secondary btn-sm">
                 Log In
               </Link>
@@ -87,7 +162,115 @@ const Navbar = () => {
             </div>
           )}
         </div>
+
+        {/* Mobile Hamburger Toggle */}
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'none',
+            border: 'none',
+            color: 'var(--text-main, #18181b)',
+            cursor: 'pointer',
+            padding: '8px',
+          }}
+          className="mobile-toggle"
+          aria-label="Toggle navigation menu"
+        >
+          {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
       </div>
+
+      {/* Mobile Drawer */}
+      {mobileMenuOpen && (
+        <div
+          style={{
+            backgroundColor: '#ffffff',
+            borderTop: '1px solid var(--border-color)',
+            padding: '16px 20px 24px 20px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '12px',
+          }}
+          className="mobile-drawer"
+        >
+          <NavLink to="/careers" style={navLinkStyle} onClick={closeMobile}>
+            Explore Careers
+          </NavLink>
+          <NavLink to="/categories" style={navLinkStyle} onClick={closeMobile}>
+            Categories
+          </NavLink>
+
+          {isAuthenticated && (
+            <>
+              <NavLink to="/saved" style={navLinkStyle} onClick={closeMobile}>
+                <Bookmark size={16} /> Saved Careers
+              </NavLink>
+              <NavLink to="/progress" style={navLinkStyle} onClick={closeMobile}>
+                <CheckSquare size={16} /> My Progress
+              </NavLink>
+              <NavLink to="/profile" style={navLinkStyle} onClick={closeMobile}>
+                <UserIcon size={16} /> Profile ({user?.name})
+              </NavLink>
+            </>
+          )}
+
+          {isAdmin && (
+            <NavLink
+              to="/admin"
+              style={({ isActive }) => ({
+                ...navLinkStyle({ isActive }),
+                color: '#2563eb',
+                fontWeight: 600,
+              })}
+              onClick={closeMobile}
+            >
+              <Shield size={16} /> Admin Portal
+            </NavLink>
+          )}
+
+          <div style={{ paddingTop: '12px', borderTop: '1px solid var(--border-color)', display: 'flex', gap: '8px' }}>
+            {isAuthenticated ? (
+              <button
+                onClick={handleLogout}
+                className="btn btn-secondary btn-sm"
+                style={{ width: '100%', justifyContent: 'center' }}
+              >
+                <LogOut size={14} /> Log Out
+              </button>
+            ) : (
+              <>
+                <Link to="/login" className="btn btn-secondary btn-sm" style={{ flex: 1 }} onClick={closeMobile}>
+                  Log In
+                </Link>
+                <Link to="/register" className="btn btn-primary btn-sm" style={{ flex: 1 }} onClick={closeMobile}>
+                  Register
+                </Link>
+              </>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Responsive media rules for Navbar */}
+      <style>{`
+        @media (min-width: 768px) {
+          .desktop-nav {
+            display: flex !important;
+          }
+          .desktop-auth {
+            display: flex !important;
+          }
+          .mobile-toggle {
+            display: none !important;
+          }
+          .mobile-drawer {
+            display: none !important;
+          }
+        }
+      `}</style>
     </nav>
   );
 };

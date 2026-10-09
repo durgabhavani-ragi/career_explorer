@@ -1,352 +1,616 @@
 [
   {
-    "_id": { "$oid": "650000000000000000000401" },
+    "_id": {
+      "$oid": "650000000000000000000401"
+    },
     "title": "Software Developer",
     "slug": "software-developer",
     "description": "Software Developers design, code, test, and maintain computer applications and systems software. They analyze user needs and build robust software solutions using programming languages such as JavaScript, Python, or Java.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000201" },
-      { "$oid": "650000000000000000000202" }
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000202"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000301" },
-      { "$oid": "650000000000000000000303" }
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000303"
+      }
     ],
-    "salaryRange": { "min": 75000, "max": 140000, "currency": "USD" },
+    "salaryRange": {
+      "min": 450000,
+      "max": 1800000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (22% growth projected)",
     "educationRequirements": "Bachelor's Degree in Computer Science, Software Engineering, or equivalent coding bootcamp certification.",
     "workEnvironment": "Office / Remote hybrid environment in tech companies, enterprises, or startups."
   },
   {
-    "_id": { "$oid": "650000000000000000000402" },
+    "_id": {
+      "$oid": "650000000000000000000402"
+    },
     "title": "Full-Stack Developer",
     "slug": "full-stack-developer",
     "description": "Full-Stack Developers manage both front-end user interfaces and back-end database architecture. They build complete end-to-end web applications, integrating user experiences with server business logic.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000201" },
-      { "$oid": "650000000000000000000203" }
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000203"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000301" },
-      { "$oid": "650000000000000000000302" },
-      { "$oid": "650000000000000000000303" }
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000302"
+      },
+      {
+        "$oid": "650000000000000000000303"
+      }
     ],
-    "salaryRange": { "min": 85000, "max": 155000, "currency": "USD" },
+    "salaryRange": {
+      "min": 500000,
+      "max": 2000000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (23% growth projected)",
     "educationRequirements": "Bachelor's degree in Computer Science, IT, or intensive Full-Stack Development program.",
     "workEnvironment": "Remote or office-based tech teams, SaaS startups, and digital agencies."
   },
   {
-    "_id": { "$oid": "650000000000000000000403" },
+    "_id": {
+      "$oid": "650000000000000000000403"
+    },
     "title": "Data Analyst",
     "slug": "data-analyst",
     "description": "Data Analysts collect, clean, and interpret complex datasets to help organizations make informed business decisions. They build dashboards, perform statistical queries, and communicate data trends.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000204" }
+      {
+        "$oid": "650000000000000000000204"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000303" },
-      { "$oid": "650000000000000000000304" }
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000304"
+      }
     ],
-    "salaryRange": { "min": 65000, "max": 110000, "currency": "USD" },
+    "salaryRange": {
+      "min": 400000,
+      "max": 1200000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (20% growth projected)",
     "educationRequirements": "Bachelor's degree in Mathematics, Statistics, Computer Science, Economics, or Data Analytics.",
     "workEnvironment": "Corporate offices, financial institutions, consulting firms, and e-commerce companies."
   },
   {
-    "_id": { "$oid": "650000000000000000000404" },
+    "_id": {
+      "$oid": "650000000000000000000404"
+    },
     "title": "Data Scientist",
     "slug": "data-scientist",
     "description": "Data Scientists combine advanced statistics, machine learning, and domain knowledge to extract actionable insights and build predictive algorithms from large-scale structured and unstructured data.",
-    "category": { "$oid": "650000000000000000000105" },
+    "category": {
+      "$oid": "650000000000000000000105"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000204" },
-      { "$oid": "650000000000000000000205" }
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000304" },
-      { "$oid": "650000000000000000000305" }
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000305"
+      }
     ],
-    "salaryRange": { "min": 100000, "max": 175000, "currency": "USD" },
+    "salaryRange": {
+      "min": 650000,
+      "max": 2400000,
+      "currency": "INR"
+    },
     "jobOutlook": "Very High Growth (35% growth projected)",
     "educationRequirements": "Master's or Ph.D. in Data Science, Computer Science, Applied Mathematics, or Physics.",
     "workEnvironment": "AI research labs, tech corporations, healthcare organizations, and financial firms."
   },
   {
-    "_id": { "$oid": "650000000000000000000405" },
+    "_id": {
+      "$oid": "650000000000000000000405"
+    },
     "title": "Machine Learning Engineer",
     "slug": "machine-learning-engineer",
     "description": "Machine Learning Engineers design and deploy production-level artificial intelligence systems. They develop deep learning models, optimize algorithmic performance, and build scalable AI data pipelines.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000202" },
-      { "$oid": "650000000000000000000205" }
+      {
+        "$oid": "650000000000000000000202"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000304" },
-      { "$oid": "650000000000000000000305" }
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000305"
+      }
     ],
-    "salaryRange": { "min": 115000, "max": 195000, "currency": "USD" },
+    "salaryRange": {
+      "min": 700000,
+      "max": 2600000,
+      "currency": "INR"
+    },
     "jobOutlook": "Very High Growth (40% growth projected)",
     "educationRequirements": "Bachelor's or Master's degree in Computer Science, AI, Robotics, or Electrical Engineering.",
     "workEnvironment": "Autonomous vehicle labs, AI research centers, tech giants, and robotics startups."
   },
   {
-    "_id": { "$oid": "650000000000000000000406" },
+    "_id": {
+      "$oid": "650000000000000000000406"
+    },
     "title": "Cybersecurity Analyst",
     "slug": "cybersecurity-analyst",
     "description": "Cybersecurity Analysts protect computer networks, servers, and sensitive data from cyber threats, unauthorized access, and security breaches. They conduct penetration testing and enforce security policies.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000206" }
+      {
+        "$oid": "650000000000000000000206"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000306" }
+      {
+        "$oid": "650000000000000000000306"
+      }
     ],
-    "salaryRange": { "min": 80000, "max": 145000, "currency": "USD" },
+    "salaryRange": {
+      "min": 480000,
+      "max": 1700000,
+      "currency": "INR"
+    },
     "jobOutlook": "Very High Growth (32% growth projected)",
     "educationRequirements": "Bachelor's degree in Cybersecurity, Computer Science, or certifications like CompTIA Security+, CEH, or CISSP.",
     "workEnvironment": "Security operations centers (SOC), financial institutions, government agencies, and defense sector."
   },
   {
-    "_id": { "$oid": "650000000000000000000407" },
+    "_id": {
+      "$oid": "650000000000000000000407"
+    },
     "title": "Cloud Engineer",
     "slug": "cloud-engineer",
     "description": "Cloud Engineers architect, build, and maintain cloud infrastructure on platforms like AWS, Microsoft Azure, or Google Cloud. They manage cloud migration, security, and scalability.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000207" }
+      {
+        "$oid": "650000000000000000000207"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000307" },
-      { "$oid": "650000000000000000000308" }
+      {
+        "$oid": "650000000000000000000307"
+      },
+      {
+        "$oid": "650000000000000000000308"
+      }
     ],
-    "salaryRange": { "min": 90000, "max": 160000, "currency": "USD" },
+    "salaryRange": {
+      "min": 550000,
+      "max": 2200000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (25% growth projected)",
     "educationRequirements": "Bachelor's degree in Computer Science, Information Technology, or AWS Solutions Architect certification.",
     "workEnvironment": "Remote or hybrid enterprise IT environments and cloud consultancy firms."
   },
   {
-    "_id": { "$oid": "650000000000000000000408" },
+    "_id": {
+      "$oid": "650000000000000000000408"
+    },
     "title": "DevOps Engineer",
     "slug": "devops-engineer",
     "description": "DevOps Engineers bridge software development and IT operations. They automate software build, test, and release cycles using CI/CD pipelines, containerization, and monitoring tools.",
-    "category": { "$oid": "650000000000000000000101" },
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000208" }
+      {
+        "$oid": "650000000000000000000208"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000307" },
-      { "$oid": "650000000000000000000308" }
+      {
+        "$oid": "650000000000000000000307"
+      },
+      {
+        "$oid": "650000000000000000000308"
+      }
     ],
-    "salaryRange": { "min": 95000, "max": 165000, "currency": "USD" },
+    "salaryRange": {
+      "min": 600000,
+      "max": 2200000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (24% growth projected)",
     "educationRequirements": "Bachelor's degree in Computer Science, Systems Engineering, or equivalent Linux/DevOps certifications.",
     "workEnvironment": "Fast-paced engineering departments, software firms, and cloud infrastructure companies."
   },
   {
-    "_id": { "$oid": "650000000000000000000409" },
+    "_id": {
+      "$oid": "650000000000000000000409"
+    },
     "title": "UI/UX Designer",
     "slug": "ui-ux-designer",
     "description": "UI/UX Designers create intuitive, aesthetically pleasing visual interfaces and user journeys for web and mobile applications. They conduct user research, wireframing, and interactive prototyping.",
-    "category": { "$oid": "650000000000000000000106" },
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000209" }
+      {
+        "$oid": "650000000000000000000209"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000309" }
+      {
+        "$oid": "650000000000000000000309"
+      }
     ],
-    "salaryRange": { "min": 70000, "max": 130000, "currency": "USD" },
+    "salaryRange": {
+      "min": 400000,
+      "max": 1500000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (16% growth projected)",
     "educationRequirements": "Bachelor's degree in Graphic Design, Human-Computer Interaction (HCI), Fine Arts, or a strong design portfolio.",
     "workEnvironment": "Design studios, tech product teams, advertising agencies, or freelance practice."
   },
   {
-    "_id": { "$oid": "650000000000000000000410" },
+    "_id": {
+      "$oid": "650000000000000000000410"
+    },
     "title": "Mechanical Engineer",
     "slug": "mechanical-engineer",
     "description": "Mechanical Engineers research, design, develop, and test mechanical devices, engines, tools, thermal sensors, and heavy machinery used across manufacturing, automotive, and aerospace industries.",
-    "category": { "$oid": "650000000000000000000102" },
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000210" }
+      {
+        "$oid": "650000000000000000000210"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000310" }
+      {
+        "$oid": "650000000000000000000310"
+      }
     ],
-    "salaryRange": { "min": 72000, "max": 125000, "currency": "USD" },
+    "salaryRange": {
+      "min": 320000,
+      "max": 1050000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (10% growth projected)",
     "educationRequirements": "Bachelor's degree in Mechanical Engineering (B.S./B.Tech) and Professional Engineer (PE) license.",
     "workEnvironment": "Manufacturing plants, automotive design centers, testing laboratories, and engineering offices."
   },
   {
-    "_id": { "$oid": "650000000000000000000411" },
+    "_id": {
+      "$oid": "650000000000000000000411"
+    },
     "title": "Civil Engineer",
     "slug": "civil-engineer",
     "description": "Civil Engineers design, construct, and supervise public infrastructure projects such as bridges, roads, dams, airports, water supply systems, and commercial buildings.",
-    "category": { "$oid": "650000000000000000000102" },
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000211" }
+      {
+        "$oid": "650000000000000000000211"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000311" }
+      {
+        "$oid": "650000000000000000000311"
+      }
     ],
-    "salaryRange": { "min": 70000, "max": 120000, "currency": "USD" },
+    "salaryRange": {
+      "min": 300000,
+      "max": 980000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (7% growth projected)",
     "educationRequirements": "Bachelor's degree in Civil Engineering (B.E./B.Tech) and Fundamentals of Engineering (FE) certification.",
     "workEnvironment": "Construction job sites, municipal planning boards, and engineering consultancy firms."
   },
   {
-    "_id": { "$oid": "650000000000000000000412" },
+    "_id": {
+      "$oid": "650000000000000000000412"
+    },
     "title": "Electrical Engineer",
     "slug": "electrical-engineer",
     "description": "Electrical Engineers design, manufacture, and test electrical equipment, circuit systems, microchips, power generation grids, and electromagnetic hardware for commercial and industrial use.",
-    "category": { "$oid": "650000000000000000000102" },
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000212" }
+      {
+        "$oid": "650000000000000000000212"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000312" }
+      {
+        "$oid": "650000000000000000000312"
+      }
     ],
-    "salaryRange": { "min": 75000, "max": 130000, "currency": "USD" },
+    "salaryRange": {
+      "min": 340000,
+      "max": 1150000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (9% growth projected)",
     "educationRequirements": "Bachelor's degree in Electrical Engineering, Electronics, or Telecommunications.",
     "workEnvironment": "Power utilities, semiconductor fabrication facilities, hardware R&D labs."
   },
   {
-    "_id": { "$oid": "650000000000000000000413" },
+    "_id": {
+      "$oid": "650000000000000000000413"
+    },
     "title": "Doctor",
     "slug": "doctor",
     "description": "Medical Doctors (Physicians) examine patients, diagnose illnesses, prescribe medications, and administer treatments. They practice in specialties such as General Medicine, Surgery, Pediatrics, or Cardiology.",
-    "category": { "$oid": "650000000000000000000103" },
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000213" }
+      {
+        "$oid": "650000000000000000000213"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000313" }
+      {
+        "$oid": "650000000000000000000313"
+      }
     ],
-    "salaryRange": { "min": 180000, "max": 350000, "currency": "USD" },
+    "salaryRange": {
+      "min": 720000,
+      "max": 2500000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (13% growth projected)",
     "educationRequirements": "M.D. or M.B.B.S. degree followed by 3-7 years of medical residency training and state licensure (USMLE / PLAB / NMC).",
     "workEnvironment": "Hospitals, private medical clinics, trauma centers, and medical research institutes."
   },
   {
-    "_id": { "$oid": "650000000000000000000414" },
+    "_id": {
+      "$oid": "650000000000000000000414"
+    },
     "title": "Nurse",
     "slug": "nurse",
     "description": "Registered Nurses (RN) provide direct patient care, administer treatments and medications, monitor vital medical signs, and educate patients and families on health management.",
-    "category": { "$oid": "650000000000000000000103" },
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000214" }
+      {
+        "$oid": "650000000000000000000214"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000314" }
+      {
+        "$oid": "650000000000000000000314"
+      }
     ],
-    "salaryRange": { "min": 60000, "max": 105000, "currency": "USD" },
+    "salaryRange": {
+      "min": 240000,
+      "max": 600000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (12% growth projected)",
     "educationRequirements": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN) and NCLEX-RN licensing exam.",
     "workEnvironment": "Hospitals, outpatient care centers, nursing homes, and home healthcare settings."
   },
   {
-    "_id": { "$oid": "650000000000000000000415" },
+    "_id": {
+      "$oid": "650000000000000000000415"
+    },
     "title": "Pharmacist",
     "slug": "pharmacist",
     "description": "Pharmacists compound and dispense prescription medications, advise patients on safe drug administration, monitor therapeutic side effects, and collaborate with physicians on medical prescriptions.",
-    "category": { "$oid": "650000000000000000000103" },
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000215" }
+      {
+        "$oid": "650000000000000000000215"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000315" }
+      {
+        "$oid": "650000000000000000000315"
+      }
     ],
-    "salaryRange": { "min": 95000, "max": 145000, "currency": "USD" },
+    "salaryRange": {
+      "min": 250000,
+      "max": 650000,
+      "currency": "INR"
+    },
     "jobOutlook": "Stable Growth (3% growth projected)",
     "educationRequirements": "Doctor of Pharmacy (Pharm.D.) degree and state licensure (NAPLEX / MPJE / Pharmacy Council registration).",
     "workEnvironment": "Retail pharmacies, hospital dispensaries, pharmaceutical manufacturing companies."
   },
   {
-    "_id": { "$oid": "650000000000000000000416" },
+    "_id": {
+      "$oid": "650000000000000000000416"
+    },
     "title": "Chartered Accountant",
     "slug": "chartered-accountant",
     "description": "Chartered Accountants (CA / CPA) manage corporate accounting, perform financial audits, ensure tax compliance, and provide strategic financial advisory services to businesses and individuals.",
-    "category": { "$oid": "650000000000000000000104" },
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000216" }
+      {
+        "$oid": "650000000000000000000216"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000316" }
+      {
+        "$oid": "650000000000000000000316"
+      }
     ],
-    "salaryRange": { "min": 75000, "max": 150000, "currency": "USD" },
+    "salaryRange": {
+      "min": 700000,
+      "max": 2200000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (10% growth projected)",
     "educationRequirements": "Chartered Accountant (ICAI / ACCA) qualification or Certified Public Accountant (CPA) license.",
     "workEnvironment": "Accounting firms (Big 4), corporate finance departments, tax consulting practices."
   },
   {
-    "_id": { "$oid": "650000000000000000000417" },
+    "_id": {
+      "$oid": "650000000000000000000417"
+    },
     "title": "Financial Analyst",
     "slug": "financial-analyst",
     "description": "Financial Analysts examine financial data, evaluate investment opportunities, build financial valuation models, and guide businesses and investors in capital allocation strategies.",
-    "category": { "$oid": "650000000000000000000104" },
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000217" }
+      {
+        "$oid": "650000000000000000000217"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000317" }
+      {
+        "$oid": "650000000000000000000317"
+      }
     ],
-    "salaryRange": { "min": 70000, "max": 135000, "currency": "USD" },
+    "salaryRange": {
+      "min": 450000,
+      "max": 1500000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (9% growth projected)",
     "educationRequirements": "Bachelor's degree in Finance, Economics, or Business Administration. Chartered Financial Analyst (CFA) preferred.",
     "workEnvironment": "Investment banks, asset management firms, hedge funds, and corporate treasury."
   },
   {
-    "_id": { "$oid": "650000000000000000000418" },
+    "_id": {
+      "$oid": "650000000000000000000418"
+    },
     "title": "Digital Marketer",
     "slug": "digital-marketer",
     "description": "Digital Marketers design, execute, and analyze digital advertising campaigns across search engines, social media platforms, email marketing, and content strategy to acquire and retain customers.",
-    "category": { "$oid": "650000000000000000000104" },
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000218" }
+      {
+        "$oid": "650000000000000000000218"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000318" }
+      {
+        "$oid": "650000000000000000000318"
+      }
     ],
-    "salaryRange": { "min": 55000, "max": 105000, "currency": "USD" },
+    "salaryRange": {
+      "min": 350000,
+      "max": 1200000,
+      "currency": "INR"
+    },
     "jobOutlook": "High Growth (14% growth projected)",
     "educationRequirements": "Bachelor's degree in Marketing, Communications, Business, or certifications from Google Ads / Meta Blueprint.",
     "workEnvironment": "Digital agencies, e-commerce firms, marketing departments, or freelance consulting."
   },
   {
-    "_id": { "$oid": "650000000000000000000419" },
+    "_id": {
+      "$oid": "650000000000000000000419"
+    },
     "title": "Teacher",
     "slug": "teacher",
     "description": "Teachers instruct students in academic subjects, prepare lesson plans, grade assignments, evaluate progress, and foster cognitive and social development in primary, secondary, or higher education settings.",
-    "category": { "$oid": "650000000000000000000107" },
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000219" }
+      {
+        "$oid": "650000000000000000000219"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000319" }
+      {
+        "$oid": "650000000000000000000319"
+      }
     ],
-    "salaryRange": { "min": 48000, "max": 85000, "currency": "USD" },
+    "salaryRange": {
+      "min": 260000,
+      "max": 700000,
+      "currency": "INR"
+    },
     "jobOutlook": "Stable Growth (5% growth projected)",
     "educationRequirements": "Bachelor's or Master's degree in Education (B.Ed / M.Ed) or subject domain plus state teaching certification.",
     "workEnvironment": "Public and private schools, vocational centers, and online learning academies."
   },
   {
-    "_id": { "$oid": "650000000000000000000420" },
+    "_id": {
+      "$oid": "650000000000000000000420"
+    },
     "title": "Research Scientist",
     "slug": "research-scientist",
     "description": "Research Scientists design and conduct advanced experiments to expand scientific understanding in fields like biology, chemistry, physics, or computing. They publish findings in peer-reviewed journals.",
-    "category": { "$oid": "650000000000000000000105" },
+    "category": {
+      "$oid": "650000000000000000000105"
+    },
     "subjects": [
-      { "$oid": "650000000000000000000220" }
+      {
+        "$oid": "650000000000000000000220"
+      }
     ],
     "skills": [
-      { "$oid": "650000000000000000000320" }
+      {
+        "$oid": "650000000000000000000320"
+      }
     ],
-    "salaryRange": { "min": 85000, "max": 160000, "currency": "USD" },
+    "salaryRange": {
+      "min": 500000,
+      "max": 1800000,
+      "currency": "INR"
+    },
     "jobOutlook": "Moderate Growth (8% growth projected)",
     "educationRequirements": "Ph.D. or Master's degree in a specialized scientific field (Biology, Physics, Chemistry, Data Science).",
     "workEnvironment": "University laboratories, government research institutions (NIH/NASA), and pharmaceutical R&D labs."

@@ -1,14 +1,19 @@
 import React from 'react';
 import { FolderOpen } from 'lucide-react';
 
-const EmptyState = ({ title = 'No items found', description = 'The database collection is currently empty.', actionText, onAction }) => {
+const EmptyState = ({
+  title = 'No items found',
+  description = 'No records match the current criteria in the database.',
+  actionText,
+  onAction,
+}) => {
   return (
     <div
-      className="glass-card"
+      className="editorial-card"
       style={{
         textAlign: 'center',
-        padding: '48px 24px',
-        maxWidth: '500px',
+        padding: '56px 24px',
+        maxWidth: '480px',
         margin: '32px auto',
         display: 'flex',
         flexDirection: 'column',
@@ -17,27 +22,43 @@ const EmptyState = ({ title = 'No items found', description = 'The database coll
     >
       <div
         style={{
-          width: '64px',
-          height: '64px',
-          borderRadius: '50%',
-          background: 'rgba(99, 102, 241, 0.15)',
+          width: '52px',
+          height: '52px',
+          borderRadius: '10px',
+          backgroundColor: 'var(--bg-subtle, #f4f4f5)',
+          border: '1px solid var(--border-color, #e4e4e7)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           marginBottom: '16px',
-          color: '#818cf8',
+          color: 'var(--text-muted, #71717a)',
         }}
       >
-        <FolderOpen size={32} />
+        <FolderOpen size={24} />
       </div>
-      <h3 style={{ fontSize: '1.25rem', fontWeight: 600, color: '#f8fafc', marginBottom: '8px' }}>
+      <h3
+        style={{
+          fontSize: '1.15rem',
+          fontWeight: 700,
+          color: 'var(--text-main, #18181b)',
+          marginBottom: '8px',
+        }}
+      >
         {title}
       </h3>
-      <p style={{ color: '#94a3b8', fontSize: '0.95rem', marginBottom: '24px', lineHeight: 1.5 }}>
+      <p
+        style={{
+          color: 'var(--text-muted, #71717a)',
+          fontSize: '0.9rem',
+          marginBottom: actionText && onAction ? '20px' : '0',
+          lineHeight: 1.5,
+          maxWidth: '380px',
+        }}
+      >
         {description}
       </p>
       {actionText && onAction && (
-        <button onClick={onAction} className="btn btn-primary btn-sm">
+        <button onClick={onAction} className="btn btn-secondary btn-sm">
           {actionText}
         </button>
       )}

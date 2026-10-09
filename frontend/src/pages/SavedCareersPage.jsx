@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import roadmapService from '../services/roadmapService';
 import CareerCard from '../components/career/CareerCard';
 import EmptyState from '../components/common/EmptyState';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import { Bookmark } from 'lucide-react';
+import { Bookmark, Compass } from 'lucide-react';
 
 const SavedCareersPage = () => {
   const [savedItems, setSavedItems] = useState([]);
@@ -32,27 +33,51 @@ const SavedCareersPage = () => {
   };
 
   return (
-    <div className="container animate-fade-in" style={{ padding: '40px 24px' }}>
-      <div style={{ marginBottom: '32px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-        <div style={{ background: 'rgba(99, 102, 241, 0.15)', padding: '10px', borderRadius: '12px', color: '#818cf8' }}>
-          <Bookmark size={28} />
-        </div>
-        <div>
-          <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: '#f8fafc' }}>
-            Saved <span className="gradient-text">Careers</span>
-          </h1>
-          <p style={{ color: '#94a3b8', fontSize: '1rem', marginTop: '2px' }}>
-            Your bookmarked career paths stored securely in your MongoDB profile.
-          </p>
-        </div>
+    <div className="container animate-fade-in" style={{ padding: '40px 20px 64px 20px' }}>
+      {/* Editorial Header */}
+      <div style={{ marginBottom: '32px' }}>
+        <span
+          style={{
+            fontSize: '0.8rem',
+            fontWeight: 700,
+            color: 'var(--text-muted, #71717a)',
+            textTransform: 'uppercase',
+            letterSpacing: '0.04em',
+          }}
+        >
+          User Dashboard
+        </span>
+        <h1
+          style={{
+            fontSize: '2.25rem',
+            fontWeight: 800,
+            color: 'var(--text-main, #18181b)',
+            marginTop: '4px',
+            letterSpacing: '-0.03em',
+          }}
+        >
+          Bookmarked Careers
+        </h1>
+        <p
+          style={{
+            color: 'var(--text-muted, #71717a)',
+            fontSize: '0.95rem',
+            marginTop: '6px',
+            maxWidth: '680px',
+          }}
+        >
+          Review your bookmarked career profiles and learning pathways.
+        </p>
       </div>
 
       {loading ? (
         <LoadingSpinner message="Fetching your saved careers..." />
       ) : savedItems.length === 0 ? (
         <EmptyState
-          title="No Saved Careers Yet"
-          description="You haven't bookmarked any careers. Browse the Career Explorer directory and click 'Save' on any career path you're interested in!"
+          title="No Bookmarked Careers"
+          description="You haven't bookmarked any careers yet. Browse the career directory and click 'Save' on any career profile to build your personalized reference list."
+          actionText="Browse Career Directory"
+          onAction={() => window.location.assign('/careers')}
         />
       ) : (
         <div className="grid-3">

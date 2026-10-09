@@ -1,166 +1,422 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import careerService from '../services/careerService';
+import CareerCard from '../components/career/CareerCard';
 import EmptyState from '../components/common/EmptyState';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import { Compass, Target, Map, Award, ArrowRight, Folder } from 'lucide-react';
+import { Search, ArrowRight, Folder, Compass, Layers, TrendingUp, Briefcase } from 'lucide-react';
 
 const HomePage = () => {
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState('');
   const [categories, setCategories] = useState([]);
+  const [featuredCareers, setFeaturedCareers] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchCategories = async () => {
+    const fetchHomeData = async () => {
       try {
-        const res = await careerService.getCategories();
-        if (res.success) {
-          setCategories(res.data || []);
+        const [catRes, carRes] = await Promise.allSettled([
+          careerService.getCategories(),
+          careerService.getCareers(),
+        ]);
+
+        if (catRes.status === 'fulfilled' && catRes.value.success) {
+          setCategories(catRes.value.data || []);
+        }
+        if (carRes.status === 'fulfilled' && carRes.value.success) {
+          setFeaturedCareers((carRes.value.data || []).slice(0, 6));
         }
       } catch (err) {
-        console.error('Failed to load categories:', err.message);
+        console.error('Failed to load homepage data:', err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchCategories();
+    fetchHomeData();
   }, []);
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchTerm.trim()) {
+      navigate(`/careers?search=${encodeURIComponent(searchTerm.trim())}`);
+    } else {
+      navigate('/careers');
+    }
+  };
 
   return (
     <div className="animate-fade-in">
-      {/* Hero Banner Section */}
+      {/* Hero Section */}
       <section
         style={{
+          padding: '56px 20px 48px 20px',
+          borderBottom: '1px solid var(--border-color)',
+          backgroundColor: '#ffffff',
           textAlign: 'center',
-          padding: '80px 20px 60px 20px',
-          background: 'radial-gradient(circle at 50% 30%, rgba(99, 102, 241, 0.15) 0%, rgba(15, 23, 42, 0) 70%)',
         }}
       >
-        <div className="container" style={{ maxWidth: '850px' }}>
+        <div className="container" style={{ maxWidth: '780px' }}>
           <div
             style={{
               display: 'inline-flex',
               alignItems: 'center',
-              gap: '8px',
-              padding: '6px 16px',
-              borderRadius: '9999px',
-              background: 'rgba(99, 102, 241, 0.15)',
-              border: '1px solid rgba(99, 102, 241, 0.3)',
-              color: '#818cf8',
-              fontSize: '0.875rem',
+              gap: '6px',
+              padding: '4px 12px',
+              borderRadius: 'var(--radius-full)',
+              backgroundColor: 'var(--bg-subtle, #f4f4f5)',
+              color: 'var(--text-muted, #71717a)',
+              fontSize: '0.78rem',
               fontWeight: 600,
-              marginBottom: '24px',
+              marginBottom: '16px',
+              letterSpacing: '0.02em',
             }}
           >
-            <Compass size={16} /> Empower Your Future Career
+            <Compass size={13} /> Career Guidance & Learning Roadmaps
           </div>
 
-          <h1 style={{ fontSize: '3rem', fontWeight: 800, lineHeight: 1.2, marginBottom: '20px', letterSpacing: '-0.5px' }}>
-            Discover Your Career Path with <span className="gradient-text">Real Insights</span>
+          <h1
+            style={{
+              fontSize: 'clamp(1.9rem, 4.5vw, 2.75rem)',
+              fontWeight: 800,
+              color: 'var(--text-main, #18181b)',
+              lineHeight: 1.2,
+              marginBottom: '14px',
+              letterSpacing: '-0.035em',
+            }}
+          >
+            Discover your next career path
           </h1>
 
-          <p style={{ fontSize: '1.15rem', color: '#94a3b8', marginBottom: '36px', lineHeight: 1.6 }}>
-            Explore verified career profiles, industry salaries, required skills, interactive step-by-step learning roadmaps, and personalized milestone tracking.
+          <p
+            style={{
+              fontSize: '1rem',
+              color: 'var(--text-muted, #71717a)',
+              lineHeight: 1.6,
+              marginBottom: '28px',
+              maxWidth: '620px',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            }}
+          >
+            Explore career profiles, salary ranges, required competencies, and step-by-step learning roadmaps.
           </p>
 
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
-            <Link to="/careers" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '1rem' }}>
-              <span>Explore All Careers</span>
-              <ArrowRight size={18} />
-            </Link>
-            <Link to="/categories" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '1rem' }}>
-              <span>Browse Categories</span>
-            </Link>
-          </div>
+          {/* Search Bar Form */}
+          <form
+            onSubmit={handleSearchSubmit}
+            style={{
+              display: 'flex',
+              maxWidth: '500px',
+              margin: '0 auto 20px auto',
+              gap: '8px',
+              flexWrap: 'wrap',
+            }}
+          >
+            <div style={{ flex: '1 1 260px', position: 'relative' }}>
+              <Search
+                size={16}
+                color="var(--text-muted, #71717a)"
+                style={{
+                  position: 'absolute',
+                  left: '14px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  pointerEvents: 'none',
+                }}
+              />
+              <input
+                type="text"
+                className="form-input"
+                placeholder="Search careers e.g. Software Developer, Data Analyst..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                style={{
+                  paddingLeft: '38px',
+                  height: '42px',
+                  fontSize: '0.9rem',
+                }}
+              />
+            </div>
+            <button
+              type="submit"
+              className="btn btn-primary"
+              style={{ height: '42px', padding: '0 18px' }}
+            >
+              <span>Search</span>
+            </button>
+          </form>
+
+          {/* Quick Category Badges */}
+          {categories.length > 0 && (
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                flexWrap: 'wrap',
+                fontSize: '0.8rem',
+                color: 'var(--text-muted, #71717a)',
+              }}
+            >
+              <span style={{ fontWeight: 600 }}>Explore:</span>
+              {categories.slice(0, 4).map((cat) => (
+                <Link
+                  key={cat._id}
+                  to={`/careers?category=${cat._id}`}
+                  style={{
+                    color: 'var(--text-body, #3f3f46)',
+                    background: 'var(--bg-subtle, #f4f4f5)',
+                    padding: '2px 9px',
+                    borderRadius: 'var(--radius-sm)',
+                    textDecoration: 'none',
+                  }}
+                >
+                  {cat.name}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
-      {/* Feature Highlights Grid */}
-      <section className="container" style={{ padding: '40px 24px' }}>
-        <div className="grid-3">
-          <div className="glass-card" style={{ padding: '32px' }}>
-            <div style={{ background: 'rgba(99, 102, 241, 0.15)', width: '48px', height: '48px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', color: '#818cf8' }}>
-              <Target size={24} />
-            </div>
-            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '10px', color: '#f8fafc' }}>
-              Targeted Career Insights
-            </h3>
-            <p style={{ color: '#94a3b8', fontSize: '0.92rem', lineHeight: 1.6 }}>
-              Get detailed breakdown of salary ranges, job market outlook, work environment, and required education for every career.
-            </p>
-          </div>
-
-          <div className="glass-card" style={{ padding: '32px' }}>
-            <div style={{ background: 'rgba(139, 92, 246, 0.15)', width: '48px', height: '48px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', color: '#a78bfa' }}>
-              <Map size={24} />
-            </div>
-            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '10px', color: '#f8fafc' }}>
-              Interactive Roadmaps
-            </h3>
-            <p style={{ color: '#94a3b8', fontSize: '0.92rem', lineHeight: 1.6 }}>
-              Follow structured step-by-step milestones with curated articles, videos, and courses for each career path.
-            </p>
-          </div>
-
-          <div className="glass-card" style={{ padding: '32px' }}>
-            <div style={{ background: 'rgba(16, 185, 129, 0.15)', width: '48px', height: '48px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', color: '#34d399' }}>
-              <Award size={24} />
-            </div>
-            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '10px', color: '#f8fafc' }}>
-              Personal Progress Tracker
-            </h3>
-            <p style={{ color: '#94a3b8', fontSize: '0.92rem', lineHeight: 1.6 }}>
-              Log in to bookmark favorite careers and track your step-by-step learning progress directly in real time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Categories Section */}
-      <section className="container" style={{ padding: '40px 24px 80px 24px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '32px' }}>
-          <div>
-            <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#818cf8', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-              Explore By Field
-            </span>
-            <h2 style={{ fontSize: '2rem', fontWeight: 700, color: '#f8fafc', marginTop: '4px' }}>
-              Career Categories
-            </h2>
-          </div>
-          <Link to="/categories" style={{ color: '#818cf8', fontWeight: 600, fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
-            View All <ArrowRight size={16} />
-          </Link>
-        </div>
-
-        {loading ? (
-          <LoadingSpinner message="Fetching categories from database..." />
-        ) : categories.length === 0 ? (
-          <EmptyState
-            title="No Categories Available"
-            description="The database currently contains no categories. Log in as an Admin to add categories and careers."
-          />
-        ) : (
+      {/* 3 Core Highlights */}
+      <section
+        style={{
+          padding: '36px 20px',
+          borderBottom: '1px solid var(--border-color)',
+          backgroundColor: 'var(--bg-page, #fafaf9)',
+        }}
+      >
+        <div className="container">
           <div className="grid-3">
-            {categories.slice(0, 6).map((cat) => (
-              <Link
-                key={cat._id}
-                to={`/careers?category=${cat._id}`}
-                className="glass-card"
-                style={{ padding: '24px', display: 'flex', alignItems: 'center', gap: '16px' }}
+            <div
+              className="editorial-card"
+              style={{ padding: '20px', backgroundColor: '#ffffff' }}
+            >
+              <div
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  borderRadius: '6px',
+                  backgroundColor: 'var(--bg-subtle)',
+                  color: 'var(--text-main)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  marginBottom: '12px',
+                }}
               >
-                <div style={{ background: 'rgba(99, 102, 241, 0.15)', padding: '12px', borderRadius: '12px', color: '#818cf8' }}>
-                  <Folder size={24} />
-                </div>
-                <div>
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: '#f8fafc' }}>{cat.name}</h4>
-                  <p style={{ color: '#94a3b8', fontSize: '0.85rem', marginTop: '2px' }}>
-                    {cat.description ? (cat.description.length > 50 ? `${cat.description.substring(0, 50)}...` : cat.description) : 'Explore careers in this category'}
-                  </p>
-                </div>
-              </Link>
-            ))}
+                <Briefcase size={16} />
+              </div>
+              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>
+                Authentic Career Profiles
+              </h3>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                Clear responsibilities, academic background, and core technical and analytical skills.
+              </p>
+            </div>
+
+            <div
+              className="editorial-card"
+              style={{ padding: '20px', backgroundColor: '#ffffff' }}
+            >
+              <div
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  borderRadius: '6px',
+                  backgroundColor: 'var(--bg-subtle)',
+                  color: 'var(--text-main)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  marginBottom: '12px',
+                }}
+              >
+                <Layers size={16} />
+              </div>
+              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>
+                Learning Roadmaps
+              </h3>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                Follow structured milestones and curated study materials to develop in-demand abilities.
+              </p>
+            </div>
+
+            <div
+              className="editorial-card"
+              style={{ padding: '20px', backgroundColor: '#ffffff' }}
+            >
+              <div
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  borderRadius: '6px',
+                  backgroundColor: 'var(--bg-subtle)',
+                  color: 'var(--text-main)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  marginBottom: '12px',
+                }}
+              >
+                <TrendingUp size={16} />
+              </div>
+              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>
+                Market Expectations
+              </h3>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                Realistic salary ranges and market growth outlook to plan your professional development.
+              </p>
+            </div>
           </div>
-        )}
+        </div>
+      </section>
+
+      {/* Featured Career Paths */}
+      <section style={{ padding: '48px 20px' }}>
+        <div className="container">
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'flex-end',
+              marginBottom: '24px',
+              flexWrap: 'wrap',
+              gap: '12px',
+            }}
+          >
+            <div>
+              <span
+                style={{
+                  fontSize: '0.75rem',
+                  fontWeight: 700,
+                  color: 'var(--text-muted)',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.04em',
+                }}
+              >
+                Directory Preview
+              </span>
+              <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--text-main)', marginTop: '2px' }}>
+                Featured Career Paths
+              </h2>
+            </div>
+            <Link
+              to="/careers"
+              className="btn btn-secondary btn-sm"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}
+            >
+              <span>View All Careers</span>
+              <ArrowRight size={13} />
+            </Link>
+          </div>
+
+          {loading ? (
+            <LoadingSpinner message="Loading careers..." />
+          ) : featuredCareers.length === 0 ? (
+            <EmptyState
+              title="No Careers Available"
+              description="No career records are currently registered in the database."
+            />
+          ) : (
+            <div className="grid-3">
+              {featuredCareers.map((career) => (
+                <CareerCard key={career._id} career={career} />
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* Industry Categories */}
+      <section
+        style={{
+          padding: '40px 20px 56px 20px',
+          borderTop: '1px solid var(--border-color)',
+          backgroundColor: '#ffffff',
+        }}
+      >
+        <div className="container">
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'flex-end',
+              marginBottom: '24px',
+              flexWrap: 'wrap',
+              gap: '12px',
+            }}
+          >
+            <div>
+              <span
+                style={{
+                  fontSize: '0.75rem',
+                  fontWeight: 700,
+                  color: 'var(--text-muted)',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.04em',
+                }}
+              >
+                Categories
+              </span>
+              <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--text-main)', marginTop: '2px' }}>
+                Browse by Industry
+              </h2>
+            </div>
+            <Link
+              to="/categories"
+              className="btn btn-secondary btn-sm"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}
+            >
+              <span>All Categories</span>
+              <ArrowRight size={13} />
+            </Link>
+          </div>
+
+          {categories.length > 0 && (
+            <div className="grid-3">
+              {categories.slice(0, 6).map((cat) => (
+                <Link
+                  key={cat._id}
+                  to={`/careers?category=${cat._id}`}
+                  className="editorial-card"
+                  style={{
+                    padding: '18px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '12px',
+                    textDecoration: 'none',
+                  }}
+                >
+                  <div
+                    style={{
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '6px',
+                      backgroundColor: 'var(--bg-subtle)',
+                      color: 'var(--text-main)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Folder size={16} />
+                  </div>
+                  <div>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 700, color: 'var(--text-main)' }}>
+                      {cat.name}
+                    </h4>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
       </section>
     </div>
   );

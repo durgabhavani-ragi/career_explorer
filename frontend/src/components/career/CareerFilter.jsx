@@ -11,43 +11,58 @@ const CareerFilter = ({
 }) => {
   return (
     <div
-      className="glass-card"
+      className="editorial-card"
       style={{
-        padding: '20px',
-        marginBottom: '32px',
+        padding: '16px 20px',
+        marginBottom: '28px',
         display: 'flex',
         flexWrap: 'wrap',
-        gap: '16px',
+        gap: '12px',
         alignItems: 'center',
+        backgroundColor: '#ffffff',
       }}
     >
       {/* Search Input */}
-      <div style={{ flex: '1 1 300px', position: 'relative' }}>
+      <div style={{ flex: '1 1 280px', position: 'relative' }}>
         <Search
-          size={18}
-          color="#94a3b8"
-          style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)' }}
+          size={16}
+          color="var(--text-muted, #71717a)"
+          style={{
+            position: 'absolute',
+            left: '12px',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            pointerEvents: 'none',
+          }}
         />
         <input
           type="text"
           className="form-input"
-          placeholder="Search by career title or keyword..."
+          placeholder="Search careers by title, skills, or keywords..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          style={{ width: '100%', paddingLeft: '40px' }}
+          style={{ width: '100%', paddingLeft: '38px', height: '40px' }}
         />
       </div>
 
       {/* Category Dropdown */}
-      <div style={{ flex: '0 1 220px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <Filter size={18} color="#94a3b8" />
+      <div
+        style={{
+          flex: '0 1 240px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
+          position: 'relative',
+        }}
+      >
         <select
           className="form-select"
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
-          style={{ width: '100%' }}
+          style={{ width: '100%', height: '40px' }}
+          aria-label="Filter by industry category"
         >
-          <option value="">All Categories</option>
+          <option value="">All Categories ({categories.length})</option>
           {categories.map((cat) => (
             <option key={cat._id} value={cat._id}>
               {cat.name}
@@ -58,7 +73,17 @@ const CareerFilter = ({
 
       {/* Reset Filters */}
       {(search || selectedCategory) && (
-        <button onClick={onReset} className="btn btn-secondary btn-sm" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+        <button
+          onClick={onReset}
+          className="btn btn-secondary btn-sm"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            height: '40px',
+          }}
+          title="Reset search and filters"
+        >
           <RotateCcw size={14} />
           <span>Reset</span>
         </button>
