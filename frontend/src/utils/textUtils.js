@@ -36,4 +36,26 @@ export const getBriefDescription = (text, maxSentences = 3) => {
   return trimmed;
 };
 
+/**
+ * Safely extracts duration string from timelineOverview.
+ * Handles both string values and timelineOverview objects { totalEstimatedDuration, ... }.
+ * Prevents "timelineOverview.split is not a function" and "Objects are not valid as a React child".
+ *
+ * @param {string|object} timelineOverview
+ * @returns {string}
+ */
+export const getTimelineDurationText = (timelineOverview) => {
+  if (!timelineOverview) return '';
+  if (typeof timelineOverview === 'string') return timelineOverview.trim();
+  if (typeof timelineOverview === 'object') {
+    return (
+      timelineOverview.totalEstimatedDuration ||
+      timelineOverview.educationDuration ||
+      timelineOverview.duration ||
+      ''
+    ).trim();
+  }
+  return '';
+};
+
 export default getBriefDescription;

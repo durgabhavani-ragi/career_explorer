@@ -8,6 +8,8 @@ const StatusBadge = ({ text, className = '' }) => {
 
   if (lower.includes('high') || lower.includes('advanced')) {
     badgeClass = 'badge-emerald';
+  } else if (lower.includes('moderate')) {
+    badgeClass = 'badge-blue';
   } else if (lower.includes('admin')) {
     badgeClass = 'badge-purple';
   } else if (lower.includes('stable') || lower.includes('intermediate') || lower.includes('user')) {

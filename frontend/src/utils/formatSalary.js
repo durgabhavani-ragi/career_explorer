@@ -24,6 +24,23 @@ export const formatINR = (amount) => {
 };
 
 /**
+ * Format a numeric amount to Lakhs per Annum (LPA) string.
+ * Handles both raw Rupee amounts (e.g. 450000 -> "4.5") and direct LPA values (e.g. 4.5 -> "4.5").
+ * @param {number} amount
+ * @returns {string} e.g. "4.5"
+ */
+export const formatLpa = (amount) => {
+  if (amount === undefined || amount === null || isNaN(Number(amount))) return '0';
+  const num = Number(amount);
+  if (num <= 0) return '0';
+  if (num >= 100000) {
+    const lpa = num / 100000;
+    return lpa % 1 === 0 ? lpa.toString() : lpa.toFixed(1);
+  }
+  return num.toString();
+};
+
+/**
  * Formats a career salary range directly into a clean display object.
  *
  * @param {Object} salaryRange - { min, max, currency }
@@ -79,6 +96,32 @@ export const formatSalaryRange = (salaryRange, options = {}) => {
     maxFormatted,
     hasValidSalary: true,
   };
+};
+
+/**
+ * Safely extracts and formats an Indian CTC range from salaryByExperience.
+ * Supports { entryLevel, earlyCareer, experienced } and { entry, early, experienced }.
+ * Falls back to salaryRange if salaryByExperience is not present or incomplete.
+ */
+export const getSalaryByExperienceDisplay = (salaryByExperience, fallbackSalaryRange) => {
+  if (salaryByExperience && typeof salaryByExperience === 'object') {
+    const entry = salaryByExperience.entryLevel || salaryByExperience.entry;
+    const exp = salaryByExperience.experienced || salaryByExperience.senior;
+
+    const minRaw = entry?.min || entry?.max;
+    const maxRaw = exp?.max || exp?.min || entry?.max;
+
+    if (minRaw && maxRaw && !isNaN(Number(minRaw)) && !isNaN(Number(maxRaw))) {
+      const minLpa = formatLpa(minRaw);
+      const maxLpa = formatLpa(maxRaw);
+      return {
+        formattedText: `₹${minLpa} – ₹${maxLpa} LPA`,
+        hasValidSalary: true,
+      };
+    }
+  }
+
+  return formatSalaryRange(fallbackSalaryRange, { showPeriod: false });
 };
 
 /**

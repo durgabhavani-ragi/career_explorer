@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-10-14T17:33:04.955Z",
+  "totalArchived": 29,
+  "totalActiveRetained": 100,
+  "archivedCareers": [
+    {
+      "slug": "mobile-app-developer",
+      "title": "Mobile App Developer",
+      "id": "650000000000000000000423",
+      "category": "Technology",
+      "reasonForArchival": "Subsumed by native Android Developer and iOS Developer specializations."
+    },
+    {
+      "slug": "nlp-engineer",
+      "title": "NLP Engineer",
+      "id": "650000000000000000000430",
+      "category": "Technology",
+      "reasonForArchival": "Subsumed under AI Engineer and Machine Learning Engineer specializations."
+    },
+    {
+      "slug": "computer-vision-engineer",
+      "title": "Computer Vision Engineer",
+      "id": "650000000000000000000431",
+      "category": "Technology",
+      "reasonForArchival": "Subsumed under AI Engineer and Machine Learning Engineer specializations."
+    },
+    {
+      "slug": "qa-engineer",
+      "title": "QA Engineer",
+      "id": "650000000000000000000438",
+      "category": "Technology",
+      "reasonForArchival": "Subsumed under modern Automation Test Engineer (SDET)."
+    },
+    {
+      "slug": "ui-designer",
+      "title": "UI Designer",
+      "id": "650000000000000000000440",
+      "category": "Technology",
+      "reasonForArchival": "Subsumed by UI/UX Designer (Product Designer) which unifies UI visual craft with UX research."
+    },
+    {
+      "slug": "ux-designer",
+      "title": "UX Designer",
+      "id": "650000000000000000000441",
+      "category": "Technology",
+      "reasonForArchival": "Subsumed by UI/UX Designer (Product Designer) which unifies UX research with interface design."
+    },
+    {
+      "slug": "automotive-engineer",
+      "title": "Automotive Engineer",
+      "id": "65000000000000000000044b",
+      "category": "Engineering",
+      "reasonForArchival": "Subsumed under Mechanical Engineer with automotive engineering specialization."
+    },
+    {
+      "slug": "mechatronics-engineer",
+      "title": "Mechatronics Engineer",
+      "id": "65000000000000000000044d",
+      "category": "Engineering",
+      "reasonForArchival": "Overlapping discipline covered by Robotics Engineer and Mechanical Engineer."
+    },
+    {
+      "slug": "environmental-engineer",
+      "title": "Environmental Engineer",
+      "id": "65000000000000000000044e",
+      "category": "Engineering",
+      "reasonForArchival": "Subsumed under Environmental Scientist and Civil Engineer disciplines."
+    },
+    {
+      "slug": "industrial-engineer",
+      "title": "Industrial Engineer",
+      "id": "650000000000000000000450",
+      "category": "Engineering",
+      "reasonForArchival": "Subsumed under Operations Manager and Mechanical Engineer."
+    },
+    {
+      "slug": "structural-engineer",
+      "title": "Structural Engineer",
+      "id": "650000000000000000000453",
+      "category": "Engineering",
+      "reasonForArchival": "Post-graduate specialization subsumed under Civil Engineer."
+    },
+    {
+      "slug": "biochemist",
+      "title": "Biochemist",
+      "id": "65000000000000000000045e",
+      "category": "Healthcare",
+      "reasonForArchival": "Subsumed under Biotechnology Researcher and Clinical Laboratory sciences."
+    },
+    {
+      "slug": "epidemiologist",
+      "title": "Epidemiologist",
+      "id": "65000000000000000000045f",
+      "category": "Healthcare",
+      "reasonForArchival": "Subsumed under Public Health Specialist (MPH)."
+    },
+    {
+      "slug": "investment-analyst",
+      "title": "Investment Analyst",
+      "id": "650000000000000000000462",
+      "category": "Business and Finance",
+      "reasonForArchival": "Subsumed under Financial Analyst (CFA / Equity Research)."
+    },
+    {
+      "slug": "auditor",
+      "title": "Auditor",
+      "id": "650000000000000000000464",
+      "category": "Business and Finance",
+      "reasonForArchival": "Subsumed under Chartered Accountant (CA) and Senior Accountant statutory auditing."
+    },
+    {
+      "slug": "risk-analyst",
+      "title": "Risk Analyst",
+      "id": "650000000000000000000466",
+      "category": "Business and Finance",
+      "reasonForArchival": "Subsumed under Actuary and Financial Analyst."
+    },
+    {
+      "slug": "supply-chain-analyst",
+      "title": "Supply Chain Analyst",
+      "id": "65000000000000000000046c",
+      "category": "Business and Finance",
+      "reasonForArchival": "Subsumed under Logistics & Supply Chain Manager and Operations Manager."
+    },
+    {
+      "slug": "lecturer",
+      "title": "Lecturer",
+      "id": "65000000000000000000046f",
+      "category": "Education",
+      "reasonForArchival": "UGC 7th CPC officially re-designated Lecturer as Assistant Professor; covered by College Professor."
+    },
+    {
+      "slug": "research-assistant",
+      "title": "Research Assistant",
+      "id": "650000000000000000000470",
+      "category": "Science and Research",
+      "reasonForArchival": "Subsumed under Research Scientist and academic doctoral fellowships."
+    },
+    {
+      "slug": "education-counselor",
+      "title": "Education Counselor",
+      "id": "650000000000000000000472",
+      "category": "Education",
+      "reasonForArchival": "Subsumed under Clinical Psychologist and School Teacher guidance roles."
+    },
+    {
+      "slug": "special-education-teacher",
+      "title": "Special Education Teacher",
+      "id": "650000000000000000000473",
+      "category": "Education",
+      "reasonForArchival": "Specialized branch subsumed under School Teacher and Rehabilitation Psychologist."
+    },
+    {
+      "slug": "academic-researcher",
+      "title": "Academic Researcher",
+      "id": "650000000000000000000474",
+      "category": "Education",
+      "reasonForArchival": "Subsumed under College Professor and Research Scientist."
+    },
+    {
+      "slug": "3d-artist",
+      "title": "3D Artist",
+      "id": "650000000000000000000477",
+      "category": "Arts and Design",
+      "reasonForArchival": "Subsumed under 3D Character Animator and Game Developer."
+    },
+    {
+      "slug": "film-editor",
+      "title": "Film Editor",
+      "id": "650000000000000000000479",
+      "category": "Arts and Design",
+      "reasonForArchival": "Subsumed under Professional Video Editor & Post-Production Specialist."
+    },
+    {
+      "slug": "copywriter",
+      "title": "Copywriter",
+      "id": "65000000000000000000047f",
+      "category": "Arts and Design",
+      "reasonForArchival": "Subsumed under Content Writer & Copywriter and Digital Marketer."
+    },
+    {
+      "slug": "seo-specialist",
+      "title": "SEO Specialist",
+      "id": "650000000000000000000480",
+      "category": "Arts and Design",
+      "reasonForArchival": "Subsumed under Digital Marketing Specialist and Content Writer."
+    },
+    {
+      "slug": "social-media-manager",
+      "title": "Social Media Manager",
+      "id": "650000000000000000000481",
+      "category": "Arts and Design",
+      "reasonForArchival": "Subsumed under Digital Marketing Specialist and Public Relations Specialist."
+    },
+    {
+      "slug": "legal-advisor",
+      "title": "Legal Advisor",
+      "id": "65000000000000000000048e",
+      "category": "Other Career Options",
+      "reasonForArchival": "Subsumed under Corporate Lawyer and Litigation Advocate."
+    },
+    {
+      "slug": "event-manager",
+      "title": "Event Manager",
+      "id": "650000000000000000000491",
+      "category": "Other Career Options",
+      "reasonForArchival": "Subsumed under Public Relations Specialist and Hotel General Manager."
+    }
+  ]
+}

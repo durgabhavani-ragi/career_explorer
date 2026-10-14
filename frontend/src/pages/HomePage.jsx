@@ -51,38 +51,39 @@ const HomePage = () => {
       {/* Hero Section */}
       <section
         style={{
-          padding: '56px 20px 48px 20px',
+          padding: '64px 20px 52px 20px',
           borderBottom: '1px solid var(--border-color)',
-          backgroundColor: '#ffffff',
+          backgroundColor: 'var(--bg-secondary)',
           textAlign: 'center',
         }}
       >
-        <div className="container" style={{ maxWidth: '780px' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
           <div
             style={{
               display: 'inline-flex',
               alignItems: 'center',
               gap: '6px',
-              padding: '4px 12px',
+              padding: '5px 14px',
               borderRadius: 'var(--radius-full)',
-              backgroundColor: 'var(--bg-subtle, #f4f4f5)',
-              color: 'var(--text-muted, #71717a)',
-              fontSize: '0.78rem',
-              fontWeight: 600,
-              marginBottom: '16px',
+              backgroundColor: 'var(--primary-subtle)',
+              color: 'var(--primary)',
+              border: '1px solid var(--primary-border)',
+              fontSize: '0.8rem',
+              fontWeight: 700,
+              marginBottom: '18px',
               letterSpacing: '0.02em',
             }}
           >
-            <Compass size={13} /> Career Guidance & Learning Roadmaps
+            <Compass size={14} /> Career Guidance & Learning Roadmaps
           </div>
 
           <h1
             style={{
-              fontSize: 'clamp(1.9rem, 4.5vw, 2.75rem)',
+              fontSize: 'clamp(2.1rem, 4.8vw, 3rem)',
               fontWeight: 800,
-              color: 'var(--text-main, #18181b)',
-              lineHeight: 1.2,
-              marginBottom: '14px',
+              color: 'var(--text-main)',
+              lineHeight: 1.18,
+              marginBottom: '16px',
               letterSpacing: '-0.035em',
             }}
           >
@@ -91,60 +92,74 @@ const HomePage = () => {
 
           <p
             style={{
-              fontSize: '1rem',
-              color: 'var(--text-muted, #71717a)',
+              fontSize: '1.05rem',
+              color: 'var(--text-muted)',
               lineHeight: 1.6,
-              marginBottom: '28px',
-              maxWidth: '620px',
+              marginBottom: '32px',
+              maxWidth: '640px',
               marginLeft: 'auto',
               marginRight: 'auto',
             }}
           >
-            Explore career profiles, salary ranges, required competencies, and step-by-step learning roadmaps.
+            Explore verified career profiles, realistic Indian salary benchmarks, required competencies, and step-by-step learning roadmaps.
           </p>
 
-          {/* Search Bar Form */}
+          {/* Unified Modern Search Bar */}
           <form
             onSubmit={handleSearchSubmit}
             style={{
               display: 'flex',
-              maxWidth: '500px',
-              margin: '0 auto 20px auto',
+              maxWidth: '560px',
+              margin: '0 auto 22px auto',
+              backgroundColor: 'var(--bg-surface)',
+              border: '1px solid var(--border-color)',
+              borderRadius: 'var(--radius-lg)',
+              padding: '6px 6px 6px 14px',
+              boxShadow: 'var(--shadow-card)',
+              transition: 'border-color var(--transition-fast), box-shadow var(--transition-fast)',
               gap: '8px',
-              flexWrap: 'wrap',
+              alignItems: 'center',
             }}
           >
-            <div style={{ flex: '1 1 260px', position: 'relative' }}>
+            <div style={{ flex: '1 1 auto', display: 'flex', alignItems: 'center', gap: '10px' }}>
               <Search
-                size={16}
-                color="var(--text-muted, #71717a)"
-                style={{
-                  position: 'absolute',
-                  left: '14px',
-                  top: '50%',
-                  transform: 'translateY(-50%)',
-                  pointerEvents: 'none',
-                }}
+                size={18}
+                color="var(--primary)"
+                style={{ flexShrink: 0 }}
               />
               <input
                 type="text"
-                className="form-input"
                 placeholder="Search careers e.g. Software Developer, Data Analyst..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 style={{
-                  paddingLeft: '38px',
-                  height: '42px',
-                  fontSize: '0.9rem',
+                  width: '100%',
+                  border: 'none',
+                  backgroundColor: 'transparent',
+                  outline: 'none',
+                  fontSize: '0.94rem',
+                  color: 'var(--text-main)',
+                  fontFamily: 'inherit',
+                  padding: '8px 0',
                 }}
               />
             </div>
             <button
               type="submit"
               className="btn btn-primary"
-              style={{ height: '42px', padding: '0 18px' }}
+              style={{
+                height: '42px',
+                padding: '0 20px',
+                borderRadius: 'var(--radius-md)',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                fontWeight: 600,
+                flexShrink: 0,
+              }}
             >
               <span>Search</span>
+              <ArrowRight size={14} />
             </button>
           </form>
 
@@ -157,21 +172,25 @@ const HomePage = () => {
                 justifyContent: 'center',
                 gap: '8px',
                 flexWrap: 'wrap',
-                fontSize: '0.8rem',
-                color: 'var(--text-muted, #71717a)',
+                fontSize: '0.82rem',
+                color: 'var(--text-muted)',
               }}
             >
-              <span style={{ fontWeight: 600 }}>Explore:</span>
-              {categories.slice(0, 4).map((cat) => (
+              <span style={{ fontWeight: 600, color: 'var(--text-muted)' }}>Explore:</span>
+              {categories.slice(0, 5).map((cat) => (
                 <Link
                   key={cat._id}
                   to={`/careers?category=${cat._id}`}
                   style={{
-                    color: 'var(--text-body, #3f3f46)',
-                    background: 'var(--bg-subtle, #f4f4f5)',
-                    padding: '2px 9px',
-                    borderRadius: 'var(--radius-sm)',
+                    color: 'var(--text-body)',
+                    backgroundColor: 'var(--bg-surface)',
+                    border: '1px solid var(--border-color)',
+                    padding: '3px 12px',
+                    borderRadius: 'var(--radius-full)',
                     textDecoration: 'none',
+                    fontWeight: 500,
+                    fontSize: '0.8rem',
+                    transition: 'all var(--transition-fast)',
                   }}
                 >
                   {cat.name}
@@ -185,90 +204,93 @@ const HomePage = () => {
       {/* 3 Core Highlights */}
       <section
         style={{
-          padding: '36px 20px',
+          padding: '40px 20px',
           borderBottom: '1px solid var(--border-color)',
-          backgroundColor: 'var(--bg-page, #fafaf9)',
+          backgroundColor: 'var(--bg-page)',
         }}
       >
         <div className="container">
           <div className="grid-3">
             <div
               className="editorial-card"
-              style={{ padding: '20px', backgroundColor: '#ffffff' }}
+              style={{ padding: '24px' }}
             >
               <div
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '6px',
-                  backgroundColor: 'var(--bg-subtle)',
-                  color: 'var(--text-main)',
+                  width: '38px',
+                  height: '38px',
+                  borderRadius: '10px',
+                  backgroundColor: 'var(--primary-subtle)',
+                  color: 'var(--primary)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  marginBottom: '12px',
+                  marginBottom: '14px',
+                  border: '1px solid var(--primary-border)',
                 }}
               >
-                <Briefcase size={16} />
+                <Briefcase size={18} />
               </div>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: 'var(--text-main)' }}>
                 Authentic Career Profiles
               </h3>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+              <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', lineHeight: 1.55 }}>
                 Clear responsibilities, academic background, and core technical and analytical skills.
               </p>
             </div>
 
             <div
               className="editorial-card"
-              style={{ padding: '20px', backgroundColor: '#ffffff' }}
+              style={{ padding: '24px' }}
             >
               <div
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '6px',
-                  backgroundColor: 'var(--bg-subtle)',
-                  color: 'var(--text-main)',
+                  width: '38px',
+                  height: '38px',
+                  borderRadius: '10px',
+                  backgroundColor: 'var(--secondary-accent-subtle)',
+                  color: 'var(--secondary-accent)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  marginBottom: '12px',
+                  marginBottom: '14px',
+                  border: '1px solid var(--secondary-accent-border)',
                 }}
               >
-                <Layers size={16} />
+                <Layers size={18} />
               </div>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: 'var(--text-main)' }}>
                 Learning Roadmaps
               </h3>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+              <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', lineHeight: 1.55 }}>
                 Follow structured milestones and curated study materials to develop in-demand abilities.
               </p>
             </div>
 
             <div
               className="editorial-card"
-              style={{ padding: '20px', backgroundColor: '#ffffff' }}
+              style={{ padding: '24px' }}
             >
               <div
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '6px',
-                  backgroundColor: 'var(--bg-subtle)',
-                  color: 'var(--text-main)',
+                  width: '38px',
+                  height: '38px',
+                  borderRadius: '10px',
+                  backgroundColor: 'rgba(14, 165, 233, 0.1)',
+                  color: '#0284C7',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  marginBottom: '12px',
+                  marginBottom: '14px',
+                  border: '1px solid rgba(14, 165, 233, 0.22)',
                 }}
               >
-                <TrendingUp size={16} />
+                <TrendingUp size={18} />
               </div>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: 700, marginBottom: '6px', color: 'var(--text-main)' }}>
                 Market Expectations
               </h3>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+              <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', lineHeight: 1.55 }}>
                 Realistic salary ranges and market growth outlook to plan your professional development.
               </p>
             </div>
@@ -337,7 +359,7 @@ const HomePage = () => {
         style={{
           padding: '40px 20px 56px 20px',
           borderTop: '1px solid var(--border-color)',
-          backgroundColor: '#ffffff',
+          backgroundColor: 'var(--bg-secondary)',
         }}
       >
         <div className="container">
@@ -394,18 +416,19 @@ const HomePage = () => {
                 >
                   <div
                     style={{
-                      width: '32px',
-                      height: '32px',
-                      borderRadius: '6px',
-                      backgroundColor: 'var(--bg-subtle)',
-                      color: 'var(--text-main)',
+                      width: '36px',
+                      height: '36px',
+                      borderRadius: '8px',
+                      backgroundColor: 'var(--secondary-accent-subtle)',
+                      color: 'var(--secondary-accent)',
+                      border: '1px solid var(--secondary-accent-border)',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       flexShrink: 0,
                     }}
                   >
-                    <Folder size={16} />
+                    <Folder size={17} />
                   </div>
                   <div>
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 700, color: 'var(--text-main)' }}>

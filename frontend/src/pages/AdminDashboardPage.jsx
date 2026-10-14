@@ -126,9 +126,9 @@ const AdminDashboardPage = () => {
     fontWeight: activeTab === tabName ? 700 : 500,
     borderRadius: 'var(--radius-sm)',
     border: '1px solid',
-    borderColor: activeTab === tabName ? 'var(--primary, #18181b)' : 'var(--border-color, #e4e4e7)',
-    backgroundColor: activeTab === tabName ? 'var(--primary, #18181b)' : '#ffffff',
-    color: activeTab === tabName ? '#ffffff' : 'var(--text-main, #18181b)',
+    borderColor: activeTab === tabName ? 'var(--primary)' : 'var(--border-color)',
+    backgroundColor: activeTab === tabName ? 'var(--primary)' : 'var(--bg-surface)',
+    color: activeTab === tabName ? '#ffffff' : 'var(--text-main)',
     cursor: 'pointer',
     transition: 'all 0.15s ease',
   });
@@ -137,7 +137,7 @@ const AdminDashboardPage = () => {
     <div className="container animate-fade-in" style={{ padding: '40px 20px 64px 20px' }}>
       {/* Header */}
       <div style={{ marginBottom: '28px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#2563eb', marginBottom: '4px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--primary)', marginBottom: '4px' }}>
           <Shield size={16} />
           <span style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
             Administrative Console
@@ -147,13 +147,13 @@ const AdminDashboardPage = () => {
           style={{
             fontSize: '2.25rem',
             fontWeight: 800,
-            color: 'var(--text-main, #18181b)',
+            color: 'var(--text-main)',
             letterSpacing: '-0.03em',
           }}
         >
           Portal Management
         </h1>
-        <p style={{ color: 'var(--text-muted, #71717a)', fontSize: '0.92rem', marginTop: '4px' }}>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.92rem', marginTop: '4px' }}>
           Manage database records for Careers, Categories, Subjects, Skills, Roadmaps, and Accounts in MongoDB Atlas.
         </p>
       </div>
@@ -291,7 +291,7 @@ const AdminDashboardPage = () => {
                     className="editorial-card"
                     style={{
                       padding: '20px',
-                      backgroundColor: '#ffffff',
+                      backgroundColor: 'var(--bg-surface)',
                       display: 'flex',
                       flexDirection: 'column',
                     }}
@@ -337,7 +337,7 @@ const AdminDashboardPage = () => {
 
               <div className="grid-3">
                 {subjects.map((sub) => (
-                  <div key={sub._id} className="editorial-card" style={{ padding: '20px', backgroundColor: '#ffffff' }}>
+                  <div key={sub._id} className="editorial-card" style={{ padding: '20px', backgroundColor: 'var(--bg-surface)' }}>
                     <h4 style={{ fontSize: '1.05rem', fontWeight: 700 }}>{sub.name}</h4>
                     <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '6px' }}>
                       {sub.description || 'No description provided.'}
@@ -369,7 +369,7 @@ const AdminDashboardPage = () => {
 
               <div className="grid-3">
                 {skills.map((sk) => (
-                  <div key={sk._id} className="editorial-card" style={{ padding: '20px', backgroundColor: '#ffffff' }}>
+                  <div key={sk._id} className="editorial-card" style={{ padding: '20px', backgroundColor: 'var(--bg-surface)' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
                       <h4 style={{ fontSize: '1.05rem', fontWeight: 700 }}>{sk.name}</h4>
                       <StatusBadge text={sk.level} />
@@ -404,7 +404,7 @@ const AdminDashboardPage = () => {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 {roadmaps.map((rd) => (
-                  <div key={rd._id} className="editorial-card" style={{ padding: '20px', backgroundColor: '#ffffff' }}>
+                  <div key={rd._id} className="editorial-card" style={{ padding: '20px', backgroundColor: 'var(--bg-surface)' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                       <h4 style={{ fontSize: '1.05rem', fontWeight: 700 }}>
                         {rd.title}

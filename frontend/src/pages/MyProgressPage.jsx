@@ -34,7 +34,7 @@ const MyProgressPage = () => {
           style={{
             fontSize: '0.8rem',
             fontWeight: 700,
-            color: 'var(--text-muted, #71717a)',
+            color: 'var(--text-muted)',
             textTransform: 'uppercase',
             letterSpacing: '0.04em',
           }}
@@ -45,7 +45,7 @@ const MyProgressPage = () => {
           style={{
             fontSize: '2.25rem',
             fontWeight: 800,
-            color: 'var(--text-main, #18181b)',
+            color: 'var(--text-main)',
             marginTop: '4px',
             letterSpacing: '-0.03em',
           }}
@@ -54,7 +54,7 @@ const MyProgressPage = () => {
         </h1>
         <p
           style={{
-            color: 'var(--text-muted, #71717a)',
+            color: 'var(--text-muted)',
             fontSize: '0.95rem',
             marginTop: '6px',
             maxWidth: '680px',
@@ -88,7 +88,9 @@ const MyProgressPage = () => {
                 className="editorial-card"
                 style={{
                   padding: '28px',
-                  backgroundColor: '#ffffff',
+                  backgroundColor: 'var(--bg-surface)',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: 'var(--radius-lg, 12px)',
                   display: 'flex',
                   flexDirection: 'column',
                 }}
@@ -105,7 +107,7 @@ const MyProgressPage = () => {
                     <span
                       style={{
                         fontSize: '0.78rem',
-                        color: item.isCompleted ? 'var(--success-text, #166534)' : 'var(--text-muted, #71717a)',
+                        color: item.isCompleted ? 'var(--success-text)' : 'var(--text-muted)',
                         fontWeight: 700,
                         textTransform: 'uppercase',
                         letterSpacing: '0.04em',
@@ -117,7 +119,7 @@ const MyProgressPage = () => {
                       style={{
                         fontSize: '1.25rem',
                         fontWeight: 700,
-                        color: 'var(--text-main, #18181b)',
+                        color: 'var(--text-main)',
                         marginTop: '4px',
                       }}
                     >
@@ -126,7 +128,7 @@ const MyProgressPage = () => {
                   </div>
 
                   {item.isCompleted && (
-                    <Award size={24} color="#166534" title="Roadmap Completed" />
+                    <Award size={24} color="var(--success-text)" title="Roadmap Completed" />
                   )}
                 </div>
 
@@ -140,8 +142,8 @@ const MyProgressPage = () => {
                       marginBottom: '6px',
                     }}
                   >
-                    <span style={{ color: 'var(--text-muted, #71717a)' }}>Milestones Completed</span>
-                    <strong style={{ color: 'var(--text-main, #18181b)' }}>
+                    <span style={{ color: 'var(--text-muted)' }}>Milestones Completed</span>
+                    <strong style={{ color: 'var(--text-main)' }}>
                       {percentage}% ({completedCount}/{totalSteps})
                     </strong>
                   </div>
@@ -149,7 +151,7 @@ const MyProgressPage = () => {
                     style={{
                       width: '100%',
                       height: '6px',
-                      backgroundColor: 'var(--bg-subtle, #f4f4f5)',
+                      backgroundColor: 'var(--bg-subtle)',
                       borderRadius: '3px',
                       overflow: 'hidden',
                     }}
@@ -158,7 +160,7 @@ const MyProgressPage = () => {
                       style={{
                         width: `${percentage}%`,
                         height: '100%',
-                        backgroundColor: item.isCompleted ? 'var(--success-text, #166534)' : 'var(--primary, #18181b)',
+                        backgroundColor: item.isCompleted ? 'var(--success-text)' : 'var(--primary)',
                         transition: 'width 0.3s ease',
                       }}
                     />
@@ -166,7 +168,7 @@ const MyProgressPage = () => {
                 </div>
 
                 {career?.slug && (
-                  <div style={{ marginTop: 'auto', paddingTop: '16px', borderTop: '1px solid var(--border-light, #f4f4f5)' }}>
+                  <div style={{ marginTop: 'auto', paddingTop: '16px', borderTop: '1px solid var(--border-light)' }}>
                     <Link
                       to={`/careers/${career.slug}`}
                       className="btn btn-secondary btn-sm"

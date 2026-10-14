@@ -1,0 +1,4907 @@
+[
+  {
+    "_id": {
+      "$oid": "650000000000000000000401"
+    },
+    "title": "Software Developer",
+    "slug": "software-developer",
+    "description": "Designs, codes, tests, and maintains applications and systems software. Works with core languages like Java, Python, or C++ to solve computational problems across Indian tech services and product companies.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000202"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000303"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 2000000,
+      "currency": "INR",
+      "source": "AmbitionBox India, Glassdoor India Tech Benchmark 2024"
+    },
+    "salarySource": "AmbitionBox India, Glassdoor India Tech Benchmark 2024",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Continuous growth driven by digital transformation, SaaS scaling, and Global Capability Centers (GCCs) expanding across Bengaluru, Hyderabad, and Pune.",
+    "educationRequirements": "B.Tech/B.E. in Computer Science or IT (via JEE Main/State CETs), or BCA + MCA. Demonstrable problem-solving and software portfolio are strongly required.",
+    "workEnvironment": "Hybrid or office tech campuses across major IT hubs (Bengaluru, Hyderabad, Pune, Chennai, NCR)."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000421"
+    },
+    "title": "Frontend Developer",
+    "slug": "frontend-developer",
+    "description": "Builds responsive, intuitive user interfaces for web and mobile web applications. Translates design wireframes into pixel-perfect, accessible client-side code using modern JavaScript frameworks.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000209"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000302"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox India Frontend Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox India Frontend Benchmark, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Strong demand across Indian consumer tech, fintech apps, and enterprise SaaS platforms prioritizing fluid responsive user experiences.",
+    "educationRequirements": "B.Tech/B.E. in CS/IT, BCA, or B.Sc. Computer Science. Practical proficiency in React.js, Next.js, or Vue with a live GitHub portfolio.",
+    "workEnvironment": "Remote, hybrid, or office-based teams in product startups and digital engineering consultancies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000422"
+    },
+    "title": "Backend Developer",
+    "slug": "backend-developer",
+    "description": "Architects server-side logic, manages database systems, and creates high-performance APIs that power front-end clients, ensuring high concurrency and system security.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000203"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000303"
+      }
+    ],
+    "salaryRange": {
+      "min": 480000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "AmbitionBox India Backend Compensation, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox India Backend Compensation, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Essential for scalable cloud architectures, transactional payments (UPI/fintech), and high-throughput enterprise systems.",
+    "educationRequirements": "B.Tech/B.E. in Computer Science or IT, or MCA. Strong understanding of relational databases, caching, and distributed system design.",
+    "workEnvironment": "Corporate tech parks and startup hubs; high flexibility for remote engineering."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000402"
+    },
+    "title": "Full-Stack Developer",
+    "slug": "full-stack-developer",
+    "description": "Engineers end-to-end applications spanning user interfaces, backend business services, and database infrastructure, driving agile product delivery.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000203"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000302"
+      },
+      {
+        "$oid": "650000000000000000000303"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 2400000,
+      "currency": "INR",
+      "source": "Michael Page India Tech Benchmark, AmbitionBox India"
+    },
+    "salarySource": "Michael Page India Tech Benchmark, AmbitionBox India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Highly sought after by Indian early-stage startups and global capability centers for holistic feature development capability.",
+    "educationRequirements": "B.Tech/B.E., BCA/MCA, or intensive coding training backed by multi-tier deployed projects.",
+    "workEnvironment": "Tech startups, enterprise innovation labs, and remote-first technology teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000423"
+    },
+    "title": "Mobile App Developer",
+    "slug": "mobile-app-developer",
+    "description": "Develops interactive mobile software for Android and iOS using cross-platform tools like Flutter or React Native, optimizing performance across varied smartphone hardware.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000209"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000321"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1900000,
+      "currency": "INR",
+      "source": "AmbitionBox India Mobile Engineering Survey, PayScale India"
+    },
+    "salarySource": "AmbitionBox India Mobile Engineering Survey, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: India's massive mobile-first consumer economy continuously fuels hiring across fintech, quick commerce, and edtech sectors.",
+    "educationRequirements": "B.Tech/B.E. in CS/IT, BCA, or B.Sc. IT with published Play Store or App Store applications.",
+    "workEnvironment": "Fast-paced product teams, digital agencies, and remote development centers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000424"
+    },
+    "title": "Android Developer",
+    "slug": "android-developer",
+    "description": "Specializes in building native Android applications using Kotlin and modern Jetpack libraries, delivering responsive experiences tuned for the diverse Indian Android ecosystem.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000202"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000321"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox Android Salary Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Android Salary Report, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High domestic Android market share (>95%) creates persistent demand in banking, telecom, and consumer apps.",
+    "educationRequirements": "B.Tech/B.E., BCA/MCA, or relevant programming background. Expertise in Kotlin, Coroutines, and Android Jetpack Architecture.",
+    "workEnvironment": "E-commerce and mobile tech companies across Bengaluru, Gurgaon, and Mumbai."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000425"
+    },
+    "title": "iOS Developer",
+    "slug": "ios-developer",
+    "description": "Constructs native iOS and iPadOS applications utilizing Swift and SwiftUI, focusing on smooth animations, memory management, and Apple Human Interface Guidelines.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000209"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000321"
+      }
+    ],
+    "salaryRange": {
+      "min": 480000,
+      "max": 2100000,
+      "currency": "INR",
+      "source": "AmbitionBox iOS Compensation Data, PayScale India"
+    },
+    "salarySource": "AmbitionBox iOS Compensation Data, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Premium consumer brands and international software outsourcing firms actively recruit skilled Swift engineers.",
+    "educationRequirements": "B.Tech/B.E., BCA, or MCA. Practical portfolio showing Swift and SwiftUI apps deployed on the Apple App Store.",
+    "workEnvironment": "Tech consulting firms, multinational product centers, and creative tech studios."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000426"
+    },
+    "title": "Game Developer",
+    "slug": "game-developer",
+    "description": "Programs gameplay mechanics, physics calculations, AI behaviors, and graphics rendering using engines such as Unity or Unreal Engine for mobile and PC gaming titles.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000204"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000322"
+      }
+    ],
+    "salaryRange": {
+      "min": 360000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox India Gaming Industry Salaries, Glassdoor"
+    },
+    "salarySource": "AmbitionBox India Gaming Industry Salaries, Glassdoor",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Expanding rapidly as India's online gaming and interactive entertainment studios scale across Pune, Bengaluru, and Hyderabad.",
+    "educationRequirements": "B.Tech in Computer Science, Game Design & Development degree, or strong indie gaming portfolio demonstrating C++ or C# gameplay code.",
+    "workEnvironment": "Game design studios and creative interactive entertainment labs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000403"
+    },
+    "title": "Data Analyst",
+    "slug": "data-analyst",
+    "description": "Transforms raw business and transactional data into actionable operational insights through statistical queries, automated dashboards, and metric tracking.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000216"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000304"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox India Data Analytics Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox India Data Analytics Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Essential across banking, logistics, e-commerce, and healthcare analytics for evidence-based decision making.",
+    "educationRequirements": "Bachelor's degree in Statistics, Mathematics, Computer Science, Economics, or B.Tech. Mastery of SQL, Excel, and Power BI/Tableau.",
+    "workEnvironment": "Corporate analytics departments, consulting firms, and hybrid corporate offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000404"
+    },
+    "title": "Data Scientist",
+    "slug": "data-scientist",
+    "description": "Builds advanced statistical and machine learning models to identify hidden patterns, forecast business outcomes, and automate decision intelligence at scale.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000305"
+      }
+    ],
+    "salaryRange": {
+      "min": 650000,
+      "max": 2600000,
+      "currency": "INR",
+      "source": "Michael Page India, AmbitionBox Data Science Benchmark 2024"
+    },
+    "salarySource": "Michael Page India, AmbitionBox Data Science Benchmark 2024",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Strategic role across banking risk management, e-commerce recommendation engines, and industrial predictive maintenance.",
+    "educationRequirements": "B.Tech/M.Tech in CS/Data Science, or Master's in Statistics/Applied Math. Proven expertise in statistical modeling and machine learning algorithms.",
+    "workEnvironment": "Enterprise R&D units, AI product startups, and global capability centers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000427"
+    },
+    "title": "Data Engineer",
+    "slug": "data-engineer",
+    "description": "Designs, constructs, and maintains scalable data architectures, ingestion pipelines, and warehouse systems that feed analytics and production AI pipelines.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000204"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000323"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 2500000,
+      "currency": "INR",
+      "source": "AmbitionBox India Data Engineering Benchmark, Glassdoor"
+    },
+    "salarySource": "AmbitionBox India Data Engineering Benchmark, Glassdoor",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Critical shortage of pipeline engineers proficient in distributed streaming and big data cloud warehouses.",
+    "educationRequirements": "B.Tech/B.E. in Computer Science or IT. Practical mastery of Apache Spark, Kafka, SQL, Python, and cloud warehouses (Snowflake/BigQuery).",
+    "workEnvironment": "Tech enterprises, fintech firms, and remote data engineering teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000405"
+    },
+    "title": "Machine Learning Engineer",
+    "slug": "machine-learning-engineer",
+    "description": "Productionizes machine learning models, deploying them into scalable, low-latency microservices with automated retraining and MLOps monitoring.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000305"
+      }
+    ],
+    "salaryRange": {
+      "min": 700000,
+      "max": 2800000,
+      "currency": "INR",
+      "source": "AmbitionBox ML Engineer Survey, PayScale India"
+    },
+    "salarySource": "AmbitionBox ML Engineer Survey, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High demand driven by enterprises moving from experimental ML prototypes to revenue-critical production AI models.",
+    "educationRequirements": "B.Tech/M.Tech in Computer Science or Artificial Intelligence. Proficiency with PyTorch, TensorFlow, Docker, and MLOps pipelines.",
+    "workEnvironment": "AI research divisions, high-growth tech firms, and cloud software enterprises."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000428"
+    },
+    "title": "AI Engineer",
+    "slug": "ai-engineer",
+    "description": "Integrates large language models, cognitive APIs, and predictive intelligence into real-world business workflows and customer-facing software products.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000305"
+      },
+      {
+        "$oid": "650000000000000000000324"
+      }
+    ],
+    "salaryRange": {
+      "min": 750000,
+      "max": 3000000,
+      "currency": "INR",
+      "source": "NASSCOM AI Talent Report, AmbitionBox India"
+    },
+    "salarySource": "NASSCOM AI Talent Report, AmbitionBox India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Explosive growth fueled by generative AI adoption across Indian IT services, banking chatbots, and customer operations.",
+    "educationRequirements": "B.Tech/M.Tech in CS/AI. Demonstrated experience with LangChain, LlamaIndex, vector databases, and fine-tuning open-source models.",
+    "workEnvironment": "Generative AI startups, corporate innovation labs, and modern software teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000429"
+    },
+    "title": "AI Research Scientist",
+    "slug": "ai-research-scientist",
+    "description": "Investigates fundamental machine learning theory, novel neural architectures, reinforcement learning algorithms, and publishes in leading academic and industrial conferences.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000305"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 1000000,
+      "max": 4000000,
+      "currency": "INR",
+      "source": "Michael Page India Tech Benchmark, Glassdoor India"
+    },
+    "salarySource": "Michael Page India Tech Benchmark, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Prestigious role in international tech research centers (Microsoft Research, Google, IBM) and leading Indian institutes.",
+    "educationRequirements": "M.Tech or Ph.D. in Computer Science, Machine Learning, or Computational Mathematics. Peer-reviewed conference publications (NeurIPS, ICML, CVPR).",
+    "workEnvironment": "Advanced corporate research centers and university academic labs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000430"
+    },
+    "title": "NLP Engineer",
+    "slug": "nlp-engineer",
+    "description": "Builds algorithms that process, analyze, and generate human language, supporting multilingual translation, speech synthesis, and semantic search.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000305"
+      },
+      {
+        "$oid": "650000000000000000000324"
+      }
+    ],
+    "salaryRange": {
+      "min": 680000,
+      "max": 2700000,
+      "currency": "INR",
+      "source": "AmbitionBox NLP Specialist Survey, PayScale India"
+    },
+    "salarySource": "AmbitionBox NLP Specialist Survey, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High hiring momentum driven by Indic language computing initiatives (Bhashini) and automated conversational customer support.",
+    "educationRequirements": "B.Tech/M.Tech in CS or Computational Linguistics. Solid grasp of tokenization, transformers, Hugging Face, and semantic embedding spaces.",
+    "workEnvironment": "Voice AI companies, conversational AI platforms, and enterprise R&D."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000431"
+    },
+    "title": "Computer Vision Engineer",
+    "slug": "computer-vision-engineer",
+    "description": "Develops algorithms for visual understanding, camera feeds, facial recognition, autonomous navigation, and industrial defect detection.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000205"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000305"
+      },
+      {
+        "$oid": "650000000000000000000325"
+      }
+    ],
+    "salaryRange": {
+      "min": 650000,
+      "max": 2600000,
+      "currency": "INR",
+      "source": "AmbitionBox Computer Vision Benchmark, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Computer Vision Benchmark, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Applied widely across smart surveillance, automotive ADAS, automated warehouse sorting, and medical diagnostic imaging.",
+    "educationRequirements": "B.Tech/M.Tech in Computer Science, ECE, or Robotics. Expertise in OpenCV, PyTorch, CNNs, and real-time edge processing.",
+    "workEnvironment": "Automotive tech labs, manufacturing robotics units, and defense electronics firms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000406"
+    },
+    "title": "Cybersecurity Analyst",
+    "slug": "cybersecurity-analyst",
+    "description": "Monitors networks for intrusions, conducts security audits, manages SIEM security events, and responds to cybersecurity vulnerabilities and incidents.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000206"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000306"
+      },
+      {
+        "$oid": "650000000000000000000328"
+      }
+    ],
+    "salaryRange": {
+      "min": 480000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "DSCI Security Talent Report, AmbitionBox India"
+    },
+    "salarySource": "DSCI Security Talent Report, AmbitionBox India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Mandated by Indian regulatory compliances (RBI, SEBI, CERT-In) requiring extensive security monitoring across financial and IT systems.",
+    "educationRequirements": "B.Tech in CS/IT or BCA/MCA. Industry certifications like CEH, CompTIA Security+, or CISSP significantly boost career progression.",
+    "workEnvironment": "Security Operations Centers (SOC), financial institutions, and managed security service providers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000432"
+    },
+    "title": "Security Engineer",
+    "slug": "security-engineer",
+    "description": "Architects secure software development lifecycles (DevSecOps), designs cryptographic authentication systems, and protects cloud infrastructure from advanced threats.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000206"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000306"
+      },
+      {
+        "$oid": "650000000000000000000307"
+      }
+    ],
+    "salaryRange": {
+      "min": 600000,
+      "max": 2500000,
+      "currency": "INR",
+      "source": "PayScale India Security Engineering, Glassdoor"
+    },
+    "salarySource": "PayScale India Security Engineering, Glassdoor",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Critical for safeguarding cloud databases, customer credentials, and intellectual property in modern fintech and enterprise platforms.",
+    "educationRequirements": "B.Tech/B.E. in Computer Science or Cybersecurity. Deep knowledge of threat modeling, OAuth/SAML, cryptography, and zero-trust architecture.",
+    "workEnvironment": "Enterprise infrastructure divisions and security product companies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000407"
+    },
+    "title": "Cloud Engineer",
+    "slug": "cloud-engineer",
+    "description": "Designs, deploys, and manages scalable cloud services on platforms like AWS, Microsoft Azure, and GCP, optimizing reliability and cloud computing costs.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000207"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000307"
+      },
+      {
+        "$oid": "650000000000000000000308"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 2300000,
+      "currency": "INR",
+      "source": "AmbitionBox India Cloud Benchmark, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox India Cloud Benchmark, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Rapid ongoing migration of Indian banks, government portals, and enterprises to multi-cloud environments sustains heavy hiring.",
+    "educationRequirements": "B.Tech/B.E. in CS/IT or MCA. AWS Certified Solutions Architect or Azure Administrator certification strongly preferred.",
+    "workEnvironment": "Cloud service partners, IT consulting firms, and hybrid corporate IT teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000408"
+    },
+    "title": "DevOps Engineer",
+    "slug": "devops-engineer",
+    "description": "Bridges software development and IT operations through continuous integration, automated deployment pipelines, infrastructure automation, and container orchestration.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000208"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000307"
+      },
+      {
+        "$oid": "650000000000000000000308"
+      }
+    ],
+    "salaryRange": {
+      "min": 600000,
+      "max": 2400000,
+      "currency": "INR",
+      "source": "AmbitionBox DevOps Salary Index, PayScale India"
+    },
+    "salarySource": "AmbitionBox DevOps Salary Index, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Fundamental role across all software companies seeking rapid, automated, error-free product release cycles.",
+    "educationRequirements": "B.Tech/B.E. in CS/IT or BCA/MCA. Hands-on expertise in Docker, Kubernetes, Jenkins/GitHub Actions, and Terraform.",
+    "workEnvironment": "Modern agile product teams and tech service organizations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000433"
+    },
+    "title": "Site Reliability Engineer",
+    "slug": "site-reliability-engineer",
+    "description": "Applies software engineering practices to infrastructure and operations problems, guaranteeing maximum uptime, latency control, and automated failover.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000208"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000308"
+      },
+      {
+        "$oid": "650000000000000000000326"
+      }
+    ],
+    "salaryRange": {
+      "min": 700000,
+      "max": 2800000,
+      "currency": "INR",
+      "source": "AmbitionBox SRE Compensation Survey, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox SRE Compensation Survey, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Highly prized by high-traffic consumer internet platforms (payments, streaming, food delivery) where minutes of downtime equal significant losses.",
+    "educationRequirements": "B.Tech/B.E. in Computer Science. Deep mastery of Linux internals, Prometheus, incident mitigation, and distributed systems architecture.",
+    "workEnvironment": "Mission-critical operations and distributed platform teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000434"
+    },
+    "title": "Database Administrator",
+    "slug": "database-administrator",
+    "description": "Maintains database integrity, executes disaster recovery backups, conducts query tuning, and configures database clustering for high-availability enterprise applications.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000203"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000327"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 1700000,
+      "currency": "INR",
+      "source": "PayScale India DBA Report, AmbitionBox India"
+    },
+    "salarySource": "PayScale India DBA Report, AmbitionBox India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady demand in banking, insurance, and large ERP deployments requiring specialized on-premises and managed cloud database administration.",
+    "educationRequirements": "B.Tech in CS/IT or BCA/MCA. Certifications in Oracle Certified Professional (OCP) or PostgreSQL DBA.",
+    "workEnvironment": "Enterprise IT departments, data centers, and corporate banking offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000435"
+    },
+    "title": "Network Engineer",
+    "slug": "network-engineer",
+    "description": "Installs, configures, and maintains local and wide-area network infrastructure (LAN/WAN), routers, switches, and secure virtual private networks.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000206"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000306"
+      },
+      {
+        "$oid": "650000000000000000000328"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox Network Engineer Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Network Engineer Report, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady employment in telecom operators (5G rollout), IT services, and data center facilities.",
+    "educationRequirements": "B.Tech in ECE/CS, BCA, or Diploma in Hardware & Networking. Cisco CCNA or CCNP certification highly beneficial.",
+    "workEnvironment": "Data centers, enterprise corporate campuses, and telecom network operation centers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000436"
+    },
+    "title": "Blockchain Developer",
+    "slug": "blockchain-developer",
+    "description": "Builds decentralized applications (DApps), writes secure smart contracts, and implements cryptographic consensus mechanisms for Web3 and enterprise ledger systems.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000206"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000329"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 2400000,
+      "currency": "INR",
+      "source": "AmbitionBox Blockchain Developer Report, TechGig Survey"
+    },
+    "salarySource": "AmbitionBox Blockchain Developer Report, TechGig Survey",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Niche demand in decentralized finance, digital identity, supply chain provenance, and enterprise Web3 consultancies.",
+    "educationRequirements": "B.Tech in Computer Science or IT. Strong proficiency in Solidity, Rust, cryptography, and Ethereum/Polygon EVM ecosystem.",
+    "workEnvironment": "Remote Web3 protocols, decentralized tech startups, and blockchain consulting arms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000437"
+    },
+    "title": "Embedded Systems Engineer",
+    "slug": "embedded-systems-engineer",
+    "description": "Designs and programs firmware for microcontrollers, smart IoT devices, medical electronics, and automotive electronic control units (ECUs).",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000212"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000312"
+      },
+      {
+        "$oid": "650000000000000000000335"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "PayScale India Embedded Engineer, AmbitionBox"
+    },
+    "salarySource": "PayScale India Embedded Engineer, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Growing rapidly with India's electronics manufacturing initiatives, electric vehicle development, and smart home IoT devices.",
+    "educationRequirements": "B.Tech/B.E. in Electronics & Communication (ECE), Electrical, or CS. Proficiency in Embedded C/C++, RTOS, and hardware debugging with oscilloscopes.",
+    "workEnvironment": "Hardware R&D laboratories, automotive tech centers, and consumer electronics plants."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000438"
+    },
+    "title": "QA Engineer",
+    "slug": "qa-engineer",
+    "description": "Develops test scenarios, writes functional test plans, tracks software defects, and ensures software releases meet strict business acceptance criteria.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000203"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000330"
+      }
+    ],
+    "salaryRange": {
+      "min": 360000,
+      "max": 1300000,
+      "currency": "INR",
+      "source": "AmbitionBox QA Engineer Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox QA Engineer Report, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady demand across IT services, though manual testing is increasingly being replaced by test automation requirements.",
+    "educationRequirements": "B.Tech, BCA, or B.Sc. Computer Science. ISTQB Foundation Level certification is beneficial.",
+    "workEnvironment": "Software development teams and IT services delivery centers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000439"
+    },
+    "title": "Automation Test Engineer",
+    "slug": "automation-test-engineer",
+    "description": "Architects programmatic testing suites using Selenium, Cypress, or Playwright to run automated regressions across web, API, and mobile applications.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000203"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000330"
+      }
+    ],
+    "salaryRange": {
+      "min": 480000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox Automation Testing Salary Report, PayScale"
+    },
+    "salarySource": "AmbitionBox Automation Testing Salary Report, PayScale",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Very strong demand as companies automate CI/CD release cycles to improve deployment frequency and quality.",
+    "educationRequirements": "B.Tech/B.E., BCA/MCA, or relevant coding background. Proficiency in Java or Python alongside Selenium, RestAssured, and CI integrations.",
+    "workEnvironment": "Continuous delivery agile teams in product and services firms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000440"
+    },
+    "title": "UI Designer",
+    "slug": "ui-designer",
+    "description": "Crafts visual interface elements, typography hierarchies, component libraries, and interactive design tokens that make digital products visually captivating.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000346"
+      }
+    ],
+    "salaryRange": {
+      "min": 380000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "AmbitionBox UI Designer Compensation, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox UI Designer Compensation, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High demand across digital product agencies, SaaS platforms, and brand-first mobile consumer apps.",
+    "educationRequirements": "B.Des, B.Sc. Multimedia, or graduation in any discipline with a strong Figma/Adobe XD visual portfolio.",
+    "workEnvironment": "Design agencies, startup product pods, and remote creative studios."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000441"
+    },
+    "title": "UX Designer",
+    "slug": "ux-designer",
+    "description": "Conducts user interviews, develops information architectures, builds interactive wireframes, and analyzes usability feedback to solve customer pain points.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000232"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox UX Designer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox UX Designer Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Essential for reducing churn and streamlining complex journeys in Indian fintech, healthcare tech, and enterprise software.",
+    "educationRequirements": "B.Des (NID/IIT-IDC), Human-Computer Interaction degree, or portfolio demonstrating end-to-end user research and design thinking.",
+    "workEnvironment": "Product innovation hubs, research labs, and hybrid design teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000442"
+    },
+    "title": "Product Designer",
+    "slug": "product-designer",
+    "description": "Owns the comprehensive user experience, combining user research, interaction design, visual UI systems, and business metrics to guide product evolution.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000217"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 600000,
+      "max": 2400000,
+      "currency": "INR",
+      "source": "Michael Page India Design Benchmark, AmbitionBox"
+    },
+    "salarySource": "Michael Page India Design Benchmark, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Highly valued role in tech-forward product organizations where designers collaborate directly with product managers and engineers.",
+    "educationRequirements": "Degree in Design (B.Des/M.Des) or related degree with demonstrated cross-functional case studies in a live product portfolio.",
+    "workEnvironment": "Modern tech headquarters and remote product teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000443"
+    },
+    "title": "Technical Writer",
+    "slug": "technical-writer",
+    "description": "Translates complex software architectures, developer APIs, and engineering features into lucid documentation, developer guides, and SDK manuals.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000332"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Technical Writer Benchmark, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Technical Writer Benchmark, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady demand in SaaS, developer tooling companies, and enterprise IT firms delivering international documentation.",
+    "educationRequirements": "Bachelor's in English, Journalism, or Computer Science/IT. Familiarity with Git, Markdown, OpenAPI/Swagger, and Docs-as-Code.",
+    "workEnvironment": "Remote or hybrid engineering documentation teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000444"
+    },
+    "title": "Business Analyst",
+    "slug": "business-analyst",
+    "description": "Gathers business requirements from enterprise stakeholders, conducts feasibility analysis, and translates business goals into detailed functional specifications.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000216"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox Business Analyst Salary Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Business Analyst Salary Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High demand in consulting and IT services bridging client business domains with software implementation teams.",
+    "educationRequirements": "B.Tech/B.E., BBA, or MBA. CBAP (Certified Business Analysis Professional) or knowledge of UML/BPMN and Jira workflows.",
+    "workEnvironment": "Corporate offices and client consulting environments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000445"
+    },
+    "title": "Product Manager",
+    "slug": "product-manager",
+    "description": "Defines the product vision, strategy, and roadmap, coordinating engineering, marketing, and design teams to deliver high-impact software products.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000217"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 900000,
+      "max": 3500000,
+      "currency": "INR",
+      "source": "Michael Page India Tech & Product Report 2024, AmbitionBox"
+    },
+    "salarySource": "Michael Page India Tech & Product Report 2024, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High-impact leadership position with competitive recruitment across Indian unicorn startups and multinational tech hubs.",
+    "educationRequirements": "B.Tech/B.E. usually paired with an MBA (IIMs/top B-schools), or progressive transition from engineering/design with strong business acumen.",
+    "workEnvironment": "Cross-functional product leadership in tech headquarters."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000446"
+    },
+    "title": "IT Support Specialist",
+    "slug": "it-support-specialist",
+    "description": "Maintains computer systems, diagnoses network connectivity and hardware faults, and provides technical assistance to end-users across an organization.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000206"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000306"
+      },
+      {
+        "$oid": "650000000000000000000328"
+      }
+    ],
+    "salaryRange": {
+      "min": 250000,
+      "max": 850000,
+      "currency": "INR",
+      "source": "AmbitionBox IT Support Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox IT Support Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady requirements across schools, hospitals, corporate offices, and IT service desk management centers.",
+    "educationRequirements": "Diploma in Hardware & Networking, BCA, or B.Sc. IT. CompTIA A+ or Microsoft Certified Desktop Support Technician is preferred.",
+    "workEnvironment": "On-site corporate IT offices, helpdesk centers, and school/college campuses."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000447"
+    },
+    "title": "Solutions Architect",
+    "slug": "solutions-architect",
+    "description": "Designs comprehensive technical blueprints for enterprise systems, evaluating cloud topologies, integration middleware, and security compliance.",
+    "category": {
+      "$oid": "650000000000000000000101"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000207"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000307"
+      },
+      {
+        "$oid": "650000000000000000000326"
+      }
+    ],
+    "salaryRange": {
+      "min": 1400000,
+      "max": 4500000,
+      "currency": "INR",
+      "source": "Michael Page India Executive Benchmark, AmbitionBox"
+    },
+    "salarySource": "Michael Page India Executive Benchmark, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Highly strategic senior role in cloud migration, modernization projects, and multi-tier enterprise contract delivery.",
+    "educationRequirements": "B.Tech/B.E. with 8+ years of engineering experience. Certifications like AWS Certified Solutions Architect - Professional or TOGAF.",
+    "workEnvironment": "Enterprise IT consulting, client executive briefings, and hybrid tech offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000410"
+    },
+    "title": "Mechanical Engineer",
+    "slug": "mechanical-engineer",
+    "description": "Designs, analyzes, manufactures, and maintains mechanical machinery, automotive assemblies, thermal power systems, and manufacturing equipment.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000211"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000334"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox Mechanical Engineering Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Mechanical Engineering Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady demand in automotive OEMs, heavy machinery, defence manufacturing, and HVAC industrial infrastructure.",
+    "educationRequirements": "B.Tech/B.E. in Mechanical Engineering via JEE Main or State CETs. GATE examination required for PSU recruitment (BHEL, IOCL, ONGC) and M.Tech.",
+    "workEnvironment": "Manufacturing plants, automotive design centers, power utilities, and CAD engineering consultancy offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000411"
+    },
+    "title": "Civil Engineer",
+    "slug": "civil-engineer",
+    "description": "Plans, designs, and oversees construction of national infrastructure projects including highways, bridges, dams, airports, and commercial urban high-rises.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000211"
+      },
+      {
+        "$oid": "650000000000000000000226"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000311"
+      },
+      {
+        "$oid": "650000000000000000000348"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1350000,
+      "currency": "INR",
+      "source": "AmbitionBox Civil Engineer Compensation, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Civil Engineer Compensation, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Spurred by national infrastructure projects (Bharatmala, PM GatiShakti, metro rail expansions, and urban smart cities).",
+    "educationRequirements": "B.Tech/B.E. in Civil Engineering. GATE exam qualification for PSU jobs (NHAI, NBCC, NTPC) or State Public Works Department (PWD) AE/JE examinations.",
+    "workEnvironment": "On-site construction projects, structural design offices, and municipal engineering departments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000412"
+    },
+    "title": "Electrical Engineer",
+    "slug": "electrical-engineer",
+    "description": "Designs, tests, and oversees the manufacture of electrical equipment, power generation turbines, transformer grids, and smart electric distribution systems.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000212"
+      },
+      {
+        "$oid": "650000000000000000000221"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000312"
+      },
+      {
+        "$oid": "650000000000000000000333"
+      }
+    ],
+    "salaryRange": {
+      "min": 360000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "AmbitionBox Electrical Engineering Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox Electrical Engineering Benchmark, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Driven by the transition toward renewable energy grids, electric vehicle fast-charging infrastructure, and high-voltage transmission lines.",
+    "educationRequirements": "B.Tech/B.E. in Electrical Engineering (EEE). GATE score mandatory for State Electricity Boards and central PSUs (PowerGrid, NTPC).",
+    "workEnvironment": "Power plants, electrical substations, industrial manufacturing facilities, and engineering consultancies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000448"
+    },
+    "title": "Electronics Engineer",
+    "slug": "electronics-engineer",
+    "description": "Develops electronic circuits, communication transceivers, radar systems, and consumer electronics, verifying signal integrity and radio frequency performance.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000212"
+      },
+      {
+        "$oid": "650000000000000000000221"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000312"
+      },
+      {
+        "$oid": "650000000000000000000333"
+      }
+    ],
+    "salaryRange": {
+      "min": 380000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Electronics Engineer Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Electronics Engineer Report, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Supported by India's Production Linked Incentive (PLI) scheme for electronics assembly and domestic semiconductor manufacturing.",
+    "educationRequirements": "B.Tech/B.E. in Electronics & Communication Engineering (ECE). Gate for PSUs (BEL, ISRO, DRDO) or private tech OEMs.",
+    "workEnvironment": "Hardware testing labs, telecommunications design centers, and consumer electronics manufacturing units."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000449"
+    },
+    "title": "Chemical Engineer",
+    "slug": "chemical-engineer",
+    "description": "Applies chemical principles, catalysis, and unit operations to design and optimize industrial chemical processes, oil refineries, and pharmaceutical manufacturing.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000222"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1650000,
+      "currency": "INR",
+      "source": "AmbitionBox Chemical Engineer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Chemical Engineer Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady hiring in petrochemicals (Reliance, IOCL), agrochemicals, bulk drug active pharmaceutical ingredients (APIs), and fertilizer plants.",
+    "educationRequirements": "B.Tech/B.E. in Chemical Engineering. GATE examination for recruitment into petroleum PSUs (IOCL, HPCL, BPCL, GAIL).",
+    "workEnvironment": "Industrial chemical refineries, pharmaceutical manufacturing plants, and process engineering offices."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000044a"
+    },
+    "title": "Aerospace Engineer",
+    "slug": "aerospace-engineer",
+    "description": "Designs, tests, and fabricates aircraft, space launch vehicles, missiles, and defense satellites, optimizing aerodynamics, propulsion, and avionics.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000223"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000334"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "AmbitionBox Aerospace Engineering Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Aerospace Engineering Report, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Rapid expansion in Indian private space tech startups (Skyroot, Agnikul) and central defense organizations (HAL, ISRO, DRDO).",
+    "educationRequirements": "B.Tech/B.E. in Aerospace or Aeronautical Engineering. ISRO ICRB or GATE Aerospace (AE) examination for national research labs.",
+    "workEnvironment": "Aeronautical test centers, defence manufacturing facilities, and space technology research parks."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000044b"
+    },
+    "title": "Automotive Engineer",
+    "slug": "automotive-engineer",
+    "description": "Designs vehicles, engines, safety systems, and electrical mobility powertrains, supervising prototype crash testing and vehicle dynamics.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000224"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000334"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1700000,
+      "currency": "INR",
+      "source": "AmbitionBox Automotive Engineering Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Automotive Engineering Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Major growth driven by EV design, battery management, connected telematics, and international automotive R&D centers in Chennai and Pune.",
+    "educationRequirements": "B.Tech/B.E. in Automobile or Mechanical Engineering. Practical proficiency in CAD tools (CATIA, SolidWorks) and EV battery simulation.",
+    "workEnvironment": "Automotive manufacturing hubs and vehicle research testing tracks."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000044c"
+    },
+    "title": "Robotics Engineer",
+    "slug": "robotics-engineer",
+    "description": "Builds robotic manipulators, autonomous mobile robots (AMRs), and industrial automation cells, fusing mechanical design, sensors, and embedded control code.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000225"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000312"
+      },
+      {
+        "$oid": "650000000000000000000335"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 2000000,
+      "currency": "INR",
+      "source": "AmbitionBox Robotics Engineer Benchmark, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Robotics Engineer Benchmark, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Rapid adoption in warehouse automation (e-commerce fulfillment), automated robotic welding, and surgical robotics.",
+    "educationRequirements": "B.Tech/B.E. in Robotics, Mechatronics, Mechanical, or ECE. Experience with ROS (Robot Operating System), Python/C++, and microcontrollers.",
+    "workEnvironment": "Robotics prototyping labs, automated factory floors, and warehouse innovation centers."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000044d"
+    },
+    "title": "Mechatronics Engineer",
+    "slug": "mechatronics-engineer",
+    "description": "Combines mechanical, electronics, computer engineering, and control theory to build smart electromechanical systems, industrial PLCs, and consumer automation.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000225"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000312"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Mechatronics Compensation Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Mechatronics Compensation Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Growing with the Industry 4.0 revolution in smart factories, CNC manufacturing, and automated assembly lines.",
+    "educationRequirements": "B.Tech/B.E. in Mechatronics Engineering. Practical mastery of PLC programming (Siemens/Allen-Bradley), actuators, and SCADA systems.",
+    "workEnvironment": "High-tech manufacturing plants and electromechanical research labs."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000044e"
+    },
+    "title": "Environmental Engineer",
+    "slug": "environmental-engineer",
+    "description": "Develops systems for wastewater treatment, hazardous waste disposal, air pollution reduction, and environmental impact assessments (EIA).",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000211"
+      },
+      {
+        "$oid": "650000000000000000000226"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000311"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1300000,
+      "currency": "INR",
+      "source": "AmbitionBox Environmental Engineer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Environmental Engineer Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Governed by strict National Green Tribunal (NGT) environmental norms and ESG auditing requirements for corporate manufacturing.",
+    "educationRequirements": "B.Tech/B.E. in Environmental or Civil Engineering. Knowledge of Central Pollution Control Board (CPCB) compliance rules and EIA methodologies.",
+    "workEnvironment": "Effluent treatment plants, environmental consultancy firms, and state pollution control boards."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000044f"
+    },
+    "title": "Biomedical Engineer",
+    "slug": "biomedical-engineer",
+    "description": "Designs, validates, and maintains medical diagnostics equipment, patient monitors, ventilators, and surgical prosthetics in healthcare settings.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000227"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000312"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox Biomedical Engineering Survey, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Biomedical Engineering Survey, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Expansion of multi-speciality corporate hospital chains and domestic medical device manufacturing corridors.",
+    "educationRequirements": "B.Tech/B.E. in Biomedical Engineering. Knowledge of medical equipment calibration, ISO 13485 standards, and bio-signal instrumentation.",
+    "workEnvironment": "Tertiary-care corporate hospitals, medical device MNCs (Siemens Healthineers, GE), and calibration labs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000450"
+    },
+    "title": "Industrial Engineer",
+    "slug": "industrial-engineer",
+    "description": "Optimizes manufacturing productivity, plant layouts, supply chain flows, and assembly workflows using Lean manufacturing and Six Sigma methodologies.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000238"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Industrial Engineer Salary, PayScale India"
+    },
+    "salarySource": "AmbitionBox Industrial Engineer Salary, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: High value in large-scale assembly operations, electronics manufacturing, e-commerce fulfilment hubs, and textile plants.",
+    "educationRequirements": "B.Tech/B.E. in Industrial or Production Engineering. Lean Six Sigma Green/Black Belt certification accelerates managerial growth.",
+    "workEnvironment": "Factory shop floors, supply chain distribution centers, and operations consulting offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000451"
+    },
+    "title": "Renewable Energy Engineer",
+    "slug": "renewable-energy-engineer",
+    "description": "Plans and commissions utility-scale solar photovoltaic parks, wind farms, and battery energy storage systems to support clean energy grids.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000212"
+      },
+      {
+        "$oid": "650000000000000000000226"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000311"
+      },
+      {
+        "$oid": "650000000000000000000312"
+      }
+    ],
+    "salaryRange": {
+      "min": 380000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Solar & Renewable Engineer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Solar & Renewable Engineer Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Substantial investments aligned with India's national goal of installing 500 GW of non-fossil electricity capacity by 2030.",
+    "educationRequirements": "B.Tech in Electrical, Mechanical, or Energy Engineering. Mastery of PVsyst solar design software and grid synchronization standards.",
+    "workEnvironment": "Solar parks, wind turbine sites, and clean energy corporate engineering offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000452"
+    },
+    "title": "VLSI Design Engineer",
+    "slug": "vlsi-design-engineer",
+    "description": "Designs, simulates, and verifies integrated circuit (IC) microchips, utilizing hardware description languages (Verilog/VHDL) for semiconductor fabrication.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000212"
+      },
+      {
+        "$oid": "650000000000000000000221"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000312"
+      },
+      {
+        "$oid": "650000000000000000000333"
+      }
+    ],
+    "salaryRange": {
+      "min": 650000,
+      "max": 2800000,
+      "currency": "INR",
+      "source": "India Semiconductor Mission Report, AmbitionBox VLSI Benchmark"
+    },
+    "salarySource": "India Semiconductor Mission Report, AmbitionBox VLSI Benchmark",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Massive semiconductor design boom in Bengaluru and Noida with multinational chipmakers (Qualcomm, Intel, NVIDIA, Texas Instruments).",
+    "educationRequirements": "B.Tech/M.Tech in ECE or Microelectronics. Expertise in SystemVerilog, UVM verification, synthesis, and Cadence/Synopsys EDA tools.",
+    "workEnvironment": "High-tech semiconductor design centers and cleanrooms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000453"
+    },
+    "title": "Structural Engineer",
+    "slug": "structural-engineer",
+    "description": "Performs mathematical stress calculations and structural modeling to guarantee the safety, load-bearing capacity, and earthquake resistance of buildings.",
+    "category": {
+      "$oid": "650000000000000000000102"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000211"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000311"
+      },
+      {
+        "$oid": "650000000000000000000348"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1750000,
+      "currency": "INR",
+      "source": "AmbitionBox Structural Engineer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Structural Engineer Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Essential for high-rise residential complexes, highway flyovers, metro viaducts, and complex industrial structures.",
+    "educationRequirements": "B.Tech Civil Engineering + M.Tech in Structural Engineering. Deep expertise in Indian Building Codes (IS 1893, IS 456) and ETABS/STAAD.Pro.",
+    "workEnvironment": "Structural consulting design offices and major construction project headquarters."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000413"
+    },
+    "title": "General Physician",
+    "slug": "doctor",
+    "description": "Diagnoses illnesses, prescribes treatments, orders diagnostic tests, and provides primary healthcare across outpatient clinics, nursing homes, and hospitals.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000228"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000314"
+      }
+    ],
+    "salaryRange": {
+      "min": 720000,
+      "max": 2400000,
+      "currency": "INR",
+      "source": "Indian Medical Association Survey, AmbitionBox Doctor Pay Scale"
+    },
+    "salarySource": "Indian Medical Association Survey, AmbitionBox Doctor Pay Scale",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Enduring deficit of qualified medical doctors in urban and rural healthcare centres across India guarantees lifelong employment security.",
+    "educationRequirements": "MBBS degree (5.5 years including mandatory 1-year rotatory clinical internship) via NEET-UG examination. Mandatory registration with the National Medical Commission (NMC) or State Medical Council.",
+    "workEnvironment": "Government civil hospitals, corporate hospitals, primary health centers (PHCs), and private outpatient clinics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000454"
+    },
+    "title": "Specialist Doctor",
+    "slug": "specialist-doctor",
+    "description": "Provides specialized medical or surgical care in areas such as Cardiology, Orthopedics, Pediatrics, Neurology, or Oncology, performing complex clinical procedures.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000228"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000314"
+      }
+    ],
+    "salaryRange": {
+      "min": 1400000,
+      "max": 4200000,
+      "currency": "INR",
+      "source": "National Health Authority / Hospital Pay Surveys, AmbitionBox"
+    },
+    "salarySource": "National Health Authority / Hospital Pay Surveys, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Intense demand for postgraduate medical specialists in tertiary-care private hospital chains and medical college teaching faculties.",
+    "educationRequirements": "MBBS + MD/MS or DNB (3 years post-graduation) through NEET-PG / INI-CET examination. Super-specialization requires DM/M.Ch via NEET-SS.",
+    "workEnvironment": "Multi-specialty corporate hospitals, medical college hospitals, and dedicated specialist surgical clinics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000455"
+    },
+    "title": "Dentist",
+    "slug": "dentist",
+    "description": "Diagnoses and treats diseases of the teeth, gums, and oral cavity, performing extractions, root canal treatments, fillings, and cosmetic dental restorations.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000229"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000336"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "Dental Council of India Report, AmbitionBox Dentist Benchmark"
+    },
+    "salarySource": "Dental Council of India Report, AmbitionBox Dentist Benchmark",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Competitive in metropolitan cities; strong earning potential for established private clinics and hospital dental chains.",
+    "educationRequirements": "BDS (Bachelor of Dental Surgery, 5 years including 1-year internship) via NEET-UG. Specialization requires MDS via NEET-MDS. Registration with State Dental Council is mandatory.",
+    "workEnvironment": "Private dental clinics, corporate dental chains (Clove Dental), and hospital dental departments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000414"
+    },
+    "title": "Nurse",
+    "slug": "nurse",
+    "description": "Administers medications, monitors patient vital signs, manages intravenous lines, assists in surgical operations, and delivers compassionate bedside patient care.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000214"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000314"
+      },
+      {
+        "$oid": "650000000000000000000315"
+      }
+    ],
+    "salaryRange": {
+      "min": 260000,
+      "max": 850000,
+      "currency": "INR",
+      "source": "Indian Nursing Council, PayScale India Healthcare Report"
+    },
+    "salarySource": "Indian Nursing Council, PayScale India Healthcare Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Tremendous domestic demand across hospitals alongside strong global migration pathways to the UK, Middle East, and Canada.",
+    "educationRequirements": "B.Sc. Nursing (4 years) or GNM (General Nursing and Midwifery, 3 years). Mandatory registration with the State Nursing Council as a Registered Nurse & Registered Midwife (RN/RM).",
+    "workEnvironment": "Hospital intensive care units (ICUs), emergency rooms, post-operative wards, and diagnostic surgery centers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000415"
+    },
+    "title": "Pharmacist",
+    "slug": "pharmacist",
+    "description": "Dispenses prescription medications, counsels patients on drug usage, manages pharmacy inventories, and ensures compliance with pharmaceutical regulatory standards.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000215"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000315"
+      },
+      {
+        "$oid": "650000000000000000000341"
+      }
+    ],
+    "salaryRange": {
+      "min": 260000,
+      "max": 800000,
+      "currency": "INR",
+      "source": "Pharmacy Council of India (PCI), AmbitionBox Pharmacist Survey"
+    },
+    "salarySource": "Pharmacy Council of India (PCI), AmbitionBox Pharmacist Survey",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High employment across retail chain pharmacies (Apollo, MedPlus), hospital drug dispensaries, and pharmaceutical quality assurance.",
+    "educationRequirements": "B.Pharm (Bachelor of Pharmacy, 4 years) or D.Pharm (Diploma, 2 years) approved by Pharmacy Council of India (PCI). Registration as Registered Pharmacist under State Pharmacy Council.",
+    "workEnvironment": "Retail pharmacies, hospital dispensaries, pharmaceutical manufacturing plants, and drug distribution warehouses."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000456"
+    },
+    "title": "Physiotherapist",
+    "slug": "physiotherapist",
+    "description": "Restores movement and physical function through manual therapy, therapeutic exercises, and electrotherapy for patients recovering from injury, surgery, or stroke.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000230"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000337"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 1100000,
+      "currency": "INR",
+      "source": "AmbitionBox Physiotherapy Salary Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Physiotherapy Salary Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Growing awareness of sports rehabilitation, geriatric mobility care, and ergonomic spine recovery in urban cities.",
+    "educationRequirements": "BPT (Bachelor of Physiotherapy, 4.5 years including 6-month clinical internship). MPT (Master of Physiotherapy, 2 years) for specialization in Ortho, Neuro, or Sports.",
+    "workEnvironment": "Orthopedic clinics, sports rehabilitation academies, multi-specialty hospitals, and home healthcare services."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000457"
+    },
+    "title": "Medical Laboratory Technologist",
+    "slug": "medical-laboratory-technologist",
+    "description": "Conducts chemical, hematological, immunologic, and microscopic diagnostic tests on clinical patient samples to aid physicians in disease detection and management.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000231"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000338"
+      }
+    ],
+    "salaryRange": {
+      "min": 240000,
+      "max": 750000,
+      "currency": "INR",
+      "source": "AmbitionBox Lab Technologist Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Lab Technologist Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Essential backbone for diagnostic laboratory chains (Dr. Lal PathLabs, Metropolis, SRL) and hospital clinical labs.",
+    "educationRequirements": "B.Sc. in Medical Laboratory Technology (BMLT, 3 years) or DMLT (2 years) from a recognized paramedical board.",
+    "workEnvironment": "Diagnostic pathology laboratories, blood banks, and hospital central clinical labs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000458"
+    },
+    "title": "Radiology Technologist",
+    "slug": "radiology-technologist",
+    "description": "Operates diagnostic imaging equipment including X-ray, Computed Tomography (CT), and Magnetic Resonance Imaging (MRI) machines, following radiation safety protocols.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000231"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000338"
+      }
+    ],
+    "salaryRange": {
+      "min": 280000,
+      "max": 850000,
+      "currency": "INR",
+      "source": "AmbitionBox Radiology Technologist Benchmark, Glassdoor"
+    },
+    "salarySource": "AmbitionBox Radiology Technologist Benchmark, Glassdoor",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Substantial need in diagnostic imaging centers as non-invasive scans are universally required across emergency and routine medical care.",
+    "educationRequirements": "B.Sc. in Medical Radiography and Imaging Technology (3 years) or Diploma in Radiography. Certification from Atomic Energy Regulatory Board (AERB) guidelines.",
+    "workEnvironment": "Hospital imaging suites, radiology diagnostic centers, and cancer radiation therapy wards."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000459"
+    },
+    "title": "Nutritionist",
+    "slug": "nutritionist",
+    "description": "Evaluates patient nutritional needs, formulates specialized medical diet plans for conditions like diabetes and renal disease, and promotes healthy lifestyle practices.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000235"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 250000,
+      "max": 900000,
+      "currency": "INR",
+      "source": "Indian Dietetic Association (IDA), AmbitionBox Nutritionist Survey"
+    },
+    "salarySource": "Indian Dietetic Association (IDA), AmbitionBox Nutritionist Survey",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Growing health awareness, weight-loss startups, fitness centers, and preventive health insurance wellness initiatives drive hiring.",
+    "educationRequirements": "B.Sc. in Nutrition & Dietetics or Home Science, followed by M.Sc. in Clinical Nutrition. Registered Dietitian (RD) exam conducted by Indian Dietetic Association.",
+    "workEnvironment": "Hospitals, wellness wellness clinics, fitness centers, and online telehealth consultation platforms."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000045a"
+    },
+    "title": "Psychologist",
+    "slug": "psychologist",
+    "description": "Evaluates cognitive and emotional behavior, administers psychological assessments, and provides psychotherapy for mental health disorders, depression, and trauma.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000232"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000319"
+      },
+      {
+        "$oid": "650000000000000000000339"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1200000,
+      "currency": "INR",
+      "source": "Rehabilitation Council of India (RCI), AmbitionBox Report"
+    },
+    "salarySource": "Rehabilitation Council of India (RCI), AmbitionBox Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Destigmatization of mental health in India has spurred massive demand across schools, corporate wellness, and digital counseling platforms.",
+    "educationRequirements": "B.A./B.Sc. in Psychology + M.A./M.Sc. in Clinical or Counseling Psychology. M.Phil in Clinical Psychology from an RCI-recognized institution is mandatory for clinical practice license.",
+    "workEnvironment": "Mental health clinics, psychiatric wards, corporate employee wellness departments, and private counseling chambers."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000045b"
+    },
+    "title": "Clinical Research Associate",
+    "slug": "clinical-research-associate",
+    "description": "Monitors clinical trial sites, validates case report forms (CRFs), and ensures drug trials adhere to regulatory safety protocols, ethics committees, and GCP guidelines.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000215"
+      },
+      {
+        "$oid": "650000000000000000000235"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000315"
+      },
+      {
+        "$oid": "650000000000000000000341"
+      }
+    ],
+    "salaryRange": {
+      "min": 380000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox CRA Salary Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox CRA Salary Benchmark, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: India is a prime global clinical trial hub, driving strong hiring in contract research organizations (CROs) like IQVIA, Syngene, and Parexel.",
+    "educationRequirements": "B.Pharm, M.Pharm, MBBS, BDS, or M.Sc. Life Sciences. Post Graduate Diploma in Clinical Research (PGDCR) and knowledge of ICH-GCP guidelines.",
+    "workEnvironment": "Contract research organizations (CROs), multinational pharmaceutical sponsors, and hospital clinical trial investigation sites."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000045c"
+    },
+    "title": "Biotechnology Researcher",
+    "slug": "biotechnology-researcher",
+    "description": "Researches recombinant proteins, monoclonal antibodies, biosimilars, and industrial enzymes to innovate new therapeutic drugs and bioproducts.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000220"
+      },
+      {
+        "$oid": "650000000000000000000233"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000340"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1700000,
+      "currency": "INR",
+      "source": "ABLE Biotech India Salary Benchmark, AmbitionBox"
+    },
+    "salarySource": "ABLE Biotech India Salary Benchmark, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Propelled by India's thriving biopharma sector (Biocon, Serum Institute, Bharat Biotech) expanding in vaccine manufacturing and biosimilars.",
+    "educationRequirements": "B.Tech/M.Tech or M.Sc. in Biotechnology / Molecular Biology. Ph.D. preferred for principal research investigator tracks.",
+    "workEnvironment": "Biopharmaceutical R&D laboratories, biotech incubators, and national institutes (CSIR-CDRI, NII)."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000045d"
+    },
+    "title": "Microbiologist",
+    "slug": "microbiologist",
+    "description": "Studies bacteria, viruses, fungi, and parasites to investigate disease transmission, test food safety, and validate sterile manufacturing conditions.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000220"
+      },
+      {
+        "$oid": "650000000000000000000234"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000340"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 1200000,
+      "currency": "INR",
+      "source": "AmbitionBox Microbiologist Salary Survey, PayScale India"
+    },
+    "salarySource": "AmbitionBox Microbiologist Salary Survey, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Consistent hiring across pharmaceutical quality control labs, FSSAI food processing audits, and hospital infection surveillance.",
+    "educationRequirements": "B.Sc. in Microbiology followed by M.Sc. in Medical or Industrial Microbiology. Practical experience with aseptic microbial culture and bioassays.",
+    "workEnvironment": "Pharma QC labs, food and beverage testing facilities, and biomedical research centers."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000045e"
+    },
+    "title": "Biochemist",
+    "slug": "biochemist",
+    "description": "Analyzes the chemical compounds and molecular reactions of living organisms, investigating enzyme kinetics, metabolism, and drug therapeutic interactions.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000220"
+      },
+      {
+        "$oid": "650000000000000000000233"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000340"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1350000,
+      "currency": "INR",
+      "source": "PayScale India Biochemist Report, Glassdoor India"
+    },
+    "salarySource": "PayScale India Biochemist Report, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Employed in medical diagnostic labs, pharmaceutical drug discovery, and academic biochemistry departments.",
+    "educationRequirements": "B.Sc. and M.Sc. in Biochemistry. CSIR-UGC NET for Junior Research Fellowships (JRF) leading to Ph.D. in biochemical research.",
+    "workEnvironment": "Diagnostic biochemistry laboratories, university research centers, and pharmaceutical R&D units."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000045f"
+    },
+    "title": "Epidemiologist",
+    "slug": "epidemiologist",
+    "description": "Investigates the patterns, causes, and transmission routes of infectious diseases and public health outbreaks, recommending preventive public policies.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000235"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "Indian Council of Medical Research (ICMR) Pay Scales, AmbitionBox"
+    },
+    "salarySource": "Indian Council of Medical Research (ICMR) Pay Scales, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Elevated national priority post-pandemic with government disease surveillance units (NCDC, ICMR) and international bodies (WHO).",
+    "educationRequirements": "MBBS or Master's in Public Health (MPH), or M.Sc. in Biostatistics/Epidemiology. Proficiency in statistical epidemiological packages (R, Stata, SPSS).",
+    "workEnvironment": "Public health agencies (NCDC, ICMR), state health directorates, and global health NGOs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000460"
+    },
+    "title": "Public Health Specialist",
+    "slug": "public-health-specialist",
+    "description": "Develops, monitors, and evaluates population-level healthcare programs, sanitation policies, maternal health interventions, and disease prevention campaigns.",
+    "category": {
+      "$oid": "650000000000000000000103"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000235"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000350"
+      }
+    ],
+    "salaryRange": {
+      "min": 480000,
+      "max": 1750000,
+      "currency": "INR",
+      "source": "National Health Mission (NHM) Pay Scales, Glassdoor India"
+    },
+    "salarySource": "National Health Mission (NHM) Pay Scales, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Substantial roles under National Health Mission (NHM), Ayushman Bharat, and philanthropic health foundations (Bill & Melinda Gates Foundation, UNICEF).",
+    "educationRequirements": "Master of Public Health (MPH), MD in Community Medicine, or Post Graduate Diploma in Public Health Management (PGDPHM).",
+    "workEnvironment": "Government health ministries, international development agencies, and non-profit public health foundations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000416"
+    },
+    "title": "Chartered Accountant",
+    "slug": "chartered-accountant",
+    "description": "Conducts statutory audits, tax advisory, financial reporting, corporate restructuring, and financial compliance for corporate enterprises and private clients.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000216"
+      },
+      {
+        "$oid": "650000000000000000000236"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000316"
+      },
+      {
+        "$oid": "650000000000000000000317"
+      }
+    ],
+    "salaryRange": {
+      "min": 800000,
+      "max": 3000000,
+      "currency": "INR",
+      "source": "ICAI 58th Campus Placement Report 2023-24, AmbitionBox India"
+    },
+    "salarySource": "ICAI 58th Campus Placement Report 2023-24, AmbitionBox India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Mandatory statutory audit and GST compliance regulations ensure high demand across Big 4 accounting firms, banking, and Indian conglomerates.",
+    "educationRequirements": "Chartered Accountancy qualification administered exclusively by the Institute of Chartered Accountants of India (ICAI): CA Foundation, CA Intermediate, 2-year practical Articleship, and CA Final examination.",
+    "workEnvironment": "Big Four accounting firms (Deloitte, PwC, EY, KPMG), corporate finance departments, and independent auditing practices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000461"
+    },
+    "title": "Company Secretary",
+    "slug": "company-secretary",
+    "description": "Acts as chief governance officer, advising the corporate board on regulatory compliance with the Companies Act 2013, SEBI listing regulations, and corporate disclosures.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000216"
+      },
+      {
+        "$oid": "650000000000000000000236"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000342"
+      },
+      {
+        "$oid": "650000000000000000000351"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "Institute of Company Secretaries of India (ICSI), AmbitionBox Benchmark"
+    },
+    "salarySource": "Institute of Company Secretaries of India (ICSI), AmbitionBox Benchmark",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Legally mandated key managerial personnel (KMP) for all listed companies and unlisted public companies with paid-up capital of ₹10 crore or more.",
+    "educationRequirements": "CS qualification from the Institute of Company Secretaries of India (ICSI): CSEET, CS Executive, 21-month practical training, and CS Professional examination.",
+    "workEnvironment": "Corporate boardrooms, secretarial audit firms, and legal compliance departments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000417"
+    },
+    "title": "Financial Analyst",
+    "slug": "financial-analyst",
+    "description": "Analyzes macroeconomic indicators, evaluates financial statements, tracks corporate performance, and builds forecast models to guide business investment decisions.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000217"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000317"
+      }
+    ],
+    "salaryRange": {
+      "min": 480000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox Financial Analyst Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox Financial Analyst Benchmark, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Extensive hiring across Global Capability Centers (GCCs) of international investment banks (JPMorgan, Goldman Sachs, Morgan Stanley) in Mumbai and Bengaluru.",
+    "educationRequirements": "B.Com, BBA (Finance), or B.Tech followed by MBA Finance or CFA (Chartered Financial Analyst) charter/candidacy.",
+    "workEnvironment": "Investment banking offices, equity research houses, and corporate financial planning teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000462"
+    },
+    "title": "Investment Analyst",
+    "slug": "investment-analyst",
+    "description": "Conducts company valuation, industry competitive benchmarking, and financial due diligence to support private equity investments, mutual funds, and venture capital allocations.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000237"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000317"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 800000,
+      "max": 3200000,
+      "currency": "INR",
+      "source": "Michael Page India Banking & Financial Services Benchmark, AmbitionBox"
+    },
+    "salarySource": "Michael Page India Banking & Financial Services Benchmark, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Rapid growth in Indian capital markets, asset management companies (AMCs), venture capital funds, and alternative investment funds (AIFs).",
+    "educationRequirements": "MBA in Finance from premier B-schools (IIMs/XLRI) or CA / CFA. High proficiency in LBO modeling and discounted cash flow valuation.",
+    "workEnvironment": "Venture capital offices, private equity firms, and mutual fund asset management companies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000463"
+    },
+    "title": "Accountant",
+    "slug": "accountant",
+    "description": "Maintains financial ledgers, processes invoices, prepares balance sheets, calculates monthly payroll, and files timely Goods and Services Tax (GST) returns.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000216"
+      },
+      {
+        "$oid": "650000000000000000000236"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000316"
+      }
+    ],
+    "salaryRange": {
+      "min": 240000,
+      "max": 750000,
+      "currency": "INR",
+      "source": "AmbitionBox India Accountant Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox India Accountant Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Universal employment opportunity across millions of Indian micro, small, medium, and corporate enterprises requiring day-to-day bookkeeping.",
+    "educationRequirements": "Bachelor of Commerce (B.Com) or BBA. Practical certification in Tally Prime, Zoho Books, or SAP FICO with knowledge of Indian GST/TDS filing.",
+    "workEnvironment": "Corporate offices, small business firms, and commercial trading establishments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000464"
+    },
+    "title": "Auditor",
+    "slug": "auditor",
+    "description": "Inspects financial records, internal management controls, operational workflows, and risk controls to detect financial discrepancies, fraud, or non-compliance.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000216"
+      },
+      {
+        "$oid": "650000000000000000000236"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000316"
+      },
+      {
+        "$oid": "650000000000000000000342"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox Internal Auditor Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Internal Auditor Report, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Strong demand for internal auditors across listed companies adhering to corporate governance guidelines and SOX/ICFR mandates.",
+    "educationRequirements": "CA, CMA (Certified Management Accountant), CIA (Certified Internal Auditor), or M.Com. Strong familiarity with standard auditing practices and SAP audit modules.",
+    "workEnvironment": "Audit consulting firms, corporate internal audit divisions, and enterprise client sites."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000465"
+    },
+    "title": "Banking Officer",
+    "slug": "banking-officer",
+    "description": "Manages branch banking operations, processes retail and commercial credit loan applications, oversees cash operations, and drives financial product sales.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000216"
+      },
+      {
+        "$oid": "650000000000000000000237"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000316"
+      },
+      {
+        "$oid": "650000000000000000000344"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "IBPS / SBI Scale-I Pay Scales, AmbitionBox Private Banking Benchmark"
+    },
+    "salarySource": "IBPS / SBI Scale-I Pay Scales, AmbitionBox Private Banking Benchmark",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Massive ongoing recruitment through national public sector exams (SBI PO, IBPS PO) and private commercial banks (HDFC, ICICI, Axis).",
+    "educationRequirements": "Graduation in any discipline. Public sector banking requires qualifying IBPS PO or SBI PO examinations. Private banks recruit via campus MBA or probationary officer programs.",
+    "workEnvironment": "Commercial bank retail branches and regional administrative banking headquarters."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000466"
+    },
+    "title": "Risk Analyst",
+    "slug": "risk-analyst",
+    "description": "Evaluates financial, credit, market, and operational risks, calculating Value at Risk (VaR) and building stress-testing scenarios to protect institutional capital.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000237"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000317"
+      }
+    ],
+    "salaryRange": {
+      "min": 520000,
+      "max": 2100000,
+      "currency": "INR",
+      "source": "AmbitionBox Risk Analyst Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Risk Analyst Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Heavily emphasized under RBI Basel III norms requiring rigorous capital adequacy and credit loss provisioning across all Indian banks and NBFCs.",
+    "educationRequirements": "Master's in Statistics, Economics, Finance, or MBA. Financial Risk Manager (FRM) certification by GARP provides a strong career advantage.",
+    "workEnvironment": "Investment banking risk desks, retail credit scoring units, and fintech lending platforms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000467"
+    },
+    "title": "Actuary",
+    "slug": "actuary",
+    "description": "Uses advanced probability, mathematics, and statistics to calculate the financial impact of uncertain future events, pricing insurance policies and pension funds.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000237"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000343"
+      }
+    ],
+    "salaryRange": {
+      "min": 750000,
+      "max": 3500000,
+      "currency": "INR",
+      "source": "Institute of Actuaries of India (IAI) Placement Data, AmbitionBox"
+    },
+    "salarySource": "Institute of Actuaries of India (IAI) Placement Data, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Rare and highly specialized credential with strong pricing power across life insurance, health insurance, and actuarial consulting firms.",
+    "educationRequirements": "Graduation in Mathematics, Statistics, or Actuarial Science. Clearing ACET and Core Actuarial examinations conducted by the Institute of Actuaries of India (IAI) or IFoA.",
+    "workEnvironment": "Life and general insurance companies (LIC, HDFC Life), reinsurance firms (GIC Re), and global actuarial consulting firms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000468"
+    },
+    "title": "Business Consultant",
+    "slug": "business-consultant",
+    "description": "Advises corporate executives on organizational strategy, cost reduction, market entry, digital transformation, and operational restructuring to enhance enterprise valuation.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000238"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000331"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 900000,
+      "max": 3600000,
+      "currency": "INR",
+      "source": "Michael Page Management Consulting Benchmark, AmbitionBox"
+    },
+    "salarySource": "Michael Page Management Consulting Benchmark, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High-prestige career path with active recruitment from top Indian business schools into MBB (McKinsey, BCG, Bain) and Big Four advisory practices.",
+    "educationRequirements": "MBA from top tier B-schools (IIM A/B/C, ISB) or CA/B.Tech with exceptional analytical problem-solving credentials.",
+    "workEnvironment": "Management consulting firms and executive client corporate boardrooms with frequent business travel."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000469"
+    },
+    "title": "Human Resources Specialist",
+    "slug": "human-resources-specialist",
+    "description": "Manages talent acquisition, conducts employee onboarding, coordinates performance appraisal cycles, administers payroll benefits, and enforces statutory labor compliance.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000236"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000344"
+      },
+      {
+        "$oid": "650000000000000000000350"
+      }
+    ],
+    "salaryRange": {
+      "min": 360000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox HR Specialist Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox HR Specialist Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Consistent hiring across technology GCCs, manufacturing units, and service corporations to manage employee retention and talent culture.",
+    "educationRequirements": "MBA in Human Resource Management (or PGDM from XLRI, TISS, MDI) or BBA in Human Resources.",
+    "workEnvironment": "Corporate offices and regional human resource departments."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000046a"
+    },
+    "title": "Operations Manager",
+    "slug": "operations-manager",
+    "description": "Oversees day-to-day organizational production and service delivery, ensuring quality control, budgetary efficiency, resource scheduling, and operational continuity.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000238"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000331"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 600000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "AmbitionBox Operations Manager Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Operations Manager Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Critical leadership role across manufacturing facilities, e-commerce quick fulfillment hubs, hospital administration, and banking operations.",
+    "educationRequirements": "Bachelor's degree followed by an MBA in Operations or Supply Chain Management. Experience with Lean production and ERP operations.",
+    "workEnvironment": "Operational distribution centers, corporate service operations, and manufacturing plants."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000046b"
+    },
+    "title": "Project Manager",
+    "slug": "project-manager",
+    "description": "Leads cross-functional project teams, establishing scope, monitoring critical-path milestones, managing budgets, and mitigating delivery risks to ensure on-time delivery.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000217"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000331"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 750000,
+      "max": 2600000,
+      "currency": "INR",
+      "source": "PMI India Project Management Salary Survey, AmbitionBox"
+    },
+    "salarySource": "PMI India Project Management Salary Survey, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Foundational across IT outsourcing delivery, EPC infrastructure contracts, and agile product development organizations.",
+    "educationRequirements": "B.Tech/B.E. or Graduation + MBA. Project Management Professional (PMP) or Certified ScrumMaster (CSM) certification strongly elevates earning potential.",
+    "workEnvironment": "Corporate project management offices (PMO) and client project sites."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000046c"
+    },
+    "title": "Supply Chain Analyst",
+    "slug": "supply-chain-analyst",
+    "description": "Evaluates freight logistics networks, forecasts inventory replenishment rates, models supplier reliability metrics, and minimizes total landed shipping costs.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000238"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000303"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1550000,
+      "currency": "INR",
+      "source": "AmbitionBox Supply Chain Analyst Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Supply Chain Analyst Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Strong demand across e-commerce logistics (Delhivery, Amazon, Flipkart), retail FMCG distribution, and auto manufacturing.",
+    "educationRequirements": "Degree in Engineering, Mathematics, or Commerce followed by MBA/PGDM in Supply Chain & Logistics. Knowledge of SAP MM and advanced SQL/Excel.",
+    "workEnvironment": "Logistics control towers, central fulfillment hubs, and corporate procurement offices."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000046d"
+    },
+    "title": "Business Development Manager",
+    "slug": "business-development-manager",
+    "description": "Identifies new market opportunities, cultivates B2B client relationships, pitches high-value commercial proposals, and negotiates long-term enterprise revenue contracts.",
+    "category": {
+      "$oid": "650000000000000000000104"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000331"
+      },
+      {
+        "$oid": "650000000000000000000344"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 2000000,
+      "currency": "INR",
+      "source": "AmbitionBox Business Development Manager Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Business Development Manager Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Core driver of enterprise revenue across SaaS startups, edtech, corporate consulting, and industrial equipment companies.",
+    "educationRequirements": "BBA, B.Com, or B.Tech with an MBA in Marketing or Business Strategy. Exceptional consultative negotiation and presentation skills.",
+    "workEnvironment": "Corporate business offices with client site presentations and business conferences."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000419"
+    },
+    "title": "School Teacher",
+    "slug": "teacher",
+    "description": "Instructs primary, secondary, or senior secondary students in foundational academic disciplines, developing curriculum lesson plans and evaluating student learning outcomes.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000241"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000319"
+      },
+      {
+        "$oid": "650000000000000000000350"
+      }
+    ],
+    "salaryRange": {
+      "min": 280000,
+      "max": 850000,
+      "currency": "INR",
+      "source": "Kendriya Vidyalaya Sangathan (KVS) 7th CPC Scales, AmbitionBox Teacher Report"
+    },
+    "salarySource": "Kendriya Vidyalaya Sangathan (KVS) 7th CPC Scales, AmbitionBox Teacher Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Universal demand across 1.5 million Indian public and private schools; government posts (KVS, NVS, State Govt) offer strong job security and 7th CPC pay scales.",
+    "educationRequirements": "Graduation (B.A./B.Sc.) + Bachelor of Education (B.Ed.). Clearing Central Teacher Eligibility Test (CTET) or State TET is mandatory for government and reputed private schools.",
+    "workEnvironment": "CBSE, ICSE, State Board, or International schools and educational institutes."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000046e"
+    },
+    "title": "College Professor",
+    "slug": "college-professor",
+    "description": "Delivers undergraduate and postgraduate university lectures, guides doctoral thesis scholars, conducts peer-reviewed academic research, and chairs departmental committees.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000319"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 750000,
+      "max": 2400000,
+      "currency": "INR",
+      "source": "UGC 7th Pay Regulations Pay Matrix (Level 10 to 14), AmbitionBox"
+    },
+    "salarySource": "UGC 7th Pay Regulations Pay Matrix (Level 10 to 14), AmbitionBox",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady demand across central universities, IITs, IIMs, state public universities, and expanding private multidisciplinary universities.",
+    "educationRequirements": "Master's degree (minimum 55% marks) + Ph.D. in relevant discipline. UGC-NET / CSIR-NET qualification is mandatory for Assistant Professor recruitment per UGC regulations.",
+    "workEnvironment": "University campuses, academic lecture auditoriums, and research seminar halls."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000046f"
+    },
+    "title": "Lecturer",
+    "slug": "lecturer",
+    "description": "Conducts undergraduate coursework instruction, manages collegiate laboratory practicals, coordinates continuous student grading, and supports academic departmental functions.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000319"
+      },
+      {
+        "$oid": "650000000000000000000332"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1200000,
+      "currency": "INR",
+      "source": "State Higher Education Pay Bands, AmbitionBox Lecturer Report"
+    },
+    "salarySource": "State Higher Education Pay Bands, AmbitionBox Lecturer Report",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Broad opportunities across state degree colleges, autonomous polytechnics, and affiliated undergraduate institutions.",
+    "educationRequirements": "Postgraduate degree (M.A., M.Sc., M.Com, or M.Tech) with minimum 55% marks. UGC-NET or State Eligibility Test (SET/SLET) clearance.",
+    "workEnvironment": "Colleges of arts, science, and commerce, engineering polytechnics, and tutorial academies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000420"
+    },
+    "title": "Research Scientist",
+    "slug": "research-scientist",
+    "description": "Executes scientific research, authors peer-reviewed publications, secures research grants, and develops innovative patents in laboratory and industrial settings.",
+    "category": {
+      "$oid": "650000000000000000000105"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 2100000,
+      "currency": "INR",
+      "source": "CSIR / DST Scientist Pay Bands, AmbitionBox India Benchmark"
+    },
+    "salarySource": "CSIR / DST Scientist Pay Bands, AmbitionBox India Benchmark",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Stable recruitment in national laboratory networks (CSIR, ICMR, DRDO, ISRO) and multinational pharmaceutical/chemical R&D facilities.",
+    "educationRequirements": "M.Sc./M.Tech followed by a Ph.D. in natural sciences, physical sciences, or computational engineering. Strong peer-reviewed research citation record.",
+    "workEnvironment": "Government national laboratories, corporate scientific R&D centers, and university research facilities."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000470"
+    },
+    "title": "Research Assistant",
+    "slug": "research-assistant",
+    "description": "Assists lead scientists with literature reviews, lab data collection, statistical data cleaning, experimental apparatus setup, and academic manuscript drafting.",
+    "category": {
+      "$oid": "650000000000000000000105"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 750000,
+      "currency": "INR",
+      "source": "DST Fellowship Norms (JRF/SRF Pay Scales), AmbitionBox"
+    },
+    "salarySource": "DST Fellowship Norms (JRF/SRF Pay Scales), AmbitionBox",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Funded via government research project grants (DST, DBT, SERB) and corporate clinical research contracts; vital stepping stone to Ph.D.",
+    "educationRequirements": "B.Tech, M.Sc., or Master's degree in a relevant discipline. CSIR-UGC NET (JRF) or GATE qualification unlocks standard central government fellowship stipends.",
+    "workEnvironment": "Academic research laboratories, institute libraries, and analytical testing centers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000471"
+    },
+    "title": "Instructional Designer",
+    "slug": "instructional-designer",
+    "description": "Applies cognitive learning theories to design digital learning courses, e-learning modules, interactive assessments, and adult corporate training curriculum.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000219"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000319"
+      },
+      {
+        "$oid": "650000000000000000000332"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Instructional Design Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Instructional Design Report, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Elevated demand across Indian edtech companies (upGrad, Simplilearn), corporate L&D departments, and international e-learning agencies.",
+    "educationRequirements": "Master's in Education, Instructional Design, English, or Communications. Proficiency in authoring tools (Articulate 360, Adobe Captivate) and ADDIE model.",
+    "workEnvironment": "E-learning production studios, corporate HR learning hubs, and remote edtech teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000472"
+    },
+    "title": "Education Counselor",
+    "slug": "education-counselor",
+    "description": "Guides students and parents on career choices, university entrance examinations, study-abroad applications, stream selection, and scholarship eligibility.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000232"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000339"
+      },
+      {
+        "$oid": "650000000000000000000344"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 950000,
+      "currency": "INR",
+      "source": "AmbitionBox Education Counselor Salary, PayScale India"
+    },
+    "salarySource": "AmbitionBox Education Counselor Salary, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Driven by the massive Indian test preparation industry and burgeoning overseas education consultancy sector.",
+    "educationRequirements": "Bachelor's or Master's in Psychology, Education, or Counseling. Certification in Career Counseling (UCLA Extension or Indian Career Guidance Association).",
+    "workEnvironment": "Study-abroad consultancies, international schools, test prep institutes, and private counseling chambers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000473"
+    },
+    "title": "Special Education Teacher",
+    "slug": "special-education-teacher",
+    "description": "Designs individualized education programs (IEPs) for children with learning disabilities, autism spectrum disorder, hearing/visual impairment, and ADHD.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000232"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000319"
+      },
+      {
+        "$oid": "650000000000000000000339"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 900000,
+      "currency": "INR",
+      "source": "Rehabilitation Council of India (RCI) Scales, AmbitionBox Report"
+    },
+    "salarySource": "Rehabilitation Council of India (RCI) Scales, AmbitionBox Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Legally mandated by the Rights of Persons with Disabilities Act (RPwD) requiring inclusive educators in all CBSE and state schools.",
+    "educationRequirements": "B.Ed. in Special Education recognized by the Rehabilitation Council of India (RCI). Mandatory registration with RCI as a qualified rehabilitation professional.",
+    "workEnvironment": "Inclusive mainstream private schools, special education centers, and child development clinics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000474"
+    },
+    "title": "Academic Researcher",
+    "slug": "academic-researcher",
+    "description": "Conducts deep scholastic inquiry in humanities, social sciences, or sciences, authoring research monographs, cataloging archival records, and publishing scholarly articles.",
+    "category": {
+      "$oid": "650000000000000000000107"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000219"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000332"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "ICSSR / UGC Fellowship Pay Scale Guidelines, AmbitionBox"
+    },
+    "salarySource": "ICSSR / UGC Fellowship Pay Scale Guidelines, AmbitionBox",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Focused opportunities in policy think tanks (ORF, CPR, ICRIER), Indian Council of Social Science Research (ICSSR), and universities.",
+    "educationRequirements": "Master's degree followed by M.Phil or Ph.D. in chosen academic discipline. UGC-NET (JRF) scholarship award.",
+    "workEnvironment": "Think tank research centers, university libraries, archives, and policy institutes."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000409"
+    },
+    "title": "UI/UX Designer",
+    "slug": "ui-ux-designer",
+    "description": "Designs seamless user experiences and modern interfaces for digital products, combining user empathy, wireframing, interactive Figma prototypes, and aesthetic typography.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 420000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "AmbitionBox UI/UX Designer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox UI/UX Designer Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High priority across Indian startups and consumer applications where user experience directly dictates customer conversion and retention.",
+    "educationRequirements": "Bachelor of Design (B.Des from NID, IIT-IDC, NIFT) or graduate in any discipline with a strong case-study portfolio in Figma.",
+    "workEnvironment": "Creative tech agencies, consumer software product companies, and remote design pods."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000475"
+    },
+    "title": "Graphic Designer",
+    "slug": "graphic-designer",
+    "description": "Creates visual branding identities, marketing collateral, social media graphics, packaging art, and advertising layouts using Photoshop, Illustrator, and InDesign.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000346"
+      }
+    ],
+    "salaryRange": {
+      "min": 280000,
+      "max": 1000000,
+      "currency": "INR",
+      "source": "AmbitionBox Graphic Designer Survey, PayScale India"
+    },
+    "salarySource": "AmbitionBox Graphic Designer Survey, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Continuous requirements across advertising agencies, D2C e-commerce brands, publishing houses, and corporate communication teams.",
+    "educationRequirements": "Bachelor of Fine Arts (BFA), B.Des in Visual Communication, or Diploma in Graphic Design with an active Behance / Dribbble portfolio.",
+    "workEnvironment": "Advertising agencies, creative studios, publishing houses, and freelance workspaces."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000476"
+    },
+    "title": "Animator",
+    "slug": "animator",
+    "description": "Brings characters, environments, and motion graphics to life through 2D and 3D keyframe animation for feature films, television, gaming, and digital web advertising.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000346"
+      },
+      {
+        "$oid": "650000000000000000000347"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox Animator Benchmark, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Animator Benchmark, Glassdoor India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: India is a prime international animation and VFX outsourcing hub (Technicolor, DNEG, Green Gold Animation) delivering Hollywood and OTT content.",
+    "educationRequirements": "B.Sc. or B.Des in Animation & Multimedia. Mastery of industry animation software (Maya, Blender, Toon Boom Harmony) evidenced by an animation showreel.",
+    "workEnvironment": "Animation production studios, visual effects (VFX) facilities, and gaming companies in Mumbai, Hyderabad, and Bengaluru."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000477"
+    },
+    "title": "3D Artist",
+    "slug": "3d-artist",
+    "description": "Models 3D assets, textures photorealistic surfaces, sets up digital lighting, and rigs assets for video games, architectural renders, and VFX cinema productions.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000210"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000322"
+      },
+      {
+        "$oid": "650000000000000000000346"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "AmbitionBox 3D Artist Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox 3D Artist Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Strong hiring across AAA game art outsourcing studios, architectural visualization firms, and OTT streaming visual effects.",
+    "educationRequirements": "Diploma or Bachelor's in 3D Modeling/Animation. Demonstrated modeling portfolio in ZBrush, Maya, Blender, and Substance Painter on ArtStation.",
+    "workEnvironment": "Gaming art studios, VFX houses, and architectural visualization firms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000478"
+    },
+    "title": "Video Editor",
+    "slug": "video-editor",
+    "description": "Assembles raw camera footage, trims narrative pacing, synchronizes multi-track audio, integrates motion titles, and applies color grading for digital and broadcast media.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000347"
+      },
+      {
+        "$oid": "650000000000000000000349"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 1200000,
+      "currency": "INR",
+      "source": "AmbitionBox Video Editor Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Video Editor Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Explosive growth powered by the creator economy, YouTube media companies, OTT content production, and commercial brand marketing.",
+    "educationRequirements": "Degree in Mass Communication / Film Studies, or proven editing portfolio. Advanced skill in Premiere Pro, DaVinci Resolve, and Final Cut Pro.",
+    "workEnvironment": "Digital media houses, marketing agencies, video production suites, and remote creator setups."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000479"
+    },
+    "title": "Film Editor",
+    "slug": "film-editor",
+    "description": "Collaborates closely with film directors to craft cinematic narrative pacing, visual rhythm, emotional tension, and final picture locks for feature films and web series.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000347"
+      },
+      {
+        "$oid": "650000000000000000000349"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "Film & Television Institute of India (FTII) Alumni Data, AmbitionBox"
+    },
+    "salarySource": "Film & Television Institute of India (FTII) Alumni Data, AmbitionBox",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Highly project-based with rewarding earning potential on major Bollywood, Tollywood, and streaming web-series releases.",
+    "educationRequirements": "Diploma in Film Editing from premier institutes like FTII Pune, SRFTI Kolkata, or Whistling Woods, supported by assistant editor film credits.",
+    "workEnvironment": "Film post-production editing suites in Mumbai, Hyderabad, and Chennai."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000047a"
+    },
+    "title": "Photographer",
+    "slug": "photographer",
+    "description": "Captures professional images for fashion, commercial advertising, product catalogs, photojournalism, and luxury destination weddings using advanced camera optics.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000347"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox Commercial Photographer Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox Commercial Photographer Benchmark, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Highly lucrative in the Indian wedding industry, fashion e-commerce catalog shoots, and commercial food/product advertising.",
+    "educationRequirements": "Degree or Diploma in Commercial Photography / Fine Arts, or self-taught with professional studio mastery and an outstanding photographic portfolio.",
+    "workEnvironment": "Photography studios, outdoor wedding venues, fashion runways, and on-location client shoots."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000047b"
+    },
+    "title": "Fashion Designer",
+    "slug": "fashion-designer",
+    "description": "Conceptualizes and designs original clothing lines, haute couture, ethnic bridal wear, and ready-to-wear apparel, selecting fabrics, color palettes, and garment silhouettes.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000309"
+      },
+      {
+        "$oid": "650000000000000000000346"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "NIFT Placement Statistics, AmbitionBox Fashion Designer Report"
+    },
+    "salarySource": "NIFT Placement Statistics, AmbitionBox Fashion Designer Report",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Robust career tracks in Indian retail fashion brands (Aditya Birla Fashion, Reliance Trends), export houses, and designer couture labels.",
+    "educationRequirements": "Bachelor of Design (B.Des in Fashion Design) from National Institute of Fashion Technology (NIFT) or National Institute of Design (NID).",
+    "workEnvironment": "Fashion design ateliers, apparel export houses, retail brand headquarters, and garment workshops."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000047c"
+    },
+    "title": "Interior Designer",
+    "slug": "interior-designer",
+    "description": "Plans and designs functional, safe, and visually pleasing interior spaces for residential homes, corporate offices, restaurants, and retail showrooms.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000209"
+      },
+      {
+        "$oid": "650000000000000000000211"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000311"
+      },
+      {
+        "$oid": "650000000000000000000348"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "AmbitionBox Interior Designer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Interior Designer Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Booming urban real estate and home renovation market (Livspace, HomeLane) alongside premium corporate office redesign projects.",
+    "educationRequirements": "B.Des in Interior Design, B.Sc. Interior Design, or Bachelor of Architecture (B.Arch). Proficiency in AutoCAD, SketchUp, 3ds Max, and material estimation.",
+    "workEnvironment": "Interior design studios, corporate real estate firms, and on-site residential/commercial construction fit-outs."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000047d"
+    },
+    "title": "Architect",
+    "slug": "architect",
+    "description": "Designs the aesthetics, layout, and structural form of buildings and residential complexes, ensuring structural safety, municipal bye-law compliance, and environmental sustainability.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000211"
+      },
+      {
+        "$oid": "650000000000000000000226"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000311"
+      },
+      {
+        "$oid": "650000000000000000000348"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "Council of Architecture (COA) Guidelines, AmbitionBox India"
+    },
+    "salarySource": "Council of Architecture (COA) Guidelines, AmbitionBox India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Steady requirements across urban real estate, township infrastructure, institutional campuses, and sustainable green buildings.",
+    "educationRequirements": "B.Arch (Bachelor of Architecture, 5 years) through NATA or JEE Main Paper 2. Mandatory registration with the Council of Architecture (COA) to legally practice as an Architect in India.",
+    "workEnvironment": "Architectural firms, urban planning consultancies, construction developers, and municipal drafting offices."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000047e"
+    },
+    "title": "Content Writer",
+    "slug": "content-writer",
+    "description": "Researches, writes, and edits informative blog articles, thought leadership guides, case studies, and website copy tailored to target audiences and brand guidelines.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000218"
+      },
+      {
+        "$oid": "650000000000000000000220"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000318"
+      },
+      {
+        "$oid": "650000000000000000000349"
+      }
+    ],
+    "salaryRange": {
+      "min": 280000,
+      "max": 950000,
+      "currency": "INR",
+      "source": "AmbitionBox Content Writer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Content Writer Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Essential across SaaS companies, inbound marketing agencies, and media publications building digital audience authority.",
+    "educationRequirements": "Bachelor's degree in English, Journalism, Mass Communication, or related discipline with a published portfolio of articles.",
+    "workEnvironment": "Digital agencies, corporate marketing teams, and remote freelance writing."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000047f"
+    },
+    "title": "Copywriter",
+    "slug": "copywriter",
+    "description": "Writes persuasive advertising copy, catchy campaign taglines, high-converting landing pages, and direct-response marketing communications that drive customer action.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000218"
+      },
+      {
+        "$oid": "650000000000000000000232"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000318"
+      },
+      {
+        "$oid": "650000000000000000000349"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "AmbitionBox Advertising Copywriter Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox Advertising Copywriter Report, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: High creative value in creative advertising agencies (Ogilvy, Dentsu, McCann) and fast-growing direct-to-consumer (D2C) brands.",
+    "educationRequirements": "Degree in Advertising, Mass Media, or English. A creative advertising portfolio demonstrating campaign slogans, ad scripts, and pitch concepts.",
+    "workEnvironment": "Creative advertising agencies, brand marketing departments, and remote creative agencies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000418"
+    },
+    "title": "Digital Marketing Specialist",
+    "slug": "digital-marketer",
+    "description": "Plans and executes end-to-end digital marketing campaigns across Google Search, social media ads, email automation, and influencer channels to acquire customers profitably.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000318"
+      },
+      {
+        "$oid": "650000000000000000000349"
+      }
+    ],
+    "salaryRange": {
+      "min": 360000,
+      "max": 1450000,
+      "currency": "INR",
+      "source": "AmbitionBox Digital Marketer Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox Digital Marketer Report, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Ubiquitous demand across all commercial sectors as Indian companies allocate the majority of ad budgets to digital channels.",
+    "educationRequirements": "Graduation in Marketing, BBA, B.Com, or any field. Certifications in Google Ads, Meta Certified Digital Marketing Associate, and HubSpot.",
+    "workEnvironment": "Digital marketing agencies, e-commerce brands, and corporate marketing teams."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000480"
+    },
+    "title": "SEO Specialist",
+    "slug": "seo-specialist",
+    "description": "Optimizes website structure, page speed, content semantics, and backlink profiles to maximize organic ranking on Google search engine result pages.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000201"
+      },
+      {
+        "$oid": "650000000000000000000218"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000301"
+      },
+      {
+        "$oid": "650000000000000000000318"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1200000,
+      "currency": "INR",
+      "source": "AmbitionBox SEO Specialist Report, Glassdoor India"
+    },
+    "salarySource": "AmbitionBox SEO Specialist Report, Glassdoor India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Indispensable for e-commerce, news publications, and SaaS portals seeking sustainable, zero-cost inbound customer acquisition.",
+    "educationRequirements": "Bachelor's degree in any discipline. In-depth proficiency with Ahrefs, SEMrush, Screaming Frog, Google Search Console, and core web vitals.",
+    "workEnvironment": "SEO agencies, digital growth teams, and remote work arrangements."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000481"
+    },
+    "title": "Social Media Manager",
+    "slug": "social-media-manager",
+    "description": "Develops social engagement strategies, manages content publishing calendars, collaborates with influencers, and analyzes brand reach across Instagram, LinkedIn, X, and YouTube.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000218"
+      },
+      {
+        "$oid": "650000000000000000000232"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000318"
+      },
+      {
+        "$oid": "650000000000000000000349"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1250000,
+      "currency": "INR",
+      "source": "AmbitionBox Social Media Manager Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox Social Media Manager Benchmark, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Vibrant opportunities in consumer brands, celebrity management, entertainment studios, and digital PR agencies.",
+    "educationRequirements": "Bachelor's in Mass Communication, Media Studies, or Marketing. Demonstrated experience managing high-growth branded social channels.",
+    "workEnvironment": "Social media agencies, creative advertising firms, and corporate communications offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000482"
+    },
+    "title": "Public Relations Specialist",
+    "slug": "public-relations-specialist",
+    "description": "Cultivates positive media relationships, crafts press releases, coordinates media interviews, and manages reputation communications during corporate crises.",
+    "category": {
+      "$oid": "650000000000000000000106"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000218"
+      },
+      {
+        "$oid": "650000000000000000000240"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000349"
+      },
+      {
+        "$oid": "650000000000000000000350"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "AmbitionBox PR Specialist Report, PayScale India"
+    },
+    "salarySource": "AmbitionBox PR Specialist Report, PayScale India",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Key role in corporate PR consultancies (Adfactors PR, Edelman), startup media management, and political campaign advisory.",
+    "educationRequirements": "Bachelor's or Master's in Public Relations, Journalism, or Corporate Communication from reputed institutes (IIMC, Xavier Institute of Communications).",
+    "workEnvironment": "PR consultancy firms, corporate communication suites, and media press rooms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000483"
+    },
+    "title": "Civil Services Officer",
+    "slug": "civil-services-officer",
+    "description": "Serves as an IAS, IPS, or IFS officer administering districts, upholding law and order, implementing national socio-economic policies, and representing India internationally.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000239"
+      },
+      {
+        "$oid": "650000000000000000000240"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000350"
+      },
+      {
+        "$oid": "650000000000000000000351"
+      }
+    ],
+    "salaryRange": {
+      "min": 1000000,
+      "max": 2800000,
+      "currency": "INR",
+      "source": "7th Central Pay Commission (CPC) Pay Matrix Level 10 to Level 17 (UPSC Notification)"
+    },
+    "salarySource": "7th Central Pay Commission (CPC) Pay Matrix Level 10 to Level 17 (UPSC Notification)",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Premier elite career track in Indian governance; recruitment is conducted annually via the highly competitive UPSC Civil Services Examination.",
+    "educationRequirements": "Graduation in any discipline from a recognized university. Qualifying the three-tier UPSC CSE (Preliminary, Mains descriptive examination with 9 papers, and Personality Test interview).",
+    "workEnvironment": "District collectorates, police headquarters, central government ministries, and diplomatic embassies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000484"
+    },
+    "title": "State Government Officer",
+    "slug": "state-government-officer",
+    "description": "Serves as a Deputy Collector, Deputy Superintendent of Police (DSP), or Tehsildar administering sub-divisional state revenue, development schemes, and public order.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000240"
+      },
+      {
+        "$oid": "650000000000000000000241"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000350"
+      },
+      {
+        "$oid": "650000000000000000000351"
+      }
+    ],
+    "salaryRange": {
+      "min": 750000,
+      "max": 2000000,
+      "currency": "INR",
+      "source": "State Public Service Commission Pay Scales (Class 1 Gazetted Group A)"
+    },
+    "salarySource": "State Public Service Commission Pay Scales (Class 1 Gazetted Group A)",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Respected state executive career track recruiting top administrative talent through annual State Public Service Commission exams (UPPSC, BPSC, MPSC, APPSC).",
+    "educationRequirements": "Bachelor's degree in any discipline. Selection through State PSC Combined Civil Services Examination (Prelims, Mains, and Interview).",
+    "workEnvironment": "Sub-divisional magistrate offices, state secretariats, and district revenue departments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000485"
+    },
+    "title": "SSC CGL Career Roles",
+    "slug": "ssc-cgl-career-roles",
+    "description": "Executes administrative audits, tax inspections, intelligence analysis, and executive documentation as an Inspector of Income Tax, GST Inspector, or Assistant Section Officer.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000240"
+      },
+      {
+        "$oid": "650000000000000000000241"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000316"
+      },
+      {
+        "$oid": "650000000000000000000350"
+      }
+    ],
+    "salaryRange": {
+      "min": 700000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "7th CPC Pay Matrix Level 7 (Basic ₹44,900 + DA + HRA), SSC Official Notice"
+    },
+    "salarySource": "7th CPC Pay Matrix Level 7 (Basic ₹44,900 + DA + HRA), SSC Official Notice",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Hundreds of thousands of candidates compete annually for thousands of Group B Gazetted and Non-Gazetted central government vacancies.",
+    "educationRequirements": "Bachelor's degree in any discipline. Qualifying the Staff Selection Commission Combined Graduate Level (SSC CGL) Tier 1 and Tier 2 examinations.",
+    "workEnvironment": "Central ministries in New Delhi, Directorate General of GST Intelligence, and Central Board of Direct Taxes (CBDT)."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000486"
+    },
+    "title": "Banking and Insurance Officer",
+    "slug": "banking-and-insurance-officer",
+    "description": "Oversees public sector banking operations, commercial credit underwriting, agricultural loans, or insurance underwriting as an IBPS/SBI PO or LIC AAO.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000216"
+      },
+      {
+        "$oid": "650000000000000000000237"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000316"
+      },
+      {
+        "$oid": "650000000000000000000343"
+      }
+    ],
+    "salaryRange": {
+      "min": 750000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "Indian Banks' Association (IBA) 12th Bipartite Wage Settlement / LIC AAO Scales"
+    },
+    "salarySource": "Indian Banks' Association (IBA) 12th Bipartite Wage Settlement / LIC AAO Scales",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Prestigious public sector career offering comprehensive benefits, leased accommodation, pension coverage, and job stability.",
+    "educationRequirements": "Bachelor's degree in any discipline with minimum 55-60% marks. Clearing SBI PO, IBPS PO, or LIC Assistant Administrative Officer (AAO) exam.",
+    "workEnvironment": "Public sector commercial bank branches (SBI, PNB, BoB) and Life Insurance Corporation divisional offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000487"
+    },
+    "title": "Railway Career Roles",
+    "slug": "railway-career-roles",
+    "description": "Directs passenger train movements, manages freight logistics, ensures track safety, or supervises locomotive maintenance across the Indian Railways network.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000212"
+      },
+      {
+        "$oid": "650000000000000000000241"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "Railway Recruitment Board (RRB) 7th CPC Level 6 & 7 Pay Scales"
+    },
+    "salarySource": "Railway Recruitment Board (RRB) 7th CPC Level 6 & 7 Pay Scales",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Indian Railways is one of the world's largest employers; modernizations (Vande Bharat, freight corridors) sustain demand for Station Masters and SSEs.",
+    "educationRequirements": "Graduation for RRB NTPC roles (Station Master, Traffic Apprentice); B.Tech in Civil/Mechanical/Electrical for Senior Section Engineer (SSE).",
+    "workEnvironment": "Railway stations, divisional train operating control rooms, and locomotive overhaul workshops."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000488"
+    },
+    "title": "Defence Officer",
+    "slug": "defence-officer",
+    "description": "Commands combat platoons, pilots fighter aircraft, or navigates naval warships, leading tactical defence operations to safeguard Indian national sovereignty.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000241"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000350"
+      },
+      {
+        "$oid": "650000000000000000000352"
+      }
+    ],
+    "salaryRange": {
+      "min": 950000,
+      "max": 2800000,
+      "currency": "INR",
+      "source": "Ministry of Defence 7th CPC Level 10 (Lieutenant / Flying Officer / Sub-Lieutenant)"
+    },
+    "salarySource": "Ministry of Defence 7th CPC Level 10 (Lieutenant / Flying Officer / Sub-Lieutenant)",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: The highest national honor in uniform; officer vacancies in Indian Army, Navy, and Air Force are filled through regular bi-annual entrance cycles.",
+    "educationRequirements": "10+2 with PCM for National Defence Academy (NDA) via UPSC; or Graduation for Combined Defence Services (CDS) or AFCAT, followed by the rigorous 5-day SSB interview.",
+    "workEnvironment": "Forward military border posts, air force bases, naval naval vessels, and regional armed forces command headquarters."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000489"
+    },
+    "title": "Public Sector Undertaking Engineer",
+    "slug": "public-sector-undertaking-engineer",
+    "description": "Oversees oil exploration rigs, power generation grids, steel production, and natural gas pipelines as an Executive Engineer in Maharatna and Navratna PSUs.",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000210"
+      },
+      {
+        "$oid": "650000000000000000000212"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000310"
+      },
+      {
+        "$oid": "650000000000000000000312"
+      }
+    ],
+    "salaryRange": {
+      "min": 1100000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "DPE Guidelines / ONGC, IOCL, NTPC Executive Trainee Pay Scale ₹60,000-1,80,000"
+    },
+    "salarySource": "DPE Guidelines / ONGC, IOCL, NTPC Executive Trainee Pay Scale ₹60,000-1,80,000",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Top tier campus goal for engineering graduates combining lucrative industrial compensation packages with government job stability.",
+    "educationRequirements": "B.Tech/B.E. in Mechanical, Electrical, Chemical, or Civil Engineering with high All India Rank (AIR) in the Graduate Aptitude Test in Engineering (GATE).",
+    "workEnvironment": "Offshore oil fields (ONGC), thermal/hydro power stations (NTPC), petroleum refineries (IOCL), and steel manufacturing plants (SAIL)."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000048a"
+    },
+    "title": "Government Research Scientist",
+    "slug": "government-research-scientist",
+    "description": "Conducts strategic scientific research and defense development for national missions including satellite launches (ISRO), defense missiles (DRDO), and atomic energy (BARC).",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000220"
+      },
+      {
+        "$oid": "650000000000000000000223"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000334"
+      }
+    ],
+    "salaryRange": {
+      "min": 900000,
+      "max": 2500000,
+      "currency": "INR",
+      "source": "DRDO / ISRO Scientist 'B' & 'C' Pay Scale Level 10 (7th CPC), AmbitionBox"
+    },
+    "salarySource": "DRDO / ISRO Scientist 'B' & 'C' Pay Scale Level 10 (7th CPC), AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Pivotal career track driving indigenous defense indigenization (Make in India), Chandrayaan space missions, and nuclear power safety.",
+    "educationRequirements": "B.Tech/M.Tech or M.Sc. with First Class. Selection through ISRO Centralised Recruitment Board (ICRB), DRDO RAC exam, or BARC OCES exam.",
+    "workEnvironment": "Strategic defense laboratories, rocket propulsion testing facilities (VSSC, SHAR), and atomic research complexes."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000048b"
+    },
+    "title": "Statistical Officer",
+    "slug": "statistical-officer",
+    "description": "Designs national economic surveys, compiles Consumer Price Index (CPI) and GDP indicators, and evaluates public welfare schemes for the Ministry of Statistics (MoSPI).",
+    "category": {
+      "$oid": "650000000000000000000108"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000204"
+      },
+      {
+        "$oid": "650000000000000000000240"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 650000,
+      "max": 1600000,
+      "currency": "INR",
+      "source": "Indian Statistical Service (ISS) Pay Matrix Level 10 / SSC JSO Level 6, MoSPI"
+    },
+    "salarySource": "Indian Statistical Service (ISS) Pay Matrix Level 10 / SSC JSO Level 6, MoSPI",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Institutional importance for national data sovereignty, economic policymaking, and demographic census analysis.",
+    "educationRequirements": "Bachelor's or Master's in Statistics, Mathematical Statistics, or Applied Statistics. UPSC Indian Statistical Service (ISS) examination or SSC JSO.",
+    "workEnvironment": "National Sample Survey Office (NSSO), Central Statistics Office (CSO), and planning secretariats."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000048c"
+    },
+    "title": "Lawyer",
+    "slug": "lawyer",
+    "description": "Represents clients in civil disputes, criminal trials, family law proceedings, and constitutional litigation before High Courts, District Courts, and tribunals.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000239"
+      },
+      {
+        "$oid": "650000000000000000000240"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000350"
+      },
+      {
+        "$oid": "650000000000000000000351"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 2000000,
+      "currency": "INR",
+      "source": "Bar Council of India Guidelines, AmbitionBox Advocate Survey"
+    },
+    "salarySource": "Bar Council of India Guidelines, AmbitionBox Advocate Survey",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Highly variable earning structure based on individual courtroom trial reputation, seniority, and private chamber clientele.",
+    "educationRequirements": "5-year Integrated BA/BBA LLB via CLAT/AILET, or 3-year LLB after graduation. Mandatory enrollment with State Bar Council and clearing All India Bar Examination (AIBE).",
+    "workEnvironment": "Courtrooms (Supreme Court, High Courts, District Sessions Courts), advocate chambers, and legal aid clinics."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000048d"
+    },
+    "title": "Corporate Lawyer",
+    "slug": "corporate-lawyer",
+    "description": "Drafts cross-border commercial contracts, conducts legal due diligence, structures mergers and acquisitions (M&A), and advises on antitrust and foreign direct investment regulations.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000236"
+      },
+      {
+        "$oid": "650000000000000000000239"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000342"
+      },
+      {
+        "$oid": "650000000000000000000351"
+      }
+    ],
+    "salaryRange": {
+      "min": 800000,
+      "max": 3500000,
+      "currency": "INR",
+      "source": "Vahura Legal Salary Survey India, AmbitionBox Corporate Counsel Benchmark"
+    },
+    "salarySource": "Vahura Legal Salary Survey India, AmbitionBox Corporate Counsel Benchmark",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Lucrative opportunities across Tier-1 law firms (Shardul Amarchand, Cyril Amarchand, AZB & Partners, Khaitan) and multinational in-house counsel teams.",
+    "educationRequirements": "LLB/BA LLB from top National Law Universities (NLUs) via CLAT. Master of Laws (LLM) in Corporate or Commercial Law is advantageous.",
+    "workEnvironment": "Premier corporate law firms, multinational corporate headquarters, and legal consulting offices."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000048e"
+    },
+    "title": "Legal Advisor",
+    "slug": "legal-advisor",
+    "description": "Serves as internal legal counsel for corporations, reviewing business agreements, managing intellectual property trademarks, and shielding the enterprise from litigation risk.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000236"
+      },
+      {
+        "$oid": "650000000000000000000239"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000342"
+      },
+      {
+        "$oid": "650000000000000000000351"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 2200000,
+      "currency": "INR",
+      "source": "AmbitionBox Legal Advisor Benchmark, PayScale India"
+    },
+    "salarySource": "AmbitionBox Legal Advisor Benchmark, PayScale India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Strongly prioritized across fintech, pharmaceutical, e-commerce, and infrastructure conglomerates to navigate evolving Indian digital regulatory frameworks.",
+    "educationRequirements": "Degree in Law (LLB / BA LLB). Enrollment with Bar Council of India with practical corporate contracting and compliance exposure.",
+    "workEnvironment": "Corporate headquarters, legal department offices, and executive consulting suites."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000048f"
+    },
+    "title": "Hotel Manager",
+    "slug": "hotel-manager",
+    "description": "Directs full operations of luxury hotels, overseeing room reservations, housekeeping standards, food and beverage revenues, guest relations, and guest satisfaction.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000243"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000344"
+      },
+      {
+        "$oid": "650000000000000000000353"
+      }
+    ],
+    "salaryRange": {
+      "min": 450000,
+      "max": 2000000,
+      "currency": "INR",
+      "source": "NCHMCT Placement Survey, AmbitionBox Hospitality Report"
+    },
+    "salarySource": "NCHMCT Placement Survey, AmbitionBox Hospitality Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Flourishing growth in Indian business travel, luxury heritage tourism (Rajasthan/Goa), and international hotel chains (Taj, Marriott, Oberoi).",
+    "educationRequirements": "B.Sc. in Hospitality & Hotel Administration through NCHMCT JEE exam from premier Institutes of Hotel Management (IHM).",
+    "workEnvironment": "5-star luxury hotels, boutique resort properties, and business hotel chains."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000490"
+    },
+    "title": "Chef",
+    "slug": "chef",
+    "description": "Creates innovative culinary menus, masters cooking techniques across regional and international cuisines, supervises kitchen brigade staff, and maintains strict food safety.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000235"
+      },
+      {
+        "$oid": "650000000000000000000243"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000345"
+      },
+      {
+        "$oid": "650000000000000000000353"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "Culinary Institute of India Data, AmbitionBox Executive Chef Report"
+    },
+    "salarySource": "Culinary Institute of India Data, AmbitionBox Executive Chef Report",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: High demand for skilled Executive Chefs and Sous Chefs in fine dining restaurants, luxury hotel kitchens, and high-end catering brands.",
+    "educationRequirements": "Bachelor's degree or Diploma in Culinary Arts / Hotel Management (IHM). Kitchen apprenticeships under certified Master Chefs with HACCP food safety knowledge.",
+    "workEnvironment": "Commercial hotel kitchens, gourmet fine-dining restaurants, and luxury cruise liners."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000491"
+    },
+    "title": "Event Manager",
+    "slug": "event-manager",
+    "description": "Plans and coordinates large-scale conventions, destination weddings, corporate product launches, music festivals, and trade expos, supervising vendor logistics and budgets.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000218"
+      },
+      {
+        "$oid": "650000000000000000000243"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000331"
+      },
+      {
+        "$oid": "650000000000000000000353"
+      }
+    ],
+    "salaryRange": {
+      "min": 320000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "Event and Entertainment Management Association (EEMA) Data, AmbitionBox"
+    },
+    "salarySource": "Event and Entertainment Management Association (EEMA) Data, AmbitionBox",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Fueled by India's multi-billion-dollar luxury wedding industry, global sports leagues (IPL), corporate conclaves, and live music tours.",
+    "educationRequirements": "Bachelor's or PG Diploma in Event Management, Mass Media, or BBA. Practical internship credentials with recognized event management agencies.",
+    "workEnvironment": "Event planning agencies, luxury banquet venues, exhibition convention centers, and on-site event stages."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000492"
+    },
+    "title": "Airline Pilot",
+    "slug": "airline-pilot",
+    "description": "Commands commercial passenger or cargo aircraft, executing flight plans, monitoring cockpit instrument flight rules (IFR), and ensuring passenger safety.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000223"
+      },
+      {
+        "$oid": "650000000000000000000242"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000334"
+      },
+      {
+        "$oid": "650000000000000000000352"
+      }
+    ],
+    "salaryRange": {
+      "min": 1800000,
+      "max": 6500000,
+      "currency": "INR",
+      "source": "Directorate General of Civil Aviation (DGCA) Standards / IndiGo & Air India Scales"
+    },
+    "salarySource": "Directorate General of Civil Aviation (DGCA) Standards / IndiGo & Air India Scales",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Major aircraft fleet orders (over 1,000+ new aircraft ordered by IndiGo and Air India) have triggered an unprecedented long-term demand for commercial pilots in India.",
+    "educationRequirements": "10+2 with Physics and Mathematics. Commercial Pilot License (CPL) issued by DGCA following minimum 200 hours flight training at an approved Flying Training Organization (FTO), Class 1 Medical, and Type Rating (A320/B737).",
+    "workEnvironment": "Commercial aircraft flight cockpits, airport terminals, and international air routes."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000493"
+    },
+    "title": "Cabin Crew",
+    "slug": "cabin-crew",
+    "description": "Delivers in-flight passenger hospitality, conducts pre-flight safety demonstrations, administers first-aid emergencies, and coordinates emergency evacuations.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000242"
+      },
+      {
+        "$oid": "650000000000000000000243"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000314"
+      },
+      {
+        "$oid": "650000000000000000000353"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1200000,
+      "currency": "INR",
+      "source": "Airline Industry Cabin Crew Compensation, AmbitionBox India"
+    },
+    "salarySource": "Airline Industry Cabin Crew Compensation, AmbitionBox India",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Record expansion of Indian aviation domestic routes and international long-haul connections creates ongoing hiring batches.",
+    "educationRequirements": "10+2 minimum educational qualification. Fluency in English and Hindi, meeting airline height/vision criteria, followed by mandatory DGCA-approved airline safety training.",
+    "workEnvironment": "Commercial passenger aircraft passenger cabins and international transit airports."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000494"
+    },
+    "title": "Logistics Manager",
+    "slug": "logistics-manager",
+    "description": "Coordinates freight transportation, supervises regional warehouse hubs, negotiates multimodal carrier contracts, and ensures on-time shipment deliveries.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000238"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000344"
+      },
+      {
+        "$oid": "650000000000000000000345"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 1800000,
+      "currency": "INR",
+      "source": "National Logistics Policy Benchmarks, AmbitionBox Report"
+    },
+    "salarySource": "National Logistics Policy Benchmarks, AmbitionBox Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Accelerated by the National Logistics Policy (NLP), dedicated freight corridors, and e-commerce express logistics infrastructure.",
+    "educationRequirements": "Bachelor's degree followed by an MBA or Diploma in Logistics & Supply Chain Management. Proficiency with Warehouse Management Systems (WMS).",
+    "workEnvironment": "Logistics fulfillment centers, multi-modal transport hubs, shipping ports, and corporate distribution offices."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000495"
+    },
+    "title": "Agricultural Scientist",
+    "slug": "agricultural-scientist",
+    "description": "Researches high-yielding crop genetics, soil microbiome fertility, drought-resistant hybrids, and bio-fertilizers to enhance national food security.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000220"
+      },
+      {
+        "$oid": "650000000000000000000244"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000320"
+      },
+      {
+        "$oid": "650000000000000000000354"
+      }
+    ],
+    "salaryRange": {
+      "min": 550000,
+      "max": 1700000,
+      "currency": "INR",
+      "source": "Agricultural Scientists Recruitment Board (ASRB) ARS Pay Scale Level 10, ICAR"
+    },
+    "salarySource": "Agricultural Scientists Recruitment Board (ASRB) ARS Pay Scale Level 10, ICAR",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Vital public research roles under the Indian Council of Agricultural Research (ICAR) and commercial agrochemical research firms.",
+    "educationRequirements": "B.Sc. (Hons) Agriculture followed by M.Sc. and Ph.D. in Agronomy, Genetics, or Plant Breeding. Qualifying the Agricultural Research Service (ARS) exam conducted by ASRB.",
+    "workEnvironment": "ICAR research institutes, state agricultural university farms, and seed biotechnology laboratories."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000496"
+    },
+    "title": "Agricultural Officer",
+    "slug": "agricultural-officer",
+    "description": "Assists farmers with government agricultural subsidies, promotes modern irrigation technologies, monitors rural crop health, and evaluates agricultural credit loans.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000240"
+      },
+      {
+        "$oid": "650000000000000000000244"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000316"
+      },
+      {
+        "$oid": "650000000000000000000354"
+      }
+    ],
+    "salaryRange": {
+      "min": 500000,
+      "max": 1400000,
+      "currency": "INR",
+      "source": "IBPS SO (Agriculture Field Officer) Scale-I Pay Scale, State PSC"
+    },
+    "salarySource": "IBPS SO (Agriculture Field Officer) Scale-I Pay Scale, State PSC",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Regular annual recruitment through IBPS Specialist Officer (AFO) across all public sector commercial banks and State Agriculture Departments.",
+    "educationRequirements": "4-year B.Sc. in Agriculture, Horticulture, Dairy Science, or Agricultural Engineering from an ICAR-recognized university.",
+    "workEnvironment": "Rural district agriculture offices, Krishi Vigyan Kendras (KVK), and rural bank branches."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000497"
+    },
+    "title": "Veterinarian",
+    "slug": "veterinarian",
+    "description": "Diagnoses animal illnesses, performs surgical operations on companion pets and dairy livestock, administers rabies vaccinations, and prevents zoonotic diseases.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000213"
+      },
+      {
+        "$oid": "650000000000000000000245"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000313"
+      },
+      {
+        "$oid": "650000000000000000000355"
+      }
+    ],
+    "salaryRange": {
+      "min": 400000,
+      "max": 1500000,
+      "currency": "INR",
+      "source": "Veterinary Council of India (VCI) Guidelines, AmbitionBox Report"
+    },
+    "salarySource": "Veterinary Council of India (VCI) Guidelines, AmbitionBox Report",
+    "marketDemand": "High",
+    "jobOutlook": "High Demand: Driven by the boom in urban pet parenting clinics alongside extensive government livestock veterinary dispensaries across rural dairy belts.",
+    "educationRequirements": "B.V.Sc. & A.H. (Bachelor of Veterinary Science and Animal Husbandry, 5.5 years with internship) through NEET-UG. Mandatory registration with the Veterinary Council of India (VCI).",
+    "workEnvironment": "Veterinary hospitals, private urban pet clinics, dairy farms, and wildlife animal sanctuaries."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000498"
+    },
+    "title": "Environmental Scientist",
+    "slug": "environmental-scientist",
+    "description": "Collects field air, water, and soil samples, assesses biodiversity conservation, analyzes environmental pollution data, and helps industries maintain ecological compliance.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000220"
+      },
+      {
+        "$oid": "650000000000000000000226"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000304"
+      },
+      {
+        "$oid": "650000000000000000000320"
+      }
+    ],
+    "salaryRange": {
+      "min": 350000,
+      "max": 1350000,
+      "currency": "INR",
+      "source": "Ministry of Environment, Forest and Climate Change (MoEFCC), AmbitionBox"
+    },
+    "salarySource": "Ministry of Environment, Forest and Climate Change (MoEFCC), AmbitionBox",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Employed by environmental consulting agencies, renewable energy environmental auditors, and government pollution boards.",
+    "educationRequirements": "B.Sc. and M.Sc. in Environmental Science, Ecology, or Forestry. UGC-NET Environmental Science qualification for research and faculty posts.",
+    "workEnvironment": "Ecological fieldwork sites, environmental testing laboratories, and environmental policy consultancies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000499"
+    },
+    "title": "Entrepreneur",
+    "slug": "entrepreneur",
+    "description": "Identifies unmet market opportunities, builds innovative business models, secures venture capital or boot-straps funding, and leads operational scaling of a company.",
+    "category": {
+      "$oid": "650000000000000000000109"
+    },
+    "subjects": [
+      {
+        "$oid": "650000000000000000000217"
+      },
+      {
+        "$oid": "650000000000000000000238"
+      }
+    ],
+    "skills": [
+      {
+        "$oid": "650000000000000000000317"
+      },
+      {
+        "$oid": "650000000000000000000331"
+      }
+    ],
+    "salaryRange": {
+      "min": 300000,
+      "max": 5000000,
+      "currency": "INR",
+      "source": "Startup India / Inc42 Indian Founder Salary Survey"
+    },
+    "salarySource": "Startup India / Inc42 Indian Founder Salary Survey",
+    "marketDemand": "Moderate",
+    "jobOutlook": "Moderate Demand: Highly variable earning structure dependent on company stage, equity valuation, profitability, and founder draws. India is the world's 3rd largest startup ecosystem.",
+    "educationRequirements": "No mandatory degree required; however, a background in Engineering, Business Management, or Commerce paired with domain expertise and leadership capability is common.",
+    "workEnvironment": "Startup co-working incubators, founder suites, and dynamic commercial offices."
+  }
+]

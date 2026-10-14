@@ -19,9 +19,9 @@ const NotFoundPage = () => {
           width: '56px',
           height: '56px',
           borderRadius: '12px',
-          backgroundColor: 'var(--bg-subtle, #f4f4f5)',
-          color: 'var(--text-main, #18181b)',
-          border: '1px solid var(--border-color, #e4e4e7)',
+          backgroundColor: 'var(--bg-subtle)',
+          color: 'var(--text-main)',
+          border: '1px solid var(--border-color)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -35,7 +35,7 @@ const NotFoundPage = () => {
         style={{
           fontSize: '0.8rem',
           fontWeight: 700,
-          color: 'var(--text-muted, #71717a)',
+          color: 'var(--text-muted)',
           textTransform: 'uppercase',
           letterSpacing: '0.05em',
           marginBottom: '8px',
@@ -48,7 +48,7 @@ const NotFoundPage = () => {
         style={{
           fontSize: '2.25rem',
           fontWeight: 800,
-          color: 'var(--text-main, #18181b)',
+          color: 'var(--text-main)',
           marginBottom: '12px',
           letterSpacing: '-0.03em',
         }}
@@ -58,7 +58,7 @@ const NotFoundPage = () => {
 
       <p
         style={{
-          color: 'var(--text-muted, #71717a)',
+          color: 'var(--text-muted)',
           fontSize: '0.95rem',
           maxWidth: '440px',
           marginBottom: '32px',

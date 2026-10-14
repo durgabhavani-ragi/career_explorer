@@ -1,0 +1,317 @@
+[
+  {
+    "_id": {
+      "$oid": "650000000000000000000201"
+    },
+    "name": "Computer Science Principles",
+    "description": "Foundational programming concepts, computational logic, object-oriented design, and software paradigms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000202"
+    },
+    "name": "Data Structures & Algorithms",
+    "description": "Arrays, linked lists, trees, graphs, sorting, searching, computational complexity, and dynamic programming."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000203"
+    },
+    "name": "Web & Systems Architecture",
+    "description": "Client-server architecture, HTTP protocols, RESTful APIs, distributed microservices, and databases."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000204"
+    },
+    "name": "Mathematics & Statistics",
+    "description": "Linear algebra, multivariable calculus, probability theory, hypothesis testing, and quantitative analytics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000205"
+    },
+    "name": "Artificial Intelligence & Machine Learning",
+    "description": "Supervised and unsupervised learning, neural networks, deep learning architectures, NLP, and model evaluation."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000206"
+    },
+    "name": "Cybersecurity & Network Defense",
+    "description": "Network security protocols, cryptography, penetration testing, threat hunting, and security auditing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000207"
+    },
+    "name": "Cloud Computing Infrastructure",
+    "description": "Virtualization, cloud architectures (AWS/Azure/GCP), storage subsystems, and Infrastructure as Code."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000208"
+    },
+    "name": "DevOps & Systems Administration",
+    "description": "CI/CD pipelines, container orchestration, Linux systems administration, and site reliability engineering."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000209"
+    },
+    "name": "Human-Computer Interaction & UI Design",
+    "description": "User research methodologies, wireframing, usability testing, design systems, and visual interaction."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000210"
+    },
+    "name": "Thermodynamics & Mechanics",
+    "description": "Fluid dynamics, heat transfer, solid mechanics, mechanical systems design, and CAD modeling."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000211"
+    },
+    "name": "Structural Analysis & Materials Science",
+    "description": "Structural design, concrete technology, geotechnics, seismic engineering, and construction planning."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000212"
+    },
+    "name": "Electrical Circuits & Power Systems",
+    "description": "Circuit analysis, electric machinery, power transmission, control theory, and grid operations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000213"
+    },
+    "name": "Human Anatomy & Physiology",
+    "description": "Macroscopic and microscopic structures of human organ systems, histology, and physiological homeostasis."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000214"
+    },
+    "name": "Nursing & Patient Care Practice",
+    "description": "Clinical nursing protocols, patient safety, medication administration, critical care, and triage."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000215"
+    },
+    "name": "Pharmacology & Therapeutics",
+    "description": "Pharmacokinetics, pharmacodynamics, clinical toxicology, drug formulations, and dispensing regulations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000216"
+    },
+    "name": "Financial Accounting & Auditing",
+    "description": "Indian Accounting Standards (Ind AS), statutory auditing, internal controls, and taxation frameworks."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000217"
+    },
+    "name": "Corporate Finance & Valuation",
+    "description": "Capital budgeting, equity research, financial modeling, mergers and acquisitions, and risk management."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000218"
+    },
+    "name": "Digital Marketing & Consumer Analytics",
+    "description": "Search engine optimization, programmatic advertising, content strategy, brand positioning, and analytics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000219"
+    },
+    "name": "Educational Psychology & Pedagogy",
+    "description": "Instructional design, child cognitive development, curriculum evaluation, and classroom management."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000220"
+    },
+    "name": "Scientific Research Methodology",
+    "description": "Hypothesis testing, experimental research design, laboratory instrumentation, and peer-reviewed publishing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000221"
+    },
+    "name": "VLSI Design & Semiconductor Technology",
+    "description": "Digital CMOS design, FPGA synthesis, Verilog/VHDL, ASIC design flow, and semiconductor physics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000222"
+    },
+    "name": "Chemical Reaction Engineering & Thermodynamics",
+    "description": "Mass transfer, transport phenomena, chemical plant design, industrial catalysis, and process control."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000223"
+    },
+    "name": "Aerospace Propulsion & Aerodynamics",
+    "description": "Compressible fluid flow, gas turbine engines, aircraft structures, orbital mechanics, and avionics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000224"
+    },
+    "name": "Automotive Systems & Electric Vehicles",
+    "description": "Chassis dynamics, internal combustion and EV powertrains, battery management systems, and ADAS."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000225"
+    },
+    "name": "Robotics, Kinematics & Mechatronics",
+    "description": "Robot manipulator kinematics, sensors and actuators, PLC automation, ROS, and embedded control."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000226"
+    },
+    "name": "Environmental Science & Sustainable Technology",
+    "description": "Waste treatment, environmental impact assessment, pollution control, ecology, and renewable energy."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000227"
+    },
+    "name": "Biomedical Engineering & Clinical Devices",
+    "description": "Biomedical signals (ECG/EEG), medical imaging systems (MRI/CT), biomaterials, and prosthetics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000228"
+    },
+    "name": "Clinical Medicine, Surgery & Diagnostics",
+    "description": "Internal medicine, pathology, surgical principles, patient clinical assessment, and differential diagnosis."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000229"
+    },
+    "name": "Dental Sciences & Oral Surgery",
+    "description": "Conservative dentistry, prosthodontics, periodontology, oral and maxillofacial surgery, and orthodontics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000230"
+    },
+    "name": "Physical Therapy & Rehabilitation Science",
+    "description": "Biomechanics, kinesiology, musculoskeletal rehabilitation, neuro-physiotherapy, and exercise physiology."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000231"
+    },
+    "name": "Medical Laboratory Technology & Radiology",
+    "description": "Hematology, clinical biochemistry, histopathology, diagnostic radiography, CT/MRI operation, and safety."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000232"
+    },
+    "name": "Psychology & Cognitive Neuroscience",
+    "description": "Abnormal psychology, psychometrics, counseling therapies, cognitive processes, and mental healthcare."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000233"
+    },
+    "name": "Biotechnology & Genetic Engineering",
+    "description": "Recombinant DNA technology, bioprocess engineering, bioinformatics, CRISPR gene editing, and cell culture."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000234"
+    },
+    "name": "Microbiology & Immunology",
+    "description": "Bacteriology, virology, microbial genetics, host defense mechanisms, vaccines, and infectious diseases."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000235"
+    },
+    "name": "Public Health, Nutrition & Epidemiology",
+    "description": "Disease surveillance, biostatistics, human nutritional biochemistry, health policy, and community medicine."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000236"
+    },
+    "name": "Corporate Law, Governance & Compliance",
+    "description": "Companies Act 2013, SEBI regulations, secretarial standards, corporate governance, and compliance auditing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000237"
+    },
+    "name": "Banking Operations & Risk Management",
+    "description": "Commercial banking, RBI monetary policies, credit appraisal, treasury management, and financial actuarial math."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000238"
+    },
+    "name": "Supply Chain Management & Operations",
+    "description": "Procurement, inventory optimization, Six Sigma quality control, logistics routing, and operations research."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000239"
+    },
+    "name": "Constitutional Law & Indian Jurisprudence",
+    "description": "Indian Constitution, civil and criminal procedural law (CPC/CrPC), legal drafting, and courtroom advocacy."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000240"
+    },
+    "name": "Indian Polity, Public Administration & Governance",
+    "description": "Union and state administrative machinery, public policy formulation, ethics in civil service, and development economics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000241"
+    },
+    "name": "General Studies & Quantitative Aptitude",
+    "description": "Indian history, geography, reasoning logic, arithmetic capability, and socio-economic current affairs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000242"
+    },
+    "name": "Aviation Operations, Navigation & Meteorology",
+    "description": "Air navigation, DGCA flight rules, aviation weather, aircraft systems, and passenger safety protocols."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000243"
+    },
+    "name": "Hospitality Operations & Culinary Arts",
+    "description": "Food and beverage production, front office management, accommodation operations, and event logistics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000244"
+    },
+    "name": "Agricultural Sciences, Agronomy & Soil Science",
+    "description": "Crop physiology, soil fertility, plant pathology, agricultural economics, and farm mechanization."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000245"
+    },
+    "name": "Veterinary Medicine & Animal Surgery",
+    "description": "Veterinary anatomy, animal pathology, surgical techniques, livestock management, and zoonotic prevention."
+  }
+]

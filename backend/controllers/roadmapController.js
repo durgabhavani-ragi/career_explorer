@@ -28,7 +28,18 @@ const getRoadmaps = async (req, res, next) => {
 // @access  Public
 const getRoadmapByCareerId = async (req, res, next) => {
   try {
-    const roadmap = await Roadmap.findOne({ career: req.params.careerId }).populate(
+    let careerId = req.params.careerId;
+    const mongoose = require('mongoose');
+    const Career = require('../models/Career');
+
+    if (!mongoose.Types.ObjectId.isValid(careerId)) {
+      const foundCareer = await Career.findOne({ slug: careerId });
+      if (foundCareer) {
+        careerId = foundCareer._id;
+      }
+    }
+
+    const roadmap = await Roadmap.findOne({ career: careerId }).populate(
       'career',
       'title slug description'
     );
@@ -77,7 +88,17 @@ const getRoadmapById = async (req, res, next) => {
 // @access  Private/Admin
 const createRoadmap = async (req, res, next) => {
   try {
-    const { career, title, description, steps } = req.body;
+    const {
+      career,
+      title,
+      description,
+      totalDurationMonths,
+      totalDurationFormatted,
+      totalEstimatedDuration,
+      durationBreakdown,
+      overlapNotes,
+      steps,
+    } = req.body;
 
     if (!career || !title) {
       return res.status(400).json({
@@ -98,6 +119,11 @@ const createRoadmap = async (req, res, next) => {
       career,
       title,
       description,
+      totalDurationMonths,
+      totalDurationFormatted,
+      totalEstimatedDuration: totalDurationFormatted || totalEstimatedDuration,
+      durationBreakdown,
+      overlapNotes,
       steps: steps || [],
     });
 
@@ -121,9 +147,27 @@ const updateRoadmap = async (req, res, next) => {
       return res.status(404).json({ success: false, message: 'Roadmap not found' });
     }
 
-    const { title, description, steps } = req.body;
+    const {
+      title,
+      description,
+      totalDurationMonths,
+      totalDurationFormatted,
+      totalEstimatedDuration,
+      durationBreakdown,
+      overlapNotes,
+      steps,
+    } = req.body;
     if (title) roadmap.title = title;
     if (description !== undefined) roadmap.description = description;
+    if (totalDurationMonths !== undefined) roadmap.totalDurationMonths = totalDurationMonths;
+    if (totalDurationFormatted !== undefined) {
+      roadmap.totalDurationFormatted = totalDurationFormatted;
+      roadmap.totalEstimatedDuration = totalDurationFormatted;
+    } else if (totalEstimatedDuration !== undefined) {
+      roadmap.totalEstimatedDuration = totalEstimatedDuration;
+    }
+    if (durationBreakdown !== undefined) roadmap.durationBreakdown = durationBreakdown;
+    if (overlapNotes !== undefined) roadmap.overlapNotes = overlapNotes;
     if (steps) roadmap.steps = steps;
 
     const updatedRoadmap = await roadmap.save();

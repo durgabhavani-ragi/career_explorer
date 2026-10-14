@@ -26,6 +26,9 @@ const Skill = require('../models/Skill');
 const Career = require('../models/Career');
 const Roadmap = require('../models/Roadmap');
 const AlternativeCareer = require('../models/AlternativeCareer');
+const User = require('../models/User');
+const SavedCareer = require('../models/SavedCareer');
+const RoadmapProgress = require('../models/RoadmapProgress');
 
 /**
  * Robust MongoDB Extended JSON Parser
@@ -152,8 +155,11 @@ const validateDataset = () => {
     if (!rm.title) errors.push(`Roadmap[${idx}] missing title`);
     if (!rm.career) {
       errors.push(`Roadmap "${rm.title}" missing career reference`);
-    } else if (!careerIds.has(rm.career.toString())) {
-      errors.push(`Roadmap "${rm.title}" references non-existent Career ID: ${rm.career}`);
+    } else {
+      const careerRefId = (rm.career && rm.career._id ? rm.career._id : rm.career).toString();
+      if (!careerIds.has(careerRefId)) {
+        errors.push(`Roadmap "${rm.title}" references non-existent Career ID: ${careerRefId}`);
+      }
     }
   });
 
@@ -241,6 +247,67 @@ const importData = async () => {
 };
 
 /**
+ * Dry-Run Simulation Check (Read-Only)
+ */
+const dryRun = async () => {
+  const validation = validateDataset();
+  if (!validation.valid) {
+    console.error('Dry run aborted due to validation errors.');
+    process.exit(1);
+  }
+
+  const { categories, subjects, skills, careers, roadmaps, altCareers } = validation.datasets;
+
+  const mongoURI = process.env.MONGODB_URI;
+  if (!mongoURI) {
+    console.error('ERROR: MONGODB_URI missing in .env file!');
+    process.exit(1);
+  }
+
+  console.log('Connecting to MongoDB Atlas in READ-ONLY mode for Dry Run...');
+  await mongoose.connect(mongoURI);
+  console.log('MongoDB Connected successfully.\n');
+
+  console.log('=== DRY RUN: PROPOSED DATABASE MODIFICATIONS ===\n');
+
+  // Verify protected user collections
+  const userCount = await User.countDocuments();
+  const savedCareerCount = await SavedCareer.countDocuments();
+  const progressCount = await RoadmapProgress.countDocuments();
+
+  console.log('--- USER DATA STATUS (100% PRESERVED & UNTOUCHED) ---');
+  console.log(`- User Accounts:        ${userCount} records`);
+  console.log(`- Saved Careers:        ${savedCareerCount} records`);
+  console.log(`- Roadmap Progress:     ${progressCount} records\n`);
+
+  // Analyze dataset collections
+  const analyzeCollection = async (Model, documents, modelName) => {
+    const totalExisting = await Model.countDocuments();
+    const incomingIds = documents.map((d) => d._id);
+    const existingMatches = await Model.find({ _id: { $in: incomingIds } }).distinct('_id');
+    const matchedCount = existingMatches.length;
+    const upsertedCount = documents.length - matchedCount;
+
+    console.log(
+      `• ${modelName.padEnd(20)} Current DB: ${String(totalExisting).padStart(3)} | Incoming: ${String(documents.length).padStart(3)} | Updates (Matched): ${String(matchedCount).padStart(3)} | Inserts (New): ${String(upsertedCount).padStart(3)}`
+    );
+  };
+
+  console.log('--- DATASET COLLECTIONS PLAN ---');
+  await analyzeCollection(Category, categories, 'Categories');
+  await analyzeCollection(Subject, subjects, 'Subjects');
+  await analyzeCollection(Skill, skills, 'Skills');
+  await analyzeCollection(Career, careers, 'Careers');
+  await analyzeCollection(Roadmap, roadmaps, 'Roadmaps');
+  await analyzeCollection(AlternativeCareer, altCareers, 'AlternativeCareers');
+
+  console.log('\n✅ DRY RUN COMPLETED: No writes were made to MongoDB Atlas.');
+  console.log('To apply these changes idempotently, run:');
+  console.log('  node scripts/importData.js --import\n');
+  process.exit(0);
+};
+
+/**
  * Safeguarded Deletion Process (Isolated behind --wipe --confirm-wipe)
  */
 const deleteData = async () => {
@@ -284,6 +351,8 @@ if (process.argv.includes('--validate')) {
     console.error('❌ Local offline validation FAILED.');
   }
   process.exit(res.valid ? 0 : 1);
+} else if (process.argv.includes('--dry-run')) {
+  dryRun();
 } else if (process.argv.includes('--import')) {
   importData();
 } else if (process.argv.includes('--wipe') || process.argv.includes('--delete')) {
@@ -292,6 +361,7 @@ if (process.argv.includes('--validate')) {
   console.log('Career Explorer Dataset Import Tool');
   console.log('Usage:');
   console.log('  node scripts/importData.js --validate            (Offline validation check - No DB connection)');
+  console.log('  node scripts/importData.js --dry-run             (Simulation against MongoDB Atlas without writes)');
   console.log('  node scripts/importData.js --import           (Idempotent bulk upsert into MongoDB Atlas)');
   console.log('  node scripts/importData.js --wipe --confirm-wipe (Safeguarded wipe of dataset collections)');
   process.exit(0);

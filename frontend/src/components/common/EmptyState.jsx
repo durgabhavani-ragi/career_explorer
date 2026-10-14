@@ -25,13 +25,13 @@ const EmptyState = ({
           width: '52px',
           height: '52px',
           borderRadius: '10px',
-          backgroundColor: 'var(--bg-subtle, #f4f4f5)',
-          border: '1px solid var(--border-color, #e4e4e7)',
+          backgroundColor: 'var(--bg-subtle)',
+          border: '1px solid var(--border-color)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           marginBottom: '16px',
-          color: 'var(--text-muted, #71717a)',
+          color: 'var(--text-muted)',
         }}
       >
         <FolderOpen size={24} />
@@ -40,7 +40,7 @@ const EmptyState = ({
         style={{
           fontSize: '1.15rem',
           fontWeight: 700,
-          color: 'var(--text-main, #18181b)',
+          color: 'var(--text-main)',
           marginBottom: '8px',
         }}
       >
@@ -48,7 +48,7 @@ const EmptyState = ({
       </h3>
       <p
         style={{
-          color: 'var(--text-muted, #71717a)',
+          color: 'var(--text-muted)',
           fontSize: '0.9rem',
           marginBottom: actionText && onAction ? '20px' : '0',
           lineHeight: 1.5,

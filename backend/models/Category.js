@@ -31,14 +31,13 @@ const categorySchema = new mongoose.Schema(
 );
 
 // Auto-generate slug from name if not provided or modified
-categorySchema.pre('save', function (next) {
+categorySchema.pre('save', function () {
   if (this.isModified('name') || !this.slug) {
     this.slug = this.name
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/(^-|-$)+/g, '');
   }
-  next();
 });
 
 module.exports = mongoose.model('Category', categorySchema);

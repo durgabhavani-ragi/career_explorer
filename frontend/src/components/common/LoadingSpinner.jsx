@@ -15,13 +15,13 @@ const LoadingSpinner = ({ message = 'Loading...' }) => {
         style={{
           width: '32px',
           height: '32px',
-          border: '2px solid var(--border-color, #e4e4e7)',
-          borderTop: '2px solid var(--text-main, #18181b)',
+          border: '2px solid var(--border-color)',
+          borderTop: '2px solid var(--primary)',
           borderRadius: '50%',
           animation: 'spin 0.7s linear infinite',
         }}
       />
-      <p style={{ marginTop: '14px', color: 'var(--text-muted, #71717a)', fontSize: '0.88rem' }}>
+      <p style={{ marginTop: '14px', color: 'var(--text-muted)', fontSize: '0.88rem' }}>
         {message}
       </p>
       <style>{`

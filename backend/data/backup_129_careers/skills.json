@@ -1,0 +1,442 @@
+[
+  {
+    "_id": {
+      "$oid": "650000000000000000000301"
+    },
+    "name": "JavaScript & TypeScript",
+    "category": "650000000000000000000101",
+    "description": "Core language features, asynchronous programming, event-driven architecture, and static type safety."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000302"
+    },
+    "name": "Full-Stack Web Engineering (React & Node)",
+    "category": "650000000000000000000101",
+    "description": "Building responsive single-page web applications with React and high-throughput REST APIs with Node.js/Express."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000303"
+    },
+    "name": "SQL & Relational Database Querying",
+    "category": "650000000000000000000101",
+    "description": "Complex SQL querying, normalization, window functions, schema design, and query optimization."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000304"
+    },
+    "name": "Python & Data Wrangling (Pandas/NumPy)",
+    "category": "650000000000000000000105",
+    "description": "Data extraction, vector manipulation, statistical transformation, and automated analytics scripts in Python."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000305"
+    },
+    "name": "Machine Learning Frameworks (PyTorch/Scikit-Learn)",
+    "category": "650000000000000000000101",
+    "description": "Building, training, tuning, and deploying predictive machine learning and deep learning neural models."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000306"
+    },
+    "name": "Ethical Hacking & Penetration Testing",
+    "category": "650000000000000000000101",
+    "description": "Vulnerability assessment, network packet sniffing, Metasploit exploitation, and defense hardening."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000307"
+    },
+    "name": "AWS Cloud Architecture & Terraform",
+    "category": "650000000000000000000101",
+    "description": "Designing reliable cloud systems across AWS (EC2, S3, RDS, Lambda) and automated Infrastructure as Code."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000308"
+    },
+    "name": "Docker Containerization & Kubernetes",
+    "category": "650000000000000000000101",
+    "description": "Creating microservice container images, managing cluster pods, helm charts, and ingress controllers."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000309"
+    },
+    "name": "User Research & Figma Prototyping",
+    "category": "650000000000000000000106",
+    "description": "User journey mapping, wireframing, high-fidelity responsive UI design, and interactive prototype usability testing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000310"
+    },
+    "name": "SolidWorks & Mechanical CAD Design",
+    "category": "650000000000000000000102",
+    "description": "3D parametric part design, sheet metal assemblies, engineering drawings, and GD&T tolerancing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000311"
+    },
+    "name": "AutoCAD & Civil Structural Analysis (STAAD.Pro)",
+    "category": "650000000000000000000102",
+    "description": "Structural modeling, bending moment/shear analysis, RCC detailing, and structural design per Indian Standards (IS 456)."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000312"
+    },
+    "name": "Embedded C & Microcontroller Firmware",
+    "category": "650000000000000000000102",
+    "description": "Writing bare-metal drivers, RTOS integration, peripheral communication (I2C/SPI/UART), and circuit testing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000313"
+    },
+    "name": "Clinical Diagnosis & Patient Management",
+    "category": "650000000000000000000103",
+    "description": "History taking, systemic physical examination, interpreting lab reports, formulating evidence-based care plans."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000314"
+    },
+    "name": "Critical Care Nursing & BLS/ACLS",
+    "category": "650000000000000000000103",
+    "description": "Cardiopulmonary resuscitation, hemodynamic monitoring, IV cannulation, ventilator management, and emergency response."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000315"
+    },
+    "name": "Pharmacovigilance & Drug Dispensing",
+    "category": "650000000000000000000103",
+    "description": "Evaluating adverse drug reactions, prescription verification, dose calculations, and pharmaceutical GMP standards."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000316"
+    },
+    "name": "Financial Auditing & Tally/SAP ERP",
+    "category": "650000000000000000000104",
+    "description": "Statutory audit procedures, voucher verification, GST reconciliations, and financial ledger maintenance."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000317"
+    },
+    "name": "DCF Financial Modeling & Valuation",
+    "category": "650000000000000000000104",
+    "description": "Building three-statement financial models, discounted cash flow (DCF) models, and sensitivity analyses in Excel."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000318"
+    },
+    "name": "SEO, Content Strategy & Google Analytics",
+    "category": "650000000000000000000106",
+    "description": "Keyword research, technical on-page SEO, backlink acquisition, conversion rate optimization, and GA4 tracking."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000319"
+    },
+    "name": "Pedagogy & Classroom Instruction",
+    "category": "650000000000000000000107",
+    "description": "Lesson plan creation, formative assessment, inclusive education, and interactive teaching methodologies."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000320"
+    },
+    "name": "Scientific Hypothesis Testing & Lab Safety",
+    "category": "650000000000000000000105",
+    "description": "Formulating research hypotheses, statistical validation (p-values, ANOVA), and biosafety Level-2 laboratory protocols."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000321"
+    },
+    "name": "Mobile App Development (Flutter/Kotlin/Swift)",
+    "category": "650000000000000000000101",
+    "description": "Developing cross-platform and native Android/iOS applications, mobile lifecycle, and offline storage."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000322"
+    },
+    "name": "Game Development (Unity / Unreal Engine / C++)",
+    "category": "650000000000000000000101",
+    "description": "3D physics engines, gameplay scripting, shader programming, asset optimization, and game performance tuning."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000323"
+    },
+    "name": "Big Data & ETL Pipelines (Spark/Kafka)",
+    "category": "650000000000000000000101",
+    "description": "Building scalable distributed ETL pipelines, Apache Spark streaming, Kafka message queues, and data lakehouses."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000324"
+    },
+    "name": "Natural Language Processing & Generative AI",
+    "category": "650000000000000000000101",
+    "description": "Transformer models, BERT/GPT fine-tuning, RAG pipelines, LangChain, vector databases, and prompt engineering."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000325"
+    },
+    "name": "Computer Vision & Image Processing",
+    "category": "650000000000000000000101",
+    "description": "Object detection (YOLO), image segmentation, OpenCV manipulation, CNN architectures, and edge deployment."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000326"
+    },
+    "name": "Site Reliability & Observability (Prometheus/Grafana)",
+    "category": "650000000000000000000101",
+    "description": "SLO/SLA management, high-availability monitoring, incident postmortems, log aggregation, and Linux kernel tuning."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000327"
+    },
+    "name": "Database Administration (PostgreSQL/MongoDB)",
+    "category": "650000000000000000000101",
+    "description": "Database replication, clustering, automated backups, index optimization, and high concurrency tuning."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000328"
+    },
+    "name": "Network Engineering & Routing (Cisco/CCNA)",
+    "category": "650000000000000000000101",
+    "description": "TCP/IP subnetting, BGP/OSPF dynamic routing, VLAN switching, firewall configuration, and VPN tunnels."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000329"
+    },
+    "name": "Smart Contract & Blockchain Development",
+    "category": "650000000000000000000101",
+    "description": "Solidity programming, EVM architecture, ERC standards, smart contract security audits, and Hardhat/Ethers.js."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000330"
+    },
+    "name": "Automated Software Testing (Selenium/Cypress)",
+    "category": "650000000000000000000101",
+    "description": "Test automation frameworks, API validation (Postman/REST Assured), regression suites, and CI test execution."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000331"
+    },
+    "name": "Product Management & Agile Strategy",
+    "category": "650000000000000000000101",
+    "description": "Feature prioritization (RICE), user story writing, sprint planning, PRD documentation, and KPI tracking in Jira."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000332"
+    },
+    "name": "Technical Writing & API Documentation",
+    "category": "650000000000000000000101",
+    "description": "Developer guides, OpenAPI specifications, release notes, architecture diagrams, and Docs-as-Code workflows."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000333"
+    },
+    "name": "VLSI Circuit Simulation & Synthesis",
+    "category": "650000000000000000000102",
+    "description": "Verilog/SystemVerilog RTL modeling, static timing analysis (STA), ModelSim simulation, and Cadence EDA tools."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000334"
+    },
+    "name": "CFD & Thermal Simulation (ANSYS/Fluent)",
+    "category": "650000000000000000000102",
+    "description": "Finite element analysis (FEA), computational fluid dynamics, meshing, and structural thermal stress analysis."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000335"
+    },
+    "name": "Robotics Programming & ROS",
+    "category": "650000000000000000000102",
+    "description": "Robot Operating System (ROS/ROS2), inverse kinematics, path planning, lidar SLAM navigation, and Gazebo simulation."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000336"
+    },
+    "name": "Dental Clinical Surgery & Restoration",
+    "category": "650000000000000000000103",
+    "description": "Cavity restoration, root canal therapy, tooth extractions, dental impressions, and infection sterilization."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000337"
+    },
+    "name": "Physiotherapy Rehabilitation & Mobilization",
+    "category": "650000000000000000000103",
+    "description": "Manual joint therapy, electrotherapy, post-stroke motor retraining, ergonomic assessment, and sports recovery."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000338"
+    },
+    "name": "Diagnostic Laboratory Analysis & Histology",
+    "category": "650000000000000000000103",
+    "description": "Automated blood biochemistry analyzers, microscopic staining, biopsy processing, and medical diagnostic reporting."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000339"
+    },
+    "name": "Psychological Assessment & Psychotherapy",
+    "category": "650000000000000000000103",
+    "description": "Administering personality/IQ batteries, conducting clinical interviews, and applying cognitive behavioral interventions."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000340"
+    },
+    "name": "Molecular Biology & Cell Culture",
+    "category": "650000000000000000000105",
+    "description": "Polymerase Chain Reaction (PCR), Western blotting, ELISA assays, mammalian cell culturing, and gel electrophoresis."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000341"
+    },
+    "name": "Clinical Trial Monitoring & ICH-GCP",
+    "category": "650000000000000000000103",
+    "description": "Source data verification, clinical trial site management, regulatory submission filing, and safety reporting."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000342"
+    },
+    "name": "Corporate Secretarial Compliance & MCA21",
+    "category": "650000000000000000000104",
+    "description": "Drafting board resolutions, annual filing on MCA21 portal, SEBI LODR compliance, and conducting general meetings."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000343"
+    },
+    "name": "Actuarial Valuation & Life Contingencies",
+    "category": "650000000000000000000104",
+    "description": "Mortality modeling, premium reserving, stochastic simulations, pension liability calculations, and solvency analysis."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000344"
+    },
+    "name": "Talent Acquisition & HR Operations",
+    "category": "650000000000000000000104",
+    "description": "Competency-based interviewing, payroll compensation structuring, labor law compliance, and employee relations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000345"
+    },
+    "name": "Supply Chain Logistics & Inventory Management",
+    "category": "650000000000000000000104",
+    "description": "Demand forecasting, warehouse operations management, freight logistics optimization, and vendor negotiations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000346"
+    },
+    "name": "3D Animation & Visual Effects (Blender/Maya)",
+    "category": "650000000000000000000106",
+    "description": "Polygon modeling, UV texturing, character rigging, keyframe animation, lighting rendering, and particle effects."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000347"
+    },
+    "name": "Video Editing & Color Grading (Premiere/DaVinci)",
+    "category": "650000000000000000000106",
+    "description": "Non-linear timeline editing, audio mixing, multi-camera synchronization, motion graphics, and color correction."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000348"
+    },
+    "name": "Architectural Planning & BIM (Revit)",
+    "category": "650000000000000000000106",
+    "description": "Building Information Modeling (BIM), municipal bye-law compliance, space planning, and sustainable architecture."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000349"
+    },
+    "name": "Copywriting & Strategic Messaging",
+    "category": "650000000000000000000106",
+    "description": "Direct-response advertising copy, narrative storytelling, brand tone guidelines, and email marketing sequences."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000350"
+    },
+    "name": "Public Policy Formulation & Administrative Ethics",
+    "category": "650000000000000000000108",
+    "description": "Analyzing policy impacts, administrative governance, crisis response coordination, and public grievance redressal."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000351"
+    },
+    "name": "Legal Drafting & Courtroom Advocacy",
+    "category": "650000000000000000000109",
+    "description": "Drafting writ petitions, commercial contracts, written statements, case precedent analysis, and oral trial arguments."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000352"
+    },
+    "name": "Commercial Flight Operations & Navigation",
+    "category": "650000000000000000000109",
+    "description": "Cockpit instrument flight rules (IFR), flight plan calculation, weather radar interpretation, and emergency handling."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000353"
+    },
+    "name": "Hotel Operations & Culinary Production",
+    "category": "650000000000000000000109",
+    "description": "Kitchen brigade management, food safety HACCP guidelines, hotel PMS systems, and guest relationship management."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000354"
+    },
+    "name": "Agronomy & Precision Agriculture",
+    "category": "650000000000000000000109",
+    "description": "Soil nutrient management, drip irrigation design, crop protection chemicals, and farm output optimization."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000355"
+    },
+    "name": "Veterinary Clinical Care & Animal Surgery",
+    "category": "650000000000000000000109",
+    "description": "Small and large animal physical examination, soft tissue surgical procedures, vaccination, and diagnostic radiology."
+  }
+]

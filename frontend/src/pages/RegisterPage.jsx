@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import ThemeToggle from '../components/common/ThemeToggle';
 import { User, Mail, Lock, Eye, EyeOff, AlertCircle, Compass, CheckCircle2 } from 'lucide-react';
 
 const RegisterPage = () => {
@@ -16,14 +17,14 @@ const RegisterPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (loading) return; // Prevent duplicate submissions
+    if (loading) return;
     setError('');
 
     const trimmedName = name.trim();
     const trimmedEmail = email.trim();
 
     if (!trimmedName || !trimmedEmail || !password) {
-      setError('Please fill in all required fields.');
+      setError('Please provide your full name, email address, and a secure password.');
       return;
     }
 
@@ -36,12 +37,12 @@ const RegisterPage = () => {
     try {
       const res = await register(trimmedName, trimmedEmail, password);
       if (res.success) {
-        navigate('/');
+        navigate('/careers', { replace: true });
       } else {
         setError(res.message || 'Registration failed.');
       }
     } catch (err) {
-      setError(err.message || 'Registration failed. Email address may already be in use.');
+      setError(err.message || 'Registration failed. This email address may already be registered.');
     } finally {
       setLoading(false);
     }
@@ -58,130 +59,126 @@ const RegisterPage = () => {
         justifyContent: 'center',
       }}
     >
-      {/* Split-Screen Container Card */}
+      {/* 2-Column Split-Screen Card */}
       <div
         className="editorial-card split-auth-container"
         style={{
           width: '100%',
-          maxWidth: '880px',
-          backgroundColor: '#ffffff',
+          maxWidth: '920px',
+          backgroundColor: 'var(--bg-surface)',
           borderRadius: 'var(--radius-lg, 12px)',
           overflow: 'hidden',
           display: 'grid',
-          gridTemplateColumns: '1fr 1.15fr',
-          border: '1px solid var(--border-color, #e4e4e7)',
-          boxShadow: 'var(--shadow-sm, 0 1px 3px 0 rgba(0,0,0,0.05))',
+          gridTemplateColumns: '1.05fr 1.15fr',
+          border: '1px solid var(--border-color)',
+          boxShadow: 'var(--shadow-md)',
         }}
       >
         {/* Left Panel: Branded Welcome */}
         <div
           className="auth-branded-panel"
           style={{
-            backgroundColor: 'var(--bg-subtle, #f4f4f5)',
-            borderRight: '1px solid var(--border-color, #e4e4e7)',
-            padding: '44px 36px',
+            backgroundColor: 'var(--bg-secondary)',
+            borderRight: '1px solid var(--border-color)',
+            padding: '48px 40px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
           }}
         >
           <div>
+            {/* Header with Logo & Theme Toggle */}
             <div
               style={{
-                display: 'inline-flex',
+                display: 'flex',
                 alignItems: 'center',
-                gap: '8px',
-                marginBottom: '28px',
+                justifyContent: 'space-between',
+                marginBottom: '32px',
               }}
             >
-              <div
-                style={{
-                  width: '30px',
-                  height: '30px',
-                  borderRadius: '6px',
-                  backgroundColor: 'var(--primary, #18181b)',
-                  color: '#ffffff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <Compass size={17} />
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
+                <div
+                  style={{
+                    width: '34px',
+                    height: '34px',
+                    borderRadius: '8px',
+                    backgroundColor: 'var(--primary)',
+                    color: '#ffffff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: '0 4px 14px rgba(13, 148, 136, 0.35)',
+                  }}
+                >
+                  <Compass size={20} />
+                </div>
+                <span style={{ fontWeight: 800, fontSize: '1.15rem', color: 'var(--text-main)' }}>
+                  Career Explorer
+                </span>
               </div>
-              <span style={{ fontWeight: 700, fontSize: '1.05rem', color: 'var(--text-main)' }}>
-                Career Explorer
-              </span>
+              <ThemeToggle />
+            </div>
+
+            <div
+              style={{
+                display: 'inline-block',
+                padding: '3px 10px',
+                borderRadius: 'var(--radius-full)',
+                backgroundColor: 'var(--accent-subtle)',
+                color: 'var(--accent)',
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.04em',
+                marginBottom: '12px',
+                border: '1px solid var(--accent-border)',
+              }}
+            >
+              Start Your Exploration
             </div>
 
             <h2
               style={{
-                fontSize: '1.5rem',
+                fontSize: '1.65rem',
                 fontWeight: 800,
-                color: 'var(--text-main, #18181b)',
+                color: 'var(--text-main)',
                 lineHeight: 1.25,
-                marginBottom: '10px',
+                marginBottom: '12px',
                 letterSpacing: '-0.025em',
               }}
             >
-              Build your personal learning roadmap.
+              Build your customized professional journey.
             </h2>
             <p
               style={{
-                fontSize: '0.88rem',
-                color: 'var(--text-muted, #71717a)',
-                lineHeight: 1.55,
-                marginBottom: '24px',
+                fontSize: '0.9rem',
+                color: 'var(--text-muted)',
+                lineHeight: 1.6,
+                marginBottom: '28px',
               }}
             >
-              Create an account to mark milestone progress and save career profiles for future reference.
+              Create an account to bookmark career profiles, track learning milestones, and explore top careers in the Indian economy.
             </p>
 
-            {/* Subtle Career Discovery Illustration */}
-            <div
-              className="auth-visual-element"
-              style={{
-                margin: '20px 0',
-                padding: '20px',
-                backgroundColor: '#ffffff',
-                borderRadius: '8px',
-                border: '1px solid var(--border-color, #e4e4e7)',
-              }}
-            >
-              <svg
-                viewBox="0 0 280 100"
-                style={{ width: '100%', height: 'auto', display: 'block' }}
-                aria-hidden="true"
-              >
-                <line x1="20" y1="50" x2="260" y2="50" stroke="#e4e4e7" strokeWidth="2" />
-                <circle cx="50" cy="50" r="12" fill="#18181b" />
-                <path d="M 46 50 L 49 53 L 55 47" fill="none" stroke="#ffffff" strokeWidth="2" />
-                <text x="50" y="76" fontSize="9" fontWeight="600" fill="#71717a" textAnchor="middle">
-                  Profile
-                </text>
-
-                <circle cx="140" cy="50" r="12" fill="#ffffff" stroke="#18181b" strokeWidth="2" />
-                <circle cx="140" cy="50" r="4" fill="#18181b" />
-                <text x="140" y="76" fontSize="9" fontWeight="600" fill="#71717a" textAnchor="middle">
-                  Skills
-                </text>
-
-                <circle cx="230" cy="50" r="12" fill="#ffffff" stroke="#d4d4d8" strokeWidth="2" />
-                <text x="230" y="76" fontSize="9" fontWeight="600" fill="#a1a1aa" textAnchor="middle">
-                  Milestone
-                </text>
-              </svg>
+            {/* Platform Benefits */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '16px' }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: 'var(--text-body)' }}>
+                <CheckCircle2 size={16} color="var(--success-text)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                <span>Save and compare career paths across 9 major industries.</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: 'var(--text-body)' }}>
+                <CheckCircle2 size={16} color="var(--success-text)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                <span>Interactive checklist to mark step-by-step milestone progress.</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: 'var(--text-body)' }}>
+                <CheckCircle2 size={16} color="var(--success-text)" style={{ flexShrink: 0, marginTop: '2px' }} />
+                <span>Verified educational paths (degree & non-degree) for Indian students.</span>
+              </div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.82rem', color: 'var(--text-body)' }}>
-              <CheckCircle2 size={14} color="#166534" />
-              <span>Free, non-commercial educational resource</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.82rem', color: 'var(--text-body)' }}>
-              <CheckCircle2 size={14} color="#166534" />
-              <span>Full access to all roadmaps and profiles</span>
-            </div>
+          <div style={{ marginTop: '36px', paddingTop: '20px', borderTop: '1px solid var(--border-color)', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+            Free, open, and authentic career guidance platform.
           </div>
         </div>
 
@@ -189,32 +186,33 @@ const RegisterPage = () => {
         <div
           className="auth-form-panel"
           style={{
-            padding: '44px 38px',
+            padding: '48px 42px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
+            backgroundColor: 'var(--bg-surface)',
           }}
         >
-          <div style={{ marginBottom: '24px' }}>
+          <div style={{ marginBottom: '28px' }}>
             <h1
               style={{
-                fontSize: '1.5rem',
+                fontSize: '1.65rem',
                 fontWeight: 800,
-                color: 'var(--text-main, #18181b)',
+                color: 'var(--text-main)',
                 letterSpacing: '-0.025em',
-                marginBottom: '4px',
+                marginBottom: '6px',
               }}
             >
-              Create account
+              Create Account
             </h1>
-            <p style={{ color: 'var(--text-muted, #71717a)', fontSize: '0.88rem' }}>
-              Fill in your details to start exploring.
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+              Sign up to unlock top careers and milestone roadmaps.
             </p>
           </div>
 
           {error && (
-            <div className="alert-error" style={{ marginBottom: '18px' }}>
-              <AlertCircle size={15} style={{ flexShrink: 0 }} />
+            <div className="alert-error" style={{ marginBottom: '20px' }}>
+              <AlertCircle size={16} style={{ flexShrink: 0 }} />
               <span>{error}</span>
             </div>
           )}
@@ -226,11 +224,11 @@ const RegisterPage = () => {
               </label>
               <div style={{ position: 'relative' }}>
                 <User
-                  size={15}
-                  color="var(--text-muted, #71717a)"
+                  size={16}
+                  color="var(--text-muted)"
                   style={{
                     position: 'absolute',
-                    left: '12px',
+                    left: '14px',
                     top: '50%',
                     transform: 'translateY(-50%)',
                     pointerEvents: 'none',
@@ -240,12 +238,12 @@ const RegisterPage = () => {
                   id="register-name"
                   type="text"
                   className="form-input"
-                  placeholder="First and last name"
+                  placeholder="e.g. Ramesh Kumar"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
                   autoComplete="name"
-                  style={{ paddingLeft: '36px', height: '40px' }}
+                  style={{ paddingLeft: '40px', height: '44px' }}
                 />
               </div>
             </div>
@@ -256,11 +254,11 @@ const RegisterPage = () => {
               </label>
               <div style={{ position: 'relative' }}>
                 <Mail
-                  size={15}
-                  color="var(--text-muted, #71717a)"
+                  size={16}
+                  color="var(--text-muted)"
                   style={{
                     position: 'absolute',
-                    left: '12px',
+                    left: '14px',
                     top: '50%',
                     transform: 'translateY(-50%)',
                     pointerEvents: 'none',
@@ -275,22 +273,22 @@ const RegisterPage = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                   autoComplete="email"
-                  style={{ paddingLeft: '36px', height: '40px' }}
+                  style={{ paddingLeft: '40px', height: '44px' }}
                 />
               </div>
             </div>
 
-            <div className="form-group" style={{ marginBottom: '20px' }}>
+            <div className="form-group" style={{ marginBottom: '24px' }}>
               <label className="form-label" htmlFor="register-password">
-                Password (min 6 characters)
+                Password (min. 6 characters)
               </label>
               <div style={{ position: 'relative' }}>
                 <Lock
-                  size={15}
-                  color="var(--text-muted, #71717a)"
+                  size={16}
+                  color="var(--text-muted)"
                   style={{
                     position: 'absolute',
-                    left: '12px',
+                    left: '14px',
                     top: '50%',
                     transform: 'translateY(-50%)',
                     pointerEvents: 'none',
@@ -300,33 +298,33 @@ const RegisterPage = () => {
                   id="register-password"
                   type={showPassword ? 'text' : 'password'}
                   className="form-input"
-                  placeholder="At least 6 characters"
+                  placeholder="••••••••"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   minLength={6}
                   autoComplete="new-password"
-                  style={{ paddingLeft: '36px', paddingRight: '36px', height: '40px' }}
+                  style={{ paddingLeft: '40px', paddingRight: '40px', height: '44px' }}
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
                   style={{
                     position: 'absolute',
-                    right: '10px',
+                    right: '12px',
                     top: '50%',
                     transform: 'translateY(-50%)',
                     background: 'none',
                     border: 'none',
-                    color: 'var(--text-muted, #71717a)',
+                    color: 'var(--text-muted)',
                     cursor: 'pointer',
-                    padding: '2px',
+                    padding: '4px',
                     display: 'flex',
                     alignItems: 'center',
                   }}
                   aria-label={showPassword ? 'Hide password' : 'Show password'}
                 >
-                  {showPassword ? <EyeOff size={15} /> : <Eye size={15} />}
+                  {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
                 </button>
               </div>
             </div>
@@ -335,27 +333,32 @@ const RegisterPage = () => {
               type="submit"
               className="btn btn-primary"
               disabled={loading}
-              style={{ width: '100%', height: '42px', fontSize: '0.9rem' }}
+              style={{
+                width: '100%',
+                height: '44px',
+                fontSize: '0.95rem',
+                boxShadow: '0 4px 14px rgba(13, 148, 136, 0.3)',
+              }}
             >
-              {loading ? 'Creating Account...' : 'Register'}
+              {loading ? 'Creating Account...' : 'Register & Start Exploring'}
             </button>
           </form>
 
           <p
             style={{
               textAlign: 'center',
-              marginTop: '20px',
-              color: 'var(--text-muted, #71717a)',
-              fontSize: '0.85rem',
+              marginTop: '24px',
+              color: 'var(--text-muted)',
+              fontSize: '0.88rem',
             }}
           >
             Already have an account?{' '}
             <Link
               to="/login"
               style={{
-                color: 'var(--text-main, #18181b)',
+                color: 'var(--accent)',
                 fontWeight: 600,
-                textDecoration: 'underline',
+                textDecoration: 'none',
               }}
             >
               Sign in
@@ -364,7 +367,7 @@ const RegisterPage = () => {
         </div>
       </div>
 
-      {/* Responsive media styling for Split-Screen */}
+      {/* Responsive media styling for Split-Screen Layout */}
       <style>{`
         @media (max-width: 768px) {
           .split-auth-container {
@@ -372,14 +375,11 @@ const RegisterPage = () => {
           }
           .auth-branded-panel {
             border-right: none !important;
-            border-bottom: 1px solid var(--border-color, #e4e4e7) !important;
-            padding: 24px 20px !important;
+            border-bottom: 1px solid var(--border-color) !important;
+            padding: 32px 24px !important;
           }
           .auth-form-panel {
-            padding: 28px 20px !important;
-          }
-          .auth-visual-element {
-            display: none !important;
+            padding: 32px 24px !important;
           }
         }
       `}</style>

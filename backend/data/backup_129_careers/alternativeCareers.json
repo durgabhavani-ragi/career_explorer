@@ -1,0 +1,890 @@
+[
+  {
+    "_id": {
+      "$oid": "650000000000000000000601"
+    },
+    "career": {
+      "$oid": "650000000000000000000401"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000402"
+    },
+    "similarityNotes": "Shares core programming and software design skills while broadening scope into both client and server architectures."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000602"
+    },
+    "career": {
+      "$oid": "650000000000000000000402"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000408"
+    },
+    "similarityNotes": "Leverages full-stack application lifecycle knowledge to focus on CI/CD pipelines, containerization, and cloud infrastructure automation."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000603"
+    },
+    "career": {
+      "$oid": "650000000000000000000403"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000404"
+    },
+    "similarityNotes": "Extends SQL, exploratory analysis, and visualization into predictive statistical modeling and machine learning algorithms."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000604"
+    },
+    "career": {
+      "$oid": "650000000000000000000404"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000405"
+    },
+    "similarityNotes": "Transitions from experimental hypothesis testing to architecting high-throughput, productionized model inference pipelines."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000605"
+    },
+    "career": {
+      "$oid": "650000000000000000000407"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000408"
+    },
+    "similarityNotes": "Both focus on cloud platforms (AWS/Azure), containerization, and automation for continuous system availability."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000606"
+    },
+    "career": {
+      "$oid": "650000000000000000000406"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000407"
+    },
+    "similarityNotes": "Applies network defense and security hardening principles directly to cloud environments and virtual networks."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000607"
+    },
+    "career": {
+      "$oid": "650000000000000000000409"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000402"
+    },
+    "similarityNotes": "Combines visual design and user experience research with front-end code implementation."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000608"
+    },
+    "career": {
+      "$oid": "650000000000000000000410"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000412"
+    },
+    "similarityNotes": "Both engineering disciplines collaborate closely on mechatronics, robotics, CAD modeling, and hardware systems."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000609"
+    },
+    "career": {
+      "$oid": "650000000000000000000411"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000410"
+    },
+    "similarityNotes": "Shares core foundation in physics, mechanics, vector calculus, and CAD drafting principles."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000610"
+    },
+    "career": {
+      "$oid": "650000000000000000000413"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000415"
+    },
+    "similarityNotes": "Both require extensive clinical knowledge of human physiology, pharmacology, and drug therapeutic interactions."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000611"
+    },
+    "career": {
+      "$oid": "650000000000000000000414"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000413"
+    },
+    "similarityNotes": "Provides hands-on patient clinical care experience serving as a foundation for advanced medical practice."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000612"
+    },
+    "career": {
+      "$oid": "650000000000000000000416"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000417"
+    },
+    "similarityNotes": "Applies rigorous accounting and audit principles toward investment analysis, corporate valuation, and financial modeling."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000613"
+    },
+    "career": {
+      "$oid": "650000000000000000000418"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000403"
+    },
+    "similarityNotes": "Utilizes web analytics, conversion metrics, and consumer data analysis to drive marketing performance."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000614"
+    },
+    "career": {
+      "$oid": "650000000000000000000419"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000420"
+    },
+    "similarityNotes": "Combines deep academic domain knowledge with curriculum presentation and scientific literature synthesis."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000615"
+    },
+    "career": {
+      "$oid": "650000000000000000000421"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000440"
+    },
+    "similarityNotes": "Shares component layout design, typography, accessibility standards, and visual design intuition."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000616"
+    },
+    "career": {
+      "$oid": "650000000000000000000422"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000434"
+    },
+    "similarityNotes": "Both design high-performance relational schemas, optimize SQL query execution plans, and enforce data integrity."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000617"
+    },
+    "career": {
+      "$oid": "650000000000000000000423"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000424"
+    },
+    "similarityNotes": "Shares cross-platform mobile UI paradigms, offline sync strategies, and app store deployment lifecycles."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000618"
+    },
+    "career": {
+      "$oid": "650000000000000000000424"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000425"
+    },
+    "similarityNotes": "Leverages mobile platform architecture, state management patterns, and REST API integration skills."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000619"
+    },
+    "career": {
+      "$oid": "650000000000000000000427"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000404"
+    },
+    "similarityNotes": "Shares distributed data pipeline knowledge (Spark/SQL) to support predictive models with clean datasets."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000061a"
+    },
+    "career": {
+      "$oid": "650000000000000000000428"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000429"
+    },
+    "similarityNotes": "Both advance artificial intelligence, bridging empirical research with real-world enterprise applications."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000061b"
+    },
+    "career": {
+      "$oid": "650000000000000000000430"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000431"
+    },
+    "similarityNotes": "Both apply transformer architectures and deep learning frameworks (PyTorch) to unstructured data domains."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000061c"
+    },
+    "career": {
+      "$oid": "650000000000000000000432"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000406"
+    },
+    "similarityNotes": "Shares threat modeling, vulnerability scanning, security audits, and defensive perimeter protocols."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000061d"
+    },
+    "career": {
+      "$oid": "650000000000000000000433"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000408"
+    },
+    "similarityNotes": "Both emphasize infrastructure-as-code, SLO/SLA monitoring, high availability, and automated failure recovery."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000061e"
+    },
+    "career": {
+      "$oid": "650000000000000000000438"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000439"
+    },
+    "similarityNotes": "Builds from manual edge-case testing into automated end-to-end test suites (Playwright/Selenium)."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000061f"
+    },
+    "career": {
+      "$oid": "650000000000000000000444"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000445"
+    },
+    "similarityNotes": "Both translate stakeholder requirements and market research into prioritized roadmaps and agile user stories."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000620"
+    },
+    "career": {
+      "$oid": "650000000000000000000447"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000407"
+    },
+    "similarityNotes": "Both architect enterprise-grade distributed systems, balancing scalability, security, and cost optimization."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000621"
+    },
+    "career": {
+      "$oid": "650000000000000000000448"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000452"
+    },
+    "similarityNotes": "Shares semiconductor physics, circuit simulation, and silicon layout design foundations."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000622"
+    },
+    "career": {
+      "$oid": "650000000000000000000437"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000448"
+    },
+    "similarityNotes": "Both design microcontroller architectures, PCB layouts, and real-time firmware protocols."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000623"
+    },
+    "career": {
+      "$oid": "65000000000000000000044a"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000410"
+    },
+    "similarityNotes": "Shares fluid mechanics, thermodynamics, finite element analysis (FEA), and structural aerodynamics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000624"
+    },
+    "career": {
+      "$oid": "65000000000000000000044b"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000410"
+    },
+    "similarityNotes": "Both focus on powertrain design, chassis structural analysis, vehicle dynamics, and thermal cooling."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000625"
+    },
+    "career": {
+      "$oid": "65000000000000000000044c"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000044d"
+    },
+    "similarityNotes": "Shares control systems, sensor fusion, inverse kinematics, actuator controls, and ROS programming."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000626"
+    },
+    "career": {
+      "$oid": "65000000000000000000044e"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000498"
+    },
+    "similarityNotes": "Shares environmental impact assessment, pollution remediation, and statutory environmental compliance."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000627"
+    },
+    "career": {
+      "$oid": "65000000000000000000044f"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000458"
+    },
+    "similarityNotes": "Both understand medical imaging technologies, transducer signals, and clinical equipment calibration."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000628"
+    },
+    "career": {
+      "$oid": "650000000000000000000451"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000412"
+    },
+    "similarityNotes": "Both manage electrical grids, power transformers, inverter systems, and clean energy distribution."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000629"
+    },
+    "career": {
+      "$oid": "650000000000000000000453"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000411"
+    },
+    "similarityNotes": "Both perform load calculations, seismic analysis, and structural reinforced concrete detailing."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000062a"
+    },
+    "career": {
+      "$oid": "650000000000000000000454"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000413"
+    },
+    "similarityNotes": "Specialist doctor builds on general clinical medicine through postgraduate super-speciality training."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000062b"
+    },
+    "career": {
+      "$oid": "650000000000000000000455"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000413"
+    },
+    "similarityNotes": "Both require extensive clinical head-and-neck anatomy, surgical dexterity, and patient care ethics."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000062c"
+    },
+    "career": {
+      "$oid": "650000000000000000000456"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000414"
+    },
+    "similarityNotes": "Both provide direct clinical patient rehabilitation, musculoskeletal recovery, and bedside mobility support."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000062d"
+    },
+    "career": {
+      "$oid": "650000000000000000000457"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000045d"
+    },
+    "similarityNotes": "Both execute diagnostic blood cultures, microscopic stain analysis, and clinical specimen evaluations."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000062e"
+    },
+    "career": {
+      "$oid": "650000000000000000000459"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000460"
+    },
+    "similarityNotes": "Both design preventative health interventions, dietary health programs, and epidemiological community wellness."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000062f"
+    },
+    "career": {
+      "$oid": "65000000000000000000045a"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000472"
+    },
+    "similarityNotes": "Both utilize counseling techniques, cognitive behavioral frameworks, and empathetic listening."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000630"
+    },
+    "career": {
+      "$oid": "65000000000000000000045b"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000415"
+    },
+    "similarityNotes": "Both evaluate drug clinical safety profiles, GCP trials compliance, and pharmacovigilance reports."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000631"
+    },
+    "career": {
+      "$oid": "65000000000000000000045c"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000045e"
+    },
+    "similarityNotes": "Shares molecular biology, recombinant DNA techniques, enzyme kinetics, and protein purification."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000632"
+    },
+    "career": {
+      "$oid": "650000000000000000000461"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000048d"
+    },
+    "similarityNotes": "Both navigate the Companies Act, corporate governance secretarial audits, and statutory board resolutions."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000633"
+    },
+    "career": {
+      "$oid": "650000000000000000000462"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000417"
+    },
+    "similarityNotes": "Shares DCF valuation models, equity research reports, capital allocation, and portfolio risk management."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000634"
+    },
+    "career": {
+      "$oid": "650000000000000000000463"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000464"
+    },
+    "similarityNotes": "Both examine balance sheets, ledger entries, reconciliations, and statutory tax filings."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000635"
+    },
+    "career": {
+      "$oid": "650000000000000000000466"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000467"
+    },
+    "similarityNotes": "Both apply quantitative probability models, value-at-risk (VaR), and loss modeling to financial portfolios."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000636"
+    },
+    "career": {
+      "$oid": "650000000000000000000468"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000046a"
+    },
+    "similarityNotes": "Both analyze workflow bottlenecks, implement lean methodologies, and optimize business processes."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000637"
+    },
+    "career": {
+      "$oid": "65000000000000000000046b"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000445"
+    },
+    "similarityNotes": "Shares sprint planning, cross-functional team coordination, milestone tracking, and stakeholder management."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000638"
+    },
+    "career": {
+      "$oid": "65000000000000000000046c"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000494"
+    },
+    "similarityNotes": "Both optimize inventory turns, carrier shipping costs, warehouse throughput, and vendor SLAs."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000639"
+    },
+    "career": {
+      "$oid": "65000000000000000000046d"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000499"
+    },
+    "similarityNotes": "Both drive strategic client partnerships, revenue growth, pitching, and new market entry."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000063a"
+    },
+    "career": {
+      "$oid": "65000000000000000000046e"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000046f"
+    },
+    "similarityNotes": "Both lecture university undergraduates, conduct academic research, and publish scholarly papers."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000063b"
+    },
+    "career": {
+      "$oid": "650000000000000000000471"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000419"
+    },
+    "similarityNotes": "Shares pedagogy, learning objectives design, interactive curriculum frameworks, and assessment design."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000063c"
+    },
+    "career": {
+      "$oid": "650000000000000000000474"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000420"
+    },
+    "similarityNotes": "Both write research proposals, design controlled experiments, and conduct peer-reviewed literature reviews."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000063d"
+    },
+    "career": {
+      "$oid": "650000000000000000000475"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000476"
+    },
+    "similarityNotes": "Both rely on vector illustration, storyboard visualization, motion aesthetics, and digital art tools."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000063e"
+    },
+    "career": {
+      "$oid": "650000000000000000000476"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000477"
+    },
+    "similarityNotes": "Shares 3D modeling, rigging, keyframe timing, lighting, texturing, and rendering workflows."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000063f"
+    },
+    "career": {
+      "$oid": "650000000000000000000478"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000479"
+    },
+    "similarityNotes": "Both execute non-linear timeline edits, pacing, color grading (DaVinci), and multi-track audio mixing."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000640"
+    },
+    "career": {
+      "$oid": "65000000000000000000047c"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000047d"
+    },
+    "similarityNotes": "Shares spatial planning, building codes, AutoCAD blueprints, and interior material finishes."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000641"
+    },
+    "career": {
+      "$oid": "65000000000000000000047e"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000047f"
+    },
+    "similarityNotes": "Both create engaging written narratives, headline hooks, and brand messaging across digital media."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000642"
+    },
+    "career": {
+      "$oid": "650000000000000000000480"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000418"
+    },
+    "similarityNotes": "Both analyze keyword search volumes, organic search algorithms, backlink authority, and web traffic."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000643"
+    },
+    "career": {
+      "$oid": "650000000000000000000481"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000482"
+    },
+    "similarityNotes": "Both manage public brand perception, community engagement, press announcements, and media crises."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000644"
+    },
+    "career": {
+      "$oid": "650000000000000000000483"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000484"
+    },
+    "similarityNotes": "Both administer revenue collectorates, enforce public policy, and resolve district administrative matters."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000645"
+    },
+    "career": {
+      "$oid": "650000000000000000000485"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000486"
+    },
+    "similarityNotes": "Both require competitive quantitative aptitude and administer national financial, audit, and tax duties."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000646"
+    },
+    "career": {
+      "$oid": "650000000000000000000488"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000483"
+    },
+    "similarityNotes": "Both represent the highest tiers of public service leadership, national security, and command responsibility."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000647"
+    },
+    "career": {
+      "$oid": "650000000000000000000489"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000048a"
+    },
+    "similarityNotes": "Both require premier GATE scores and apply core engineering principles to critical national infrastructure."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000648"
+    },
+    "career": {
+      "$oid": "65000000000000000000048b"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000403"
+    },
+    "similarityNotes": "Both compile demographic data, calculate statistical indicators, and interpret large-scale survey registries."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000649"
+    },
+    "career": {
+      "$oid": "65000000000000000000048c"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000048d"
+    },
+    "similarityNotes": "Shares legal jurisprudence, contract interpretation, statutory research, and advocate credentials."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000064a"
+    },
+    "career": {
+      "$oid": "65000000000000000000048d"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000048e"
+    },
+    "similarityNotes": "Both counsel corporations on risk avoidance, transaction agreements, and statutory compliance."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000064b"
+    },
+    "career": {
+      "$oid": "65000000000000000000048f"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000491"
+    },
+    "similarityNotes": "Shares luxury hospitality delivery, banquet banquet coordination, VIP guest management, and vendor logistics."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000064c"
+    },
+    "career": {
+      "$oid": "650000000000000000000490"
+    },
+    "alternativeCareer": {
+      "$oid": "65000000000000000000048f"
+    },
+    "similarityNotes": "Both collaborate in luxury hotel environments to optimize food quality, dining revenue, and customer delight."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000064d"
+    },
+    "career": {
+      "$oid": "650000000000000000000492"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000493"
+    },
+    "similarityNotes": "Both undergo rigorous DGCA aviation safety protocols, emergency drills, and commercial cockpit/cabin teamwork."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000064e"
+    },
+    "career": {
+      "$oid": "650000000000000000000495"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000496"
+    },
+    "similarityNotes": "Both advance agricultural productivity, translating agronomic laboratory discoveries into field farming techniques."
+  },
+  {
+    "_id": {
+      "$oid": "65000000000000000000064f"
+    },
+    "career": {
+      "$oid": "650000000000000000000497"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000413"
+    },
+    "similarityNotes": "Shares core biological pathology, clinical diagnosis, surgical asepsis, and pharmacological therapeutics."
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000650"
+    },
+    "career": {
+      "$oid": "650000000000000000000499"
+    },
+    "alternativeCareer": {
+      "$oid": "650000000000000000000445"
+    },
+    "similarityNotes": "Both define customer value propositions, build viable MVPs, iterate on user feedback, and lead agile execution."
+  }
+]

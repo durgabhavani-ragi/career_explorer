@@ -42,7 +42,8 @@ const Modal = ({ isOpen, onClose, title, children }) => {
           padding: '28px',
           position: 'relative',
           boxShadow: 'var(--shadow-lg)',
-          backgroundColor: '#ffffff',
+          backgroundColor: 'var(--bg-surface)',
+          border: '1px solid var(--border-color)',
           borderRadius: 'var(--radius-lg)',
         }}
         onClick={(e) => e.stopPropagation()}

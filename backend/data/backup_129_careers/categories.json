@@ -1,0 +1,83 @@
+[
+  {
+    "_id": {
+      "$oid": "650000000000000000000101"
+    },
+    "name": "Technology",
+    "slug": "technology",
+    "description": "Software engineering, artificial intelligence, cloud infrastructure, cybersecurity, data science, and IT systems.",
+    "icon": "code"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000102"
+    },
+    "name": "Engineering",
+    "slug": "engineering",
+    "description": "Mechanical, civil, electrical, aerospace, robotics, chemical, VLSI, and industrial engineering disciplines.",
+    "icon": "cpu"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000103"
+    },
+    "name": "Healthcare",
+    "slug": "healthcare",
+    "description": "Clinical medicine, nursing, pharmacy, allied health sciences, public health, and diagnostic technology.",
+    "icon": "heart-pulse"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000104"
+    },
+    "name": "Business and Finance",
+    "slug": "business-and-finance",
+    "description": "Chartered accountancy, corporate finance, investment banking, operations, human resources, and business consulting.",
+    "icon": "briefcase"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000105"
+    },
+    "name": "Science and Research",
+    "slug": "science-and-research",
+    "description": "Biotechnology, microbiology, scientific research, data science, academic discovery, and laboratory sciences.",
+    "icon": "microscope"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000106"
+    },
+    "name": "Arts and Design",
+    "slug": "arts-and-design",
+    "description": "UI/UX design, visual communication, animation, 3D art, architecture, digital media, copywriting, and creative production.",
+    "icon": "palette"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000107"
+    },
+    "name": "Education",
+    "slug": "education",
+    "description": "School teaching, higher education professorship, instructional design, counseling, and academic administration.",
+    "icon": "book-open"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000108"
+    },
+    "name": "Government and Public Services",
+    "slug": "government-and-public-services",
+    "description": "Civil services (UPSC), state public services, defence forces, PSUs, public sector banking, and administrative governance.",
+    "icon": "landmark"
+  },
+  {
+    "_id": {
+      "$oid": "650000000000000000000109"
+    },
+    "name": "Other Career Options",
+    "slug": "other-career-options",
+    "description": "Legal practice, corporate law, commercial aviation, hospitality management, culinary arts, agriculture, and entrepreneurship.",
+    "icon": "compass"
+  }
+]

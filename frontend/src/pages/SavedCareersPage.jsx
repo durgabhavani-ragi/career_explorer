@@ -40,7 +40,7 @@ const SavedCareersPage = () => {
           style={{
             fontSize: '0.8rem',
             fontWeight: 700,
-            color: 'var(--text-muted, #71717a)',
+            color: 'var(--text-muted)',
             textTransform: 'uppercase',
             letterSpacing: '0.04em',
           }}
@@ -51,7 +51,7 @@ const SavedCareersPage = () => {
           style={{
             fontSize: '2.25rem',
             fontWeight: 800,
-            color: 'var(--text-main, #18181b)',
+            color: 'var(--text-main)',
             marginTop: '4px',
             letterSpacing: '-0.03em',
           }}
@@ -60,7 +60,7 @@ const SavedCareersPage = () => {
         </h1>
         <p
           style={{
-            color: 'var(--text-muted, #71717a)',
+            color: 'var(--text-muted)',
             fontSize: '0.95rem',
             marginTop: '6px',
             maxWidth: '680px',

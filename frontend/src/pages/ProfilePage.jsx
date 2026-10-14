@@ -51,9 +51,11 @@ const ProfilePage = () => {
         className="editorial-card"
         style={{
           width: '100%',
-          maxWidth: '460px',
+          maxWidth: '480px',
           padding: '36px 32px',
-          backgroundColor: '#ffffff',
+          backgroundColor: 'var(--bg-surface)',
+          border: '1px solid var(--border-color)',
+          borderRadius: 'var(--radius-lg, 12px)',
         }}
       >
         <div style={{ textAlign: 'center', marginBottom: '28px' }}>
@@ -62,7 +64,7 @@ const ProfilePage = () => {
               width: '44px',
               height: '44px',
               borderRadius: '8px',
-              backgroundColor: 'var(--primary, #18181b)',
+              backgroundColor: 'var(--primary)',
               color: '#ffffff',
               display: 'inline-flex',
               alignItems: 'center',
@@ -76,7 +78,7 @@ const ProfilePage = () => {
             style={{
               fontSize: '1.6rem',
               fontWeight: 800,
-              color: 'var(--text-main, #18181b)',
+              color: 'var(--text-main)',
               letterSpacing: '-0.025em',
             }}
           >
@@ -84,7 +86,7 @@ const ProfilePage = () => {
           </h1>
           <p
             style={{
-              color: 'var(--text-muted, #71717a)',
+              color: 'var(--text-muted)',
               fontSize: '0.88rem',
               marginTop: '4px',
             }}
@@ -115,7 +117,7 @@ const ProfilePage = () => {
             <div style={{ position: 'relative' }}>
               <User
                 size={16}
-                color="var(--text-muted, #71717a)"
+                color="var(--text-muted)"
                 style={{
                   position: 'absolute',
                   left: '12px',
@@ -143,7 +145,7 @@ const ProfilePage = () => {
             <div style={{ position: 'relative' }}>
               <Mail
                 size={16}
-                color="var(--text-muted, #71717a)"
+                color="var(--text-muted)"
                 style={{
                   position: 'absolute',
                   left: '12px',
@@ -161,9 +163,9 @@ const ProfilePage = () => {
                 style={{
                   paddingLeft: '38px',
                   height: '42px',
-                  backgroundColor: 'var(--bg-subtle, #f4f4f5)',
+                  backgroundColor: 'var(--bg-subtle)',
                   cursor: 'not-allowed',
-                  color: 'var(--text-muted, #71717a)',
+                  color: 'var(--text-muted)',
                 }}
               />
             </div>
@@ -176,7 +178,7 @@ const ProfilePage = () => {
             <div style={{ position: 'relative' }}>
               <Lock
                 size={16}
-                color="var(--text-muted, #71717a)"
+                color="var(--text-muted)"
                 style={{
                   position: 'absolute',
                   left: '12px',
