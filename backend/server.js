@@ -12,11 +12,40 @@ connectDB();
 
 const app = express();
 
-// Security HTTP headers
-app.use(helmet());
+// Allowed Origins (strictly allow the deployed Vercel frontend, CLIENT_URL, and local development)
+const allowedOrigins = [
+  'https://career-explorer-tan.vercel.app',
+  ...(process.env.CLIENT_URL ? [process.env.CLIENT_URL.replace(/\/$/, '')] : []),
+  ...(process.env.NODE_ENV !== 'production' ? ['http://localhost:5173', 'http://localhost:3000'] : [])
+];
 
-// Cross-Origin Resource Sharing
-app.use(cors());
+const corsOptions = {
+  origin: function (origin, callback) {
+    // Allow requests with no origin (e.g. mobile apps, curl, server-to-server health checks)
+    if (!origin || allowedOrigins.includes(origin) || allowedOrigins.includes(origin.replace(/\/$/, ''))) {
+      callback(null, true);
+    } else {
+      callback(null, false);
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+  optionsSuccessStatus: 200,
+};
+
+// Cross-Origin Resource Sharing middleware (must run before all API routes)
+app.use(cors(corsOptions));
+
+// Explicit preflight handler for all routes
+app.options(/.*/, cors(corsOptions));
+
+// Security HTTP headers (configured to allow cross-origin requests from frontend)
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: 'cross-origin' },
+  })
+);
 
 // Body parser middleware for incoming JSON requests
 app.use(express.json());
@@ -67,6 +96,6 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server is running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
 });
